@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace jivarosft
+namespace jivaro_osrs_launcher
 {
     public partial class formScriptProfilesAccountBuilder : Form
     {
@@ -67,6 +67,7 @@ namespace jivarosft
             string boolEnableStopScriptAtGoal = "<Find>boolEnableStopScriptAtGoal:false</Find><Replace>boolEnableStopScriptAtGoal:false</Replace>";
             string boolEnableBankCoal = "<Find>boolEnableBankCoal:false</Find><Replace>boolEnableBankCoal:false</Replace>";
             string boolEnableRooftops = "<Find>boolEnableRooftops:false</Find><Replace>boolEnableRooftops:false</Replace>";
+            string boolEnableNoGpStart = "<Find>boolEnableNoGpStart:false</Find><Replace>boolEnableNoGpStart:false</Replace>";
             string boolEnableLongRangeTraining = "<Find>boolEnableLongRangeTraining:false</Find><Replace>boolEnableLongRangeTraining:false</Replace>";
             string boolEnableQuests = "<Find>boolEnableQuests:false</Find><Replace>boolEnableQuests:false</Replace>";
             string questCooksAssistant = "<Find>boolEnableCooksAssistant:false</Find><Replace>boolEnableCooksAssistant:false</Replace>";
@@ -80,6 +81,8 @@ namespace jivarosft
             string questMageArenaOne = "<Find>boolEnableMageArenaOne:false</Find><Replace>boolEnableMageArenaOne:false</Replace>";
             string activityDuration;
             string activityDurationVariation;
+            string goldFarmingDuration;
+            int intGoldFarmingDuration;
             int intActivityDuration;
             int intActivityDurationVariation;
 
@@ -137,6 +140,11 @@ namespace jivarosft
                 boolEnableLongRangeTraining = "<Find>boolEnableLongRangeTraining:false</Find><Replace>boolEnableLongRangeTraining:true</Replace>";
             }
 
+            // Enable no gp start checkbox
+            if (checkBoxScriptProfiles_AccountBuilder_EnableNoGpStart.Checked)
+            {
+                boolEnableNoGpStart = "<Find>boolEnableNoGpStart:false</Find><Replace>boolEnableNoGpStart:true</Replace>";
+            }
 
             // Enable quests checkbox 
             if (checkBoxScriptProfiles_AccountBuilder_StopAtGoal.Checked)
@@ -150,9 +158,10 @@ namespace jivarosft
                 boolEnableQuests = "<Find>boolEnableQuests:false</Find><Replace>boolEnableQuests:true</Replace>";
             }
 
-            if (listBoxScriptProfiles_AccountBuilder_Quests.SelectedItems.Count > 0)
+            // F2P Quests
+            if (listBoxScriptProfiles_AccountBuilder_F2PQuests.SelectedItems.Count > 0)
             {
-                foreach (var selectedItem in listBoxScriptProfiles_AccountBuilder_Quests.SelectedItems)
+                foreach (var selectedItem in listBoxScriptProfiles_AccountBuilder_F2PQuests.SelectedItems)
                 {
                     string selectedQuest = selectedItem.ToString();
 
@@ -212,6 +221,48 @@ namespace jivarosft
                 }
             }
 
+            // P2P Quests
+            if (listBoxScriptProfiles_AccountBuilder_P2PQuests.SelectedItems.Count > 0)
+            {
+                foreach (var selectedItem in listBoxScriptProfiles_AccountBuilder_P2PQuests.SelectedItems)
+                {
+                    string selectedQuest = selectedItem.ToString();
+
+                    // Druidic Ritual quest data to string
+                    if (selectedQuest.Contains("Druidic Ritual"))
+                    {
+                        questDruidicRitual = "<Find>boolEnableDruidicRitual:false</Find><Replace>boolEnableDruidicRitual:true</Replace>";
+                    }
+
+                    // Lost City quest data to string
+                    if (selectedQuest.Contains("Lost City"))
+                    {
+                        questLostCity = "<Find>boolEnableLostCity:false</Find><Replace>boolEnableLostCity:true</Replace>";
+                    }
+
+                    // Mare Arena I quest data to string
+                    if (selectedQuest.Contains("Mage Arena I"))
+                    {
+                        questMageArenaOne = "<Find>boolEnableMageArenaOne:false</Find><Replace>boolEnableMageArenaOne:true</Replace>";
+                    }
+                }
+            }
+
+            // Mini Quests
+            if (listBoxScriptProfiles_AccountBuilder_MiniQuests.SelectedItems.Count > 0)
+            {
+                foreach (var selectedItem in listBoxScriptProfiles_AccountBuilder_MiniQuests.SelectedItems)
+                {
+                    string selectedQuest = selectedItem.ToString();
+
+                    // Mare Arena I quest data to string
+                    if (selectedQuest.Contains("Mage Arena I"))
+                    {
+                        questMageArenaOne = "<Find>boolEnableMageArenaOne:false</Find><Replace>boolEnableMageArenaOne:true</Replace>";
+                    }
+                }
+            }
+
             // Conver activity time mins into ms
             int.TryParse(textBoxScriptProfiles_AccountBuilder_ActivityDuration.Text, out int intActivityDurationMs);
             {
@@ -224,6 +275,13 @@ namespace jivarosft
             {
                 intActivityDurationVariation = intActivityDurationVariationMs * 60000;
                 activityDurationVariation = intActivityDurationVariation.ToString();
+            }
+
+            // Convert gold farming duration mins to ms
+            int.TryParse(textBoxScriptProfiles_AccountBuilder_GoldFarmingDuration.Text, out int intGoldFarmingDurationMs);
+            {
+                intGoldFarmingDuration = intGoldFarmingDurationMs * 60000;
+                goldFarmingDuration = intGoldFarmingDuration.ToString();
             }
 
             // Write to file
@@ -240,6 +298,7 @@ namespace jivarosft
                 writer.WriteLine(boolEnableBankCoal);
                 writer.WriteLine(boolEnableRooftops);
                 writer.WriteLine(boolEnableLongRangeTraining);
+                writer.WriteLine(boolEnableNoGpStart);
                 writer.WriteLine(boolEnableQuests);
                 writer.WriteLine(questCooksAssistant);
                 writer.WriteLine(questGoblinDiplomacy);
@@ -271,6 +330,7 @@ namespace jivarosft
                 writer.WriteLine("<Find>ThievingStopLevel</Find><Replace>" + textBoxScriptProfiles_AccountBuilder_Thieving.Text + "</Replace>");
                 writer.WriteLine("<Find>WoodcuttingStopLevel</Find><Replace>" + textBoxScriptProfiles_AccountBuilder_Woodcutting.Text + "</Replace>");
                 writer.WriteLine("<Find>5400000,true,1800000,true</Find><Replace>" + activityDuration + ",true," + activityDurationVariation + ",true</Replace>");
+                writer.WriteLine("<Find>12600000</Find><Replace>" + goldFarmingDuration + "</Replace>");
             }
 
             MessageBox.Show("Profile successfully created.");

@@ -1,7 +1,7 @@
 using System.Diagnostics;
 
 
-namespace jivarosft
+namespace jivaro_osrs_launcher
 
 {
     internal static class Program
@@ -24,12 +24,12 @@ namespace jivarosft
 
             // Paths
             string pc_username = Environment.UserName;
-            string folderpathFunctionx = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\";
-            string folderpathOsrsBotting = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\";
-            string folderpathJivaroScriptFactory = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\ScriptFactory\\";
-            string folderpathOSBotTool = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\";
-            string folderpathUserinput = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\userinput\\";
-            string filepathDashboard = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\userinput\\dashboard";
+            string folderpathJivaro = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\";
+            string folderpathJivaroLauncher = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\";
+            string filepathAccountsScriptFactory = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_ScriptFactory";
+            string filepathAccountsOSBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_OSBot";
+            string filepathAccountsTRiBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_TRiBot";
+            string filepathAccountsDreamBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_DreamBot";
 
             //
             // End of initialize global variables
@@ -42,34 +42,17 @@ namespace jivarosft
             //
 
             // Create functionx folder
-            if (!Directory.Exists(folderpathFunctionx))
+            if (!Directory.Exists(folderpathJivaro))
             {
-                Directory.CreateDirectory(folderpathFunctionx);
+                Directory.CreateDirectory(folderpathJivaro);
             }
 
             // Create osrsbotting folder
-            if (!Directory.Exists(folderpathOsrsBotting))
+            if (!Directory.Exists(folderpathJivaroLauncher))
             {
-                Directory.CreateDirectory(folderpathOsrsBotting);
+                Directory.CreateDirectory(folderpathJivaroLauncher);
             }
 
-            // Create scriptfactory folder
-            if (!Directory.Exists(folderpathJivaroScriptFactory))
-            {
-                Directory.CreateDirectory(folderpathJivaroScriptFactory);
-            }
-
-            // Create osbottool folder
-            if (!Directory.Exists(folderpathOSBotTool))
-            {
-                Directory.CreateDirectory(folderpathOSBotTool);
-            }
-
-            // Create userinput folder
-            if (!Directory.Exists(folderpathUserinput))
-            {
-                Directory.CreateDirectory(folderpathUserinput);
-            }
 
             //
             // End of create folders
@@ -81,10 +64,37 @@ namespace jivarosft
             // Start of create files
             //
 
-            // Create dashboard file
-            if (!File.Exists(filepathDashboard))
+            // Create Script Factory Account file
+            if (!File.Exists(filepathAccountsScriptFactory))
             {
-                using (FileStream fs = File.Create(filepathDashboard))
+                using (FileStream fs = File.Create(filepathAccountsScriptFactory))
+                {
+                    fs.Close();
+                }
+            }
+
+            // Create OSBot Account file
+            if (!File.Exists(filepathAccountsOSBot))
+            {
+                using (FileStream fs = File.Create(filepathAccountsOSBot))
+                {
+                    fs.Close();
+                }
+            }
+
+            // Create TRiBot Account file
+            if (!File.Exists(filepathAccountsTRiBot))
+            {
+                using (FileStream fs = File.Create(filepathAccountsTRiBot))
+                {
+                    fs.Close();
+                }
+            }
+
+            // Create DreamBot Account file
+            if (!File.Exists(filepathAccountsDreamBot))
+            {
+                using (FileStream fs = File.Create(filepathAccountsDreamBot))
                 {
                     fs.Close();
                 }
@@ -104,7 +114,7 @@ namespace jivarosft
             // Download OSBot
             Process cmdDownloadOSBot = new Process();
             cmdDownloadOSBot.StartInfo.FileName = "cmd.exe";
-            cmdDownloadOSBot.StartInfo.Arguments = "/C curl.exe --output C:\\Users\\%USERNAME%\\Jivaro\\OSRSBotting\\OSBot.jar --url https://osbot.org/mvc/get";
+            cmdDownloadOSBot.StartInfo.Arguments = "/C curl.exe --output \"C:\\Users\\%USERNAME%\\Jivaro\\Jivaro Launcher\\OSBot.jar\" --url https://osbot.org/mvc/get";
             cmdDownloadOSBot.StartInfo.CreateNoWindow = true;
             cmdDownloadOSBot.Start();
 

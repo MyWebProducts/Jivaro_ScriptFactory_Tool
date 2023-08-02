@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesThievingVyres
     {
@@ -56,7 +56,7 @@
             this.labelScriptProfiles_ThievingVyres_ShadowVeil.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_ShadowVeil.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_ShadowVeil.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_ShadowVeil.Location = new System.Drawing.Point(603, 207);
             this.labelScriptProfiles_ThievingVyres_ShadowVeil.Name = "labelScriptProfiles_ThievingVyres_ShadowVeil";
             this.labelScriptProfiles_ThievingVyres_ShadowVeil.Size = new System.Drawing.Size(117, 17);
@@ -69,7 +69,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.Location = new System.Drawing.Point(578, 210);
             this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.Name = "checkBoxScriptProfiles_ThievingVyres_ShadowVeil";
             this.checkBoxScriptProfiles_ThievingVyres_ShadowVeil.Size = new System.Drawing.Size(15, 14);
@@ -81,7 +81,7 @@
             this.labelScriptProfiles_ThievingVyres_SelectNpc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_SelectNpc.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_SelectNpc.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_SelectNpc.Location = new System.Drawing.Point(578, 257);
             this.labelScriptProfiles_ThievingVyres_SelectNpc.Name = "labelScriptProfiles_ThievingVyres_SelectNpc";
             this.labelScriptProfiles_ThievingVyres_SelectNpc.Size = new System.Drawing.Size(84, 17);
@@ -118,7 +118,7 @@
             this.labelScriptProfiles_ThievingVyres_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_SellLoot.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_SellLoot.Location = new System.Drawing.Point(357, 443);
             this.labelScriptProfiles_ThievingVyres_SellLoot.Name = "labelScriptProfiles_ThievingVyres_SellLoot";
             this.labelScriptProfiles_ThievingVyres_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -130,7 +130,7 @@
             this.labelScriptProfiles_ThievingVyres_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_Restocking.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_Restocking.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_Restocking.Location = new System.Drawing.Point(357, 396);
             this.labelScriptProfiles_ThievingVyres_Restocking.Name = "labelScriptProfiles_ThievingVyres_Restocking";
             this.labelScriptProfiles_ThievingVyres_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -142,7 +142,7 @@
             this.labelScriptProfiles_ThievingVyres_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_WorldHopping.Location = new System.Drawing.Point(357, 349);
             this.labelScriptProfiles_ThievingVyres_WorldHopping.Name = "labelScriptProfiles_ThievingVyres_WorldHopping";
             this.labelScriptProfiles_ThievingVyres_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -154,7 +154,7 @@
             this.labelScriptProfiles_ThievingVyres_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_Antipattern.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_Antipattern.Location = new System.Drawing.Point(357, 301);
             this.labelScriptProfiles_ThievingVyres_Antipattern.Name = "labelScriptProfiles_ThievingVyres_Antipattern";
             this.labelScriptProfiles_ThievingVyres_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -166,7 +166,7 @@
             this.labelScriptProfiles_ThievingVyres_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_RenewBond.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_RenewBond.Location = new System.Drawing.Point(357, 254);
             this.labelScriptProfiles_ThievingVyres_RenewBond.Name = "labelScriptProfiles_ThievingVyres_RenewBond";
             this.labelScriptProfiles_ThievingVyres_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -178,7 +178,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.Location = new System.Drawing.Point(335, 350);
             this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.Name = "checkBoxScriptProfiles_ThievingVyres_WorldHopping";
             this.checkBoxScriptProfiles_ThievingVyres_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -190,7 +190,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_Restocking.Location = new System.Drawing.Point(335, 398);
             this.checkBoxScriptProfiles_ThievingVyres_Restocking.Name = "checkBoxScriptProfiles_ThievingVyres_Restocking";
             this.checkBoxScriptProfiles_ThievingVyres_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -202,7 +202,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_SellLoot.Location = new System.Drawing.Point(335, 445);
             this.checkBoxScriptProfiles_ThievingVyres_SellLoot.Name = "checkBoxScriptProfiles_ThievingVyres_SellLoot";
             this.checkBoxScriptProfiles_ThievingVyres_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -214,7 +214,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_Antipattern.Location = new System.Drawing.Point(335, 303);
             this.checkBoxScriptProfiles_ThievingVyres_Antipattern.Name = "checkBoxScriptProfiles_ThievingVyres_Antipattern";
             this.checkBoxScriptProfiles_ThievingVyres_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -226,7 +226,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_RenewBond.Location = new System.Drawing.Point(335, 256);
             this.checkBoxScriptProfiles_ThievingVyres_RenewBond.Name = "checkBoxScriptProfiles_ThievingVyres_RenewBond";
             this.checkBoxScriptProfiles_ThievingVyres_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -238,7 +238,7 @@
             this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.Location = new System.Drawing.Point(335, 209);
             this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.Name = "checkBoxScriptProfiles_ThievingVyres_DeathHandler";
             this.checkBoxScriptProfiles_ThievingVyres_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -250,7 +250,7 @@
             this.labelScriptProfiles_ThievingVyres_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_DeathHandler.Location = new System.Drawing.Point(357, 207);
             this.labelScriptProfiles_ThievingVyres_DeathHandler.Name = "labelScriptProfiles_ThievingVyres_DeathHandler";
             this.labelScriptProfiles_ThievingVyres_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -262,7 +262,7 @@
             this.labelScriptProfiles_ThievingVyres_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingVyres_Title.AutoSize = true;
+            this.labelScriptProfiles_ThievingVyres_Title.AutoSize = false;
             this.labelScriptProfiles_ThievingVyres_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_ThievingVyres_Title.Location = new System.Drawing.Point(450, 110);
             this.labelScriptProfiles_ThievingVyres_Title.Name = "labelScriptProfiles_ThievingVyres_Title";
@@ -303,7 +303,7 @@
             // formScriptProfilesThievingVyres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_Aragorn_Banner);

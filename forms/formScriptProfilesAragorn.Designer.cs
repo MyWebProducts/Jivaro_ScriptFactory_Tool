@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesAragorn
     {
@@ -62,7 +62,6 @@
             this.labelScriptProfiles_Aragorn_UseOwnGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_UseOwnGear.AutoSize = true;
             this.labelScriptProfiles_Aragorn_UseOwnGear.Location = new System.Drawing.Point(472, 247);
             this.labelScriptProfiles_Aragorn_UseOwnGear.Name = "labelScriptProfiles_Aragorn_UseOwnGear";
             this.labelScriptProfiles_Aragorn_UseOwnGear.Size = new System.Drawing.Size(105, 17);
@@ -74,7 +73,6 @@
             this.checkBoxScriptProfiles_Aragorn_UseOwnGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_UseOwnGear.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_UseOwnGear.Location = new System.Drawing.Point(450, 249);
             this.checkBoxScriptProfiles_Aragorn_UseOwnGear.Name = "checkBoxScriptProfiles_Aragorn_UseOwnGear";
             this.checkBoxScriptProfiles_Aragorn_UseOwnGear.Size = new System.Drawing.Size(15, 14);
@@ -86,7 +84,6 @@
             this.labelScriptProfiles_Aragorn_BuryBigBones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_BuryBigBones.AutoSize = true;
             this.labelScriptProfiles_Aragorn_BuryBigBones.Location = new System.Drawing.Point(472, 200);
             this.labelScriptProfiles_Aragorn_BuryBigBones.Name = "labelScriptProfiles_Aragorn_BuryBigBones";
             this.labelScriptProfiles_Aragorn_BuryBigBones.Size = new System.Drawing.Size(109, 17);
@@ -98,7 +95,6 @@
             this.checkBoxScriptProfiles_Aragorn_BuryBigBones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_BuryBigBones.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_BuryBigBones.Location = new System.Drawing.Point(450, 202);
             this.checkBoxScriptProfiles_Aragorn_BuryBigBones.Name = "checkBoxScriptProfiles_Aragorn_BuryBigBones";
             this.checkBoxScriptProfiles_Aragorn_BuryBigBones.Size = new System.Drawing.Size(15, 14);
@@ -110,7 +106,6 @@
             this.labelScriptProfiles_Aragorn_SelectNpc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_SelectNpc.AutoSize = true;
             this.labelScriptProfiles_Aragorn_SelectNpc.Location = new System.Drawing.Point(475, 345);
             this.labelScriptProfiles_Aragorn_SelectNpc.Name = "labelScriptProfiles_Aragorn_SelectNpc";
             this.labelScriptProfiles_Aragorn_SelectNpc.Size = new System.Drawing.Size(84, 17);
@@ -152,7 +147,6 @@
             this.labelScriptProfiles_Aragorn_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_SellLoot.AutoSize = true;
             this.labelScriptProfiles_Aragorn_SellLoot.Location = new System.Drawing.Point(272, 436);
             this.labelScriptProfiles_Aragorn_SellLoot.Name = "labelScriptProfiles_Aragorn_SellLoot";
             this.labelScriptProfiles_Aragorn_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -164,7 +158,6 @@
             this.labelScriptProfiles_Aragorn_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_Restocking.AutoSize = true;
             this.labelScriptProfiles_Aragorn_Restocking.Location = new System.Drawing.Point(272, 389);
             this.labelScriptProfiles_Aragorn_Restocking.Name = "labelScriptProfiles_Aragorn_Restocking";
             this.labelScriptProfiles_Aragorn_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -176,7 +169,6 @@
             this.labelScriptProfiles_Aragorn_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_WorldHopping.AutoSize = true;
             this.labelScriptProfiles_Aragorn_WorldHopping.Location = new System.Drawing.Point(272, 342);
             this.labelScriptProfiles_Aragorn_WorldHopping.Name = "labelScriptProfiles_Aragorn_WorldHopping";
             this.labelScriptProfiles_Aragorn_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -188,7 +180,6 @@
             this.labelScriptProfiles_Aragorn_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_Antipattern.AutoSize = true;
             this.labelScriptProfiles_Aragorn_Antipattern.Location = new System.Drawing.Point(272, 294);
             this.labelScriptProfiles_Aragorn_Antipattern.Name = "labelScriptProfiles_Aragorn_Antipattern";
             this.labelScriptProfiles_Aragorn_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -200,7 +191,6 @@
             this.labelScriptProfiles_Aragorn_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_RenewBond.AutoSize = true;
             this.labelScriptProfiles_Aragorn_RenewBond.Location = new System.Drawing.Point(272, 247);
             this.labelScriptProfiles_Aragorn_RenewBond.Name = "labelScriptProfiles_Aragorn_RenewBond";
             this.labelScriptProfiles_Aragorn_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -212,7 +202,6 @@
             this.labelScriptProfiles_Aragorn_TrainStatsEvenly.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_TrainStatsEvenly.AutoSize = true;
             this.labelScriptProfiles_Aragorn_TrainStatsEvenly.Location = new System.Drawing.Point(650, 202);
             this.labelScriptProfiles_Aragorn_TrainStatsEvenly.Name = "labelScriptProfiles_Aragorn_TrainStatsEvenly";
             this.labelScriptProfiles_Aragorn_TrainStatsEvenly.Size = new System.Drawing.Size(125, 17);
@@ -224,7 +213,6 @@
             this.checkBoxScriptProfiles_Aragorn_TrainStatsEvenly.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_TrainStatsEvenly.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_TrainStatsEvenly.Location = new System.Drawing.Point(627, 202);
             this.checkBoxScriptProfiles_Aragorn_TrainStatsEvenly.Name = "checkBoxScriptProfiles_Aragorn_TrainStatsEvenly";
             this.checkBoxScriptProfiles_Aragorn_TrainStatsEvenly.Size = new System.Drawing.Size(15, 14);
@@ -236,7 +224,6 @@
             this.checkBoxScriptProfiles_Aragorn_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_WorldHopping.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_WorldHopping.Location = new System.Drawing.Point(250, 343);
             this.checkBoxScriptProfiles_Aragorn_WorldHopping.Name = "checkBoxScriptProfiles_Aragorn_WorldHopping";
             this.checkBoxScriptProfiles_Aragorn_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -248,7 +235,6 @@
             this.checkBoxScriptProfiles_Aragorn_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_Restocking.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_Restocking.Location = new System.Drawing.Point(250, 391);
             this.checkBoxScriptProfiles_Aragorn_Restocking.Name = "checkBoxScriptProfiles_Aragorn_Restocking";
             this.checkBoxScriptProfiles_Aragorn_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -260,7 +246,6 @@
             this.checkBoxScriptProfiles_Aragorn_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_SellLoot.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_SellLoot.Location = new System.Drawing.Point(250, 438);
             this.checkBoxScriptProfiles_Aragorn_SellLoot.Name = "checkBoxScriptProfiles_Aragorn_SellLoot";
             this.checkBoxScriptProfiles_Aragorn_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -272,7 +257,6 @@
             this.checkBoxScriptProfiles_Aragorn_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_Antipattern.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_Antipattern.Location = new System.Drawing.Point(250, 296);
             this.checkBoxScriptProfiles_Aragorn_Antipattern.Name = "checkBoxScriptProfiles_Aragorn_Antipattern";
             this.checkBoxScriptProfiles_Aragorn_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -284,7 +268,6 @@
             this.checkBoxScriptProfiles_Aragorn_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_RenewBond.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_RenewBond.Location = new System.Drawing.Point(250, 249);
             this.checkBoxScriptProfiles_Aragorn_RenewBond.Name = "checkBoxScriptProfiles_Aragorn_RenewBond";
             this.checkBoxScriptProfiles_Aragorn_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -296,7 +279,6 @@
             this.checkBoxScriptProfiles_Aragorn_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_DeathHandler.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_DeathHandler.Location = new System.Drawing.Point(250, 202);
             this.checkBoxScriptProfiles_Aragorn_DeathHandler.Name = "checkBoxScriptProfiles_Aragorn_DeathHandler";
             this.checkBoxScriptProfiles_Aragorn_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -308,7 +290,6 @@
             this.labelScriptProfiles_Aragorn_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_DeathHandler.AutoSize = true;
             this.labelScriptProfiles_Aragorn_DeathHandler.Location = new System.Drawing.Point(272, 200);
             this.labelScriptProfiles_Aragorn_DeathHandler.Name = "labelScriptProfiles_Aragorn_DeathHandler";
             this.labelScriptProfiles_Aragorn_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -320,7 +301,6 @@
             this.labelScriptProfiles_Aragorn_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_Title.AutoSize = true;
             this.labelScriptProfiles_Aragorn_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_Aragorn_Title.Location = new System.Drawing.Point(410, 100);
             this.labelScriptProfiles_Aragorn_Title.Name = "labelScriptProfiles_Aragorn_Title";
@@ -363,7 +343,6 @@
             this.labelScriptProfiles_Aragorn_FightObor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Aragorn_FightObor.AutoSize = true;
             this.labelScriptProfiles_Aragorn_FightObor.Location = new System.Drawing.Point(650, 247);
             this.labelScriptProfiles_Aragorn_FightObor.Name = "labelScriptProfiles_Aragorn_FightObor";
             this.labelScriptProfiles_Aragorn_FightObor.Size = new System.Drawing.Size(175, 17);
@@ -375,7 +354,6 @@
             this.checkBoxScriptProfiles_Aragorn_FightObor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Aragorn_FightObor.AutoSize = true;
             this.checkBoxScriptProfiles_Aragorn_FightObor.Location = new System.Drawing.Point(627, 249);
             this.checkBoxScriptProfiles_Aragorn_FightObor.Name = "checkBoxScriptProfiles_Aragorn_FightObor";
             this.checkBoxScriptProfiles_Aragorn_FightObor.Size = new System.Drawing.Size(15, 14);
@@ -384,8 +362,7 @@
             // 
             // formScriptProfilesAragorn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_Aragorn_FightObor);
@@ -423,7 +400,6 @@
             this.Load += new System.EventHandler(this.formScriptProfiles_Aragorn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScriptProfiles_Aragorn_Banner)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

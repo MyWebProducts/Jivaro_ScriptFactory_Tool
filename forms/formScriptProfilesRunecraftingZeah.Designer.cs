@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesRunecraftingZeah
     {
@@ -58,7 +58,7 @@
             this.labelScriptProfiles_RunecraftingZeah_IronMan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_IronMan.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_IronMan.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_IronMan.Location = new System.Drawing.Point(592, 250);
             this.labelScriptProfiles_RunecraftingZeah_IronMan.Name = "labelScriptProfiles_RunecraftingZeah_IronMan";
             this.labelScriptProfiles_RunecraftingZeah_IronMan.Size = new System.Drawing.Size(102, 17);
@@ -70,7 +70,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.Location = new System.Drawing.Point(567, 252);
             this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.Name = "checkBoxScriptProfiles_RunecraftingZeah_IronMan";
             this.checkBoxScriptProfiles_RunecraftingZeah_IronMan.Size = new System.Drawing.Size(15, 14);
@@ -82,7 +82,7 @@
             this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.Location = new System.Drawing.Point(592, 200);
             this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.Name = "labelScriptProfiles_RunecraftingZeah_DragonPickaxe";
             this.labelScriptProfiles_RunecraftingZeah_DragonPickaxe.Size = new System.Drawing.Size(141, 17);
@@ -94,7 +94,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.Location = new System.Drawing.Point(567, 202);
             this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.Name = "checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe";
             this.checkBoxScriptProfiles_RunecraftingZeah_DragonPickaxe.Size = new System.Drawing.Size(15, 14);
@@ -106,7 +106,7 @@
             this.labelScriptProfiles_RunecraftingZeah_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_SellLoot.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_SellLoot.Location = new System.Drawing.Point(342, 450);
             this.labelScriptProfiles_RunecraftingZeah_SellLoot.Name = "labelScriptProfiles_RunecraftingZeah_SellLoot";
             this.labelScriptProfiles_RunecraftingZeah_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -118,7 +118,7 @@
             this.labelScriptProfiles_RunecraftingZeah_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_Restocking.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_Restocking.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_Restocking.Location = new System.Drawing.Point(342, 400);
             this.labelScriptProfiles_RunecraftingZeah_Restocking.Name = "labelScriptProfiles_RunecraftingZeah_Restocking";
             this.labelScriptProfiles_RunecraftingZeah_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -130,7 +130,7 @@
             this.labelScriptProfiles_RunecraftingZeah_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_WorldHopping.Location = new System.Drawing.Point(342, 350);
             this.labelScriptProfiles_RunecraftingZeah_WorldHopping.Name = "labelScriptProfiles_RunecraftingZeah_WorldHopping";
             this.labelScriptProfiles_RunecraftingZeah_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -142,7 +142,7 @@
             this.labelScriptProfiles_RunecraftingZeah_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_Antipattern.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_Antipattern.Location = new System.Drawing.Point(342, 300);
             this.labelScriptProfiles_RunecraftingZeah_Antipattern.Name = "labelScriptProfiles_RunecraftingZeah_Antipattern";
             this.labelScriptProfiles_RunecraftingZeah_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -154,7 +154,7 @@
             this.labelScriptProfiles_RunecraftingZeah_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_RenewBond.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_RenewBond.Location = new System.Drawing.Point(342, 250);
             this.labelScriptProfiles_RunecraftingZeah_RenewBond.Name = "labelScriptProfiles_RunecraftingZeah_RenewBond";
             this.labelScriptProfiles_RunecraftingZeah_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -166,7 +166,7 @@
             this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Location = new System.Drawing.Point(592, 300);
             this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Name = "labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport";
             this.labelScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Size = new System.Drawing.Size(189, 17);
@@ -178,7 +178,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Location = new System.Drawing.Point(567, 302);
             this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Name = "checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport";
             this.checkBoxScriptProfiles_RunecraftingZeah_ArceuusHomeTeleport.Size = new System.Drawing.Size(15, 14);
@@ -190,7 +190,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.Location = new System.Drawing.Point(317, 352);
             this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.Name = "checkBoxScriptProfiles_RunecraftingZeah_WorldHopping";
             this.checkBoxScriptProfiles_RunecraftingZeah_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -202,7 +202,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.Location = new System.Drawing.Point(317, 402);
             this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.Name = "checkBoxScriptProfiles_RunecraftingZeah_Restocking";
             this.checkBoxScriptProfiles_RunecraftingZeah_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -214,7 +214,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.Location = new System.Drawing.Point(317, 452);
             this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.Name = "checkBoxScriptProfiles_RunecraftingZeah_SellLoot";
             this.checkBoxScriptProfiles_RunecraftingZeah_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -226,7 +226,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.Location = new System.Drawing.Point(317, 302);
             this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.Name = "checkBoxScriptProfiles_RunecraftingZeah_Antipattern";
             this.checkBoxScriptProfiles_RunecraftingZeah_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -238,7 +238,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.Location = new System.Drawing.Point(317, 252);
             this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.Name = "checkBoxScriptProfiles_RunecraftingZeah_RenewBond";
             this.checkBoxScriptProfiles_RunecraftingZeah_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -250,7 +250,7 @@
             this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.Location = new System.Drawing.Point(317, 202);
             this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.Name = "checkBoxScriptProfiles_RunecraftingZeah_DeathHandler";
             this.checkBoxScriptProfiles_RunecraftingZeah_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -262,7 +262,7 @@
             this.labelScriptProfiles_RunecraftingZeah_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_DeathHandler.Location = new System.Drawing.Point(342, 200);
             this.labelScriptProfiles_RunecraftingZeah_DeathHandler.Name = "labelScriptProfiles_RunecraftingZeah_DeathHandler";
             this.labelScriptProfiles_RunecraftingZeah_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -274,7 +274,7 @@
             this.labelScriptProfiles_RunecraftingZeah_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingZeah_Title.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingZeah_Title.AutoSize = false;
             this.labelScriptProfiles_RunecraftingZeah_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_RunecraftingZeah_Title.Location = new System.Drawing.Point(432, 127);
             this.labelScriptProfiles_RunecraftingZeah_Title.Name = "labelScriptProfiles_RunecraftingZeah_Title";
@@ -314,7 +314,7 @@
             // formScriptProfilesRunecraftingZeah
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_RunecraftingZeah_IronMan);

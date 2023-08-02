@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesCookingNormal
     {
@@ -85,7 +85,7 @@
             this.labelScriptProfiles_CookingNormal_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_Title.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_Title.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_CookingNormal_Title.Location = new System.Drawing.Point(423, 116);
             this.labelScriptProfiles_CookingNormal_Title.Name = "labelScriptProfiles_CookingNormal_Title";
@@ -98,7 +98,7 @@
             this.labelScriptProfiles_CookingNormal_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_DeathHandler.Location = new System.Drawing.Point(283, 219);
             this.labelScriptProfiles_CookingNormal_DeathHandler.Name = "labelScriptProfiles_CookingNormal_DeathHandler";
             this.labelScriptProfiles_CookingNormal_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -110,7 +110,7 @@
             this.checkBoxScriptProfiles_CookingNormal_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_DeathHandler.Location = new System.Drawing.Point(258, 221);
             this.checkBoxScriptProfiles_CookingNormal_DeathHandler.Name = "checkBoxScriptProfiles_CookingNormal_DeathHandler";
             this.checkBoxScriptProfiles_CookingNormal_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -122,7 +122,7 @@
             this.checkBoxScriptProfiles_CookingNormal_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_RenewBond.Location = new System.Drawing.Point(258, 271);
             this.checkBoxScriptProfiles_CookingNormal_RenewBond.Name = "checkBoxScriptProfiles_CookingNormal_RenewBond";
             this.checkBoxScriptProfiles_CookingNormal_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -134,7 +134,7 @@
             this.checkBoxScriptProfiles_CookingNormal_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_Antipattern.Location = new System.Drawing.Point(258, 321);
             this.checkBoxScriptProfiles_CookingNormal_Antipattern.Name = "checkBoxScriptProfiles_CookingNormal_Antipattern";
             this.checkBoxScriptProfiles_CookingNormal_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -146,7 +146,7 @@
             this.checkBoxScriptProfiles_CookingNormal_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_SellLoot.Location = new System.Drawing.Point(258, 471);
             this.checkBoxScriptProfiles_CookingNormal_SellLoot.Name = "checkBoxScriptProfiles_CookingNormal_SellLoot";
             this.checkBoxScriptProfiles_CookingNormal_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -158,7 +158,7 @@
             this.checkBoxScriptProfiles_CookingNormal_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_Restocking.Location = new System.Drawing.Point(258, 421);
             this.checkBoxScriptProfiles_CookingNormal_Restocking.Name = "checkBoxScriptProfiles_CookingNormal_Restocking";
             this.checkBoxScriptProfiles_CookingNormal_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -170,7 +170,7 @@
             this.checkBoxScriptProfiles_CookingNormal_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_CookingNormal_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_CookingNormal_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_CookingNormal_WorldHopping.Location = new System.Drawing.Point(258, 371);
             this.checkBoxScriptProfiles_CookingNormal_WorldHopping.Name = "checkBoxScriptProfiles_CookingNormal_WorldHopping";
             this.checkBoxScriptProfiles_CookingNormal_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -182,7 +182,7 @@
             this.labelScriptProfiles_CookingNormal_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_RenewBond.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_RenewBond.Location = new System.Drawing.Point(283, 269);
             this.labelScriptProfiles_CookingNormal_RenewBond.Name = "labelScriptProfiles_CookingNormal_RenewBond";
             this.labelScriptProfiles_CookingNormal_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -194,7 +194,7 @@
             this.labelScriptProfiles_CookingNormal_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_Antipattern.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_Antipattern.Location = new System.Drawing.Point(283, 319);
             this.labelScriptProfiles_CookingNormal_Antipattern.Name = "labelScriptProfiles_CookingNormal_Antipattern";
             this.labelScriptProfiles_CookingNormal_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -206,7 +206,7 @@
             this.labelScriptProfiles_CookingNormal_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_WorldHopping.Location = new System.Drawing.Point(283, 369);
             this.labelScriptProfiles_CookingNormal_WorldHopping.Name = "labelScriptProfiles_CookingNormal_WorldHopping";
             this.labelScriptProfiles_CookingNormal_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -218,7 +218,7 @@
             this.labelScriptProfiles_CookingNormal_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_Restocking.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_Restocking.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_Restocking.Location = new System.Drawing.Point(283, 419);
             this.labelScriptProfiles_CookingNormal_Restocking.Name = "labelScriptProfiles_CookingNormal_Restocking";
             this.labelScriptProfiles_CookingNormal_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -230,7 +230,7 @@
             this.labelScriptProfiles_CookingNormal_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_SellLoot.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_SellLoot.Location = new System.Drawing.Point(283, 469);
             this.labelScriptProfiles_CookingNormal_SellLoot.Name = "labelScriptProfiles_CookingNormal_SellLoot";
             this.labelScriptProfiles_CookingNormal_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -269,7 +269,7 @@
             this.labelScriptProfiles_CookingNormal_SelectCookingArea.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_SelectCookingArea.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_SelectCookingArea.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_SelectCookingArea.Location = new System.Drawing.Point(515, 221);
             this.labelScriptProfiles_CookingNormal_SelectCookingArea.Name = "labelScriptProfiles_CookingNormal_SelectCookingArea";
             this.labelScriptProfiles_CookingNormal_SelectCookingArea.Size = new System.Drawing.Size(139, 17);
@@ -316,7 +316,7 @@
             this.labelScriptProfiles_CookingNormal_SelectDish.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_CookingNormal_SelectDish.AutoSize = true;
+            this.labelScriptProfiles_CookingNormal_SelectDish.AutoSize = false;
             this.labelScriptProfiles_CookingNormal_SelectDish.Location = new System.Drawing.Point(515, 296);
             this.labelScriptProfiles_CookingNormal_SelectDish.Name = "labelScriptProfiles_CookingNormal_SelectDish";
             this.labelScriptProfiles_CookingNormal_SelectDish.Size = new System.Drawing.Size(83, 17);
@@ -326,7 +326,7 @@
             // formScriptProfilesCookingNormal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_CookingNormal_SelectDish);

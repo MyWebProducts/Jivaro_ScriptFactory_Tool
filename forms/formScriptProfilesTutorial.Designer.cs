@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesTutorial
     {
@@ -61,7 +61,7 @@
             this.labelScriptProfiles_TutorialIsland_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_SellLoot.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_SellLoot.Location = new System.Drawing.Point(183, 448);
             this.labelScriptProfiles_TutorialIsland_SellLoot.Name = "labelScriptProfiles_TutorialIsland_SellLoot";
             this.labelScriptProfiles_TutorialIsland_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -73,7 +73,7 @@
             this.labelScriptProfiles_TutorialIsland_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_Restocking.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_Restocking.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_Restocking.Location = new System.Drawing.Point(183, 398);
             this.labelScriptProfiles_TutorialIsland_Restocking.Name = "labelScriptProfiles_TutorialIsland_Restocking";
             this.labelScriptProfiles_TutorialIsland_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -85,7 +85,7 @@
             this.labelScriptProfiles_TutorialIsland_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_WorldHopping.Location = new System.Drawing.Point(183, 348);
             this.labelScriptProfiles_TutorialIsland_WorldHopping.Name = "labelScriptProfiles_TutorialIsland_WorldHopping";
             this.labelScriptProfiles_TutorialIsland_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -97,7 +97,7 @@
             this.labelScriptProfiles_TutorialIsland_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_Antipattern.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_Antipattern.Location = new System.Drawing.Point(183, 298);
             this.labelScriptProfiles_TutorialIsland_Antipattern.Name = "labelScriptProfiles_TutorialIsland_Antipattern";
             this.labelScriptProfiles_TutorialIsland_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -109,7 +109,7 @@
             this.labelScriptProfiles_TutorialIsland_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_RenewBond.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_RenewBond.Location = new System.Drawing.Point(183, 248);
             this.labelScriptProfiles_TutorialIsland_RenewBond.Name = "labelScriptProfiles_TutorialIsland_RenewBond";
             this.labelScriptProfiles_TutorialIsland_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -121,7 +121,7 @@
             this.labelScriptProfiles_TutorialIsland_FastDialogue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_FastDialogue.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_FastDialogue.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_FastDialogue.Location = new System.Drawing.Point(385, 198);
             this.labelScriptProfiles_TutorialIsland_FastDialogue.Name = "labelScriptProfiles_TutorialIsland_FastDialogue";
             this.labelScriptProfiles_TutorialIsland_FastDialogue.Size = new System.Drawing.Size(98, 17);
@@ -133,7 +133,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.Location = new System.Drawing.Point(360, 200);
             this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.Name = "checkBoxScriptProfiles_TutorialIsland_FastDialogue";
             this.checkBoxScriptProfiles_TutorialIsland_FastDialogue.Size = new System.Drawing.Size(15, 14);
@@ -145,7 +145,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.Location = new System.Drawing.Point(158, 350);
             this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.Name = "checkBoxScriptProfiles_TutorialIsland_WorldHopping";
             this.checkBoxScriptProfiles_TutorialIsland_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -157,7 +157,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_Restocking.Location = new System.Drawing.Point(158, 400);
             this.checkBoxScriptProfiles_TutorialIsland_Restocking.Name = "checkBoxScriptProfiles_TutorialIsland_Restocking";
             this.checkBoxScriptProfiles_TutorialIsland_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -169,7 +169,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_SellLoot.Location = new System.Drawing.Point(158, 450);
             this.checkBoxScriptProfiles_TutorialIsland_SellLoot.Name = "checkBoxScriptProfiles_TutorialIsland_SellLoot";
             this.checkBoxScriptProfiles_TutorialIsland_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -181,7 +181,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_Antipattern.Location = new System.Drawing.Point(158, 300);
             this.checkBoxScriptProfiles_TutorialIsland_Antipattern.Name = "checkBoxScriptProfiles_TutorialIsland_Antipattern";
             this.checkBoxScriptProfiles_TutorialIsland_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -193,7 +193,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_RenewBond.Location = new System.Drawing.Point(158, 250);
             this.checkBoxScriptProfiles_TutorialIsland_RenewBond.Name = "checkBoxScriptProfiles_TutorialIsland_RenewBond";
             this.checkBoxScriptProfiles_TutorialIsland_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -205,7 +205,7 @@
             this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.Location = new System.Drawing.Point(158, 200);
             this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.Name = "checkBoxScriptProfiles_TutorialIsland_DeathHandler";
             this.checkBoxScriptProfiles_TutorialIsland_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -217,7 +217,7 @@
             this.labelScriptProfiles_TutorialIsland_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_DeathHandler.Location = new System.Drawing.Point(183, 198);
             this.labelScriptProfiles_TutorialIsland_DeathHandler.Name = "labelScriptProfiles_TutorialIsland_DeathHandler";
             this.labelScriptProfiles_TutorialIsland_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -229,7 +229,7 @@
             this.labelScriptProfiles_TutorialIsland_StopImmediately.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_StopImmediately.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_StopImmediately.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_StopImmediately.Location = new System.Drawing.Point(385, 248);
             this.labelScriptProfiles_TutorialIsland_StopImmediately.Name = "labelScriptProfiles_TutorialIsland_StopImmediately";
             this.labelScriptProfiles_TutorialIsland_StopImmediately.Size = new System.Drawing.Size(204, 17);
@@ -238,7 +238,7 @@
             // 
             // checkBoxScriptProfiles_TutorialIsland_StopImmediately
             // 
-            this.checkBoxScriptProfiles_TutorialIsland_StopImmediately.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_StopImmediately.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_StopImmediately.Location = new System.Drawing.Point(360, 250);
             this.checkBoxScriptProfiles_TutorialIsland_StopImmediately.Name = "checkBoxScriptProfiles_TutorialIsland_StopImmediately";
             this.checkBoxScriptProfiles_TutorialIsland_StopImmediately.Size = new System.Drawing.Size(15, 14);
@@ -274,7 +274,7 @@
             this.labelScriptProfiles_TutorialIsland_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_Title.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_Title.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_TutorialIsland_Title.Location = new System.Drawing.Point(461, 110);
             this.labelScriptProfiles_TutorialIsland_Title.Name = "labelScriptProfiles_TutorialIsland_Title";
@@ -303,7 +303,7 @@
             this.labelScriptProfiles_TutorialIsland_DisableInteractions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_DisableInteractions.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_DisableInteractions.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_DisableInteractions.Location = new System.Drawing.Point(685, 200);
             this.labelScriptProfiles_TutorialIsland_DisableInteractions.Name = "labelScriptProfiles_TutorialIsland_DisableInteractions";
             this.labelScriptProfiles_TutorialIsland_DisableInteractions.Size = new System.Drawing.Size(136, 17);
@@ -315,7 +315,7 @@
             this.labelScriptProfiles_TutorialIsland_Explanation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_Explanation.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_Explanation.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_Explanation.Location = new System.Drawing.Point(615, 225);
             this.labelScriptProfiles_TutorialIsland_Explanation.Name = "labelScriptProfiles_TutorialIsland_Explanation";
             this.labelScriptProfiles_TutorialIsland_Explanation.Size = new System.Drawing.Size(272, 17);
@@ -324,7 +324,7 @@
             // 
             // checkBoxScriptProfiles_TutorialIsland_WalkToRandom
             // 
-            this.checkBoxScriptProfiles_TutorialIsland_WalkToRandom.AutoSize = true;
+            this.checkBoxScriptProfiles_TutorialIsland_WalkToRandom.AutoSize = false;
             this.checkBoxScriptProfiles_TutorialIsland_WalkToRandom.Location = new System.Drawing.Point(360, 300);
             this.checkBoxScriptProfiles_TutorialIsland_WalkToRandom.Name = "checkBoxScriptProfiles_TutorialIsland_WalkToRandom";
             this.checkBoxScriptProfiles_TutorialIsland_WalkToRandom.Size = new System.Drawing.Size(15, 14);
@@ -336,7 +336,7 @@
             this.labelScriptProfiles_TutorialIsland_WalkToRandom.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_TutorialIsland_WalkToRandom.AutoSize = true;
+            this.labelScriptProfiles_TutorialIsland_WalkToRandom.AutoSize = false;
             this.labelScriptProfiles_TutorialIsland_WalkToRandom.Location = new System.Drawing.Point(388, 298);
             this.labelScriptProfiles_TutorialIsland_WalkToRandom.Name = "labelScriptProfiles_TutorialIsland_WalkToRandom";
             this.labelScriptProfiles_TutorialIsland_WalkToRandom.Size = new System.Drawing.Size(241, 17);
@@ -359,7 +359,7 @@
             // formScriptProfilesTutorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_Aragorn_Banner);

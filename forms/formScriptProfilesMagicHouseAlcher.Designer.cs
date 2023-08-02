@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesMagicHouseAlcher
     {
@@ -57,7 +57,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_ItemId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_ItemId.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_ItemId.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_ItemId.Location = new System.Drawing.Point(590, 298);
             this.labelScriptProfiles_MagicHouseAlcher_ItemId.Name = "labelScriptProfiles_MagicHouseAlcher_ItemId";
             this.labelScriptProfiles_MagicHouseAlcher_ItemId.Size = new System.Drawing.Size(51, 17);
@@ -69,7 +69,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.Location = new System.Drawing.Point(590, 198);
             this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.Name = "labelScriptProfiles_MagicHouseAlcher_ItemToAlch";
             this.labelScriptProfiles_MagicHouseAlcher_ItemToAlch.Size = new System.Drawing.Size(83, 17);
@@ -81,7 +81,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_SellLoot.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_SellLoot.Location = new System.Drawing.Point(340, 448);
             this.labelScriptProfiles_MagicHouseAlcher_SellLoot.Name = "labelScriptProfiles_MagicHouseAlcher_SellLoot";
             this.labelScriptProfiles_MagicHouseAlcher_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -93,7 +93,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_Restocking.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_Restocking.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_Restocking.Location = new System.Drawing.Point(340, 398);
             this.labelScriptProfiles_MagicHouseAlcher_Restocking.Name = "labelScriptProfiles_MagicHouseAlcher_Restocking";
             this.labelScriptProfiles_MagicHouseAlcher_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -105,7 +105,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.Location = new System.Drawing.Point(340, 348);
             this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.Name = "labelScriptProfiles_MagicHouseAlcher_WorldHopping";
             this.labelScriptProfiles_MagicHouseAlcher_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -117,7 +117,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_Antipattern.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_Antipattern.Location = new System.Drawing.Point(340, 298);
             this.labelScriptProfiles_MagicHouseAlcher_Antipattern.Name = "labelScriptProfiles_MagicHouseAlcher_Antipattern";
             this.labelScriptProfiles_MagicHouseAlcher_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -129,7 +129,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_RenewBond.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_RenewBond.Location = new System.Drawing.Point(340, 248);
             this.labelScriptProfiles_MagicHouseAlcher_RenewBond.Name = "labelScriptProfiles_MagicHouseAlcher_RenewBond";
             this.labelScriptProfiles_MagicHouseAlcher_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -141,7 +141,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.Location = new System.Drawing.Point(315, 350);
             this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.Name = "checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping";
             this.checkBoxScriptProfiles_MagicHouseAlcher_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -153,7 +153,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.Location = new System.Drawing.Point(315, 400);
             this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.Name = "checkBoxScriptProfiles_MagicHouseAlcher_Restocking";
             this.checkBoxScriptProfiles_MagicHouseAlcher_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -165,7 +165,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.Location = new System.Drawing.Point(315, 450);
             this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.Name = "checkBoxScriptProfiles_MagicHouseAlcher_SellLoot";
             this.checkBoxScriptProfiles_MagicHouseAlcher_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -177,7 +177,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.Location = new System.Drawing.Point(315, 300);
             this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.Name = "checkBoxScriptProfiles_MagicHouseAlcher_Antipattern";
             this.checkBoxScriptProfiles_MagicHouseAlcher_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -189,7 +189,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.Location = new System.Drawing.Point(315, 250);
             this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.Name = "checkBoxScriptProfiles_MagicHouseAlcher_RenewBond";
             this.checkBoxScriptProfiles_MagicHouseAlcher_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -201,7 +201,7 @@
             this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.Location = new System.Drawing.Point(315, 200);
             this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.Name = "checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler";
             this.checkBoxScriptProfiles_MagicHouseAlcher_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -213,7 +213,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.Location = new System.Drawing.Point(340, 198);
             this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.Name = "labelScriptProfiles_MagicHouseAlcher_DeathHandler";
             this.labelScriptProfiles_MagicHouseAlcher_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -225,7 +225,7 @@
             this.labelScriptProfiles_MagicHouseAlcher_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicHouseAlcher_Title.AutoSize = true;
+            this.labelScriptProfiles_MagicHouseAlcher_Title.AutoSize = false;
             this.labelScriptProfiles_MagicHouseAlcher_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_MagicHouseAlcher_Title.Location = new System.Drawing.Point(425, 125);
             this.labelScriptProfiles_MagicHouseAlcher_Title.Name = "labelScriptProfiles_MagicHouseAlcher_Title";
@@ -297,8 +297,8 @@
             // formScriptProfilesMagicHouseAlcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = false;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.buttonScriptProfiles_MagicHouseAlcher_SearchForId);

@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesMotherlodeMine
     {
@@ -58,7 +58,7 @@
             this.labelScriptProfiles_MotherlodeMine_SpendNuggets.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_SpendNuggets.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_SpendNuggets.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_SpendNuggets.Location = new System.Drawing.Point(564, 257);
             this.labelScriptProfiles_MotherlodeMine_SpendNuggets.Name = "labelScriptProfiles_MotherlodeMine_SpendNuggets";
             this.labelScriptProfiles_MotherlodeMine_SpendNuggets.Size = new System.Drawing.Size(108, 17);
@@ -90,7 +90,7 @@
             this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.Location = new System.Drawing.Point(564, 207);
             this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.Name = "labelScriptProfiles_MotherlodeMine_DragonPickaxe";
             this.labelScriptProfiles_MotherlodeMine_DragonPickaxe.Size = new System.Drawing.Size(141, 17);
@@ -102,7 +102,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.Location = new System.Drawing.Point(539, 209);
             this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.Name = "checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe";
             this.checkBoxScriptProfiles_MotherlodeMine_DragonPickaxe.Size = new System.Drawing.Size(15, 14);
@@ -114,7 +114,7 @@
             this.labelScriptProfiles_MotherlodeMine_SelectSector.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_SelectSector.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_SelectSector.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_SelectSector.Location = new System.Drawing.Point(539, 457);
             this.labelScriptProfiles_MotherlodeMine_SelectSector.Name = "labelScriptProfiles_MotherlodeMine_SelectSector";
             this.labelScriptProfiles_MotherlodeMine_SelectSector.Size = new System.Drawing.Size(96, 17);
@@ -153,7 +153,7 @@
             this.labelScriptProfiles_MotherlodeMine_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_SellLoot.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_SellLoot.Location = new System.Drawing.Point(335, 457);
             this.labelScriptProfiles_MotherlodeMine_SellLoot.Name = "labelScriptProfiles_MotherlodeMine_SellLoot";
             this.labelScriptProfiles_MotherlodeMine_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -165,7 +165,7 @@
             this.labelScriptProfiles_MotherlodeMine_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_Restocking.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_Restocking.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_Restocking.Location = new System.Drawing.Point(335, 407);
             this.labelScriptProfiles_MotherlodeMine_Restocking.Name = "labelScriptProfiles_MotherlodeMine_Restocking";
             this.labelScriptProfiles_MotherlodeMine_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -177,7 +177,7 @@
             this.labelScriptProfiles_MotherlodeMine_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_WorldHopping.Location = new System.Drawing.Point(335, 357);
             this.labelScriptProfiles_MotherlodeMine_WorldHopping.Name = "labelScriptProfiles_MotherlodeMine_WorldHopping";
             this.labelScriptProfiles_MotherlodeMine_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -189,7 +189,7 @@
             this.labelScriptProfiles_MotherlodeMine_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_Antipattern.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_Antipattern.Location = new System.Drawing.Point(335, 307);
             this.labelScriptProfiles_MotherlodeMine_Antipattern.Name = "labelScriptProfiles_MotherlodeMine_Antipattern";
             this.labelScriptProfiles_MotherlodeMine_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -201,7 +201,7 @@
             this.labelScriptProfiles_MotherlodeMine_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_RenewBond.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_RenewBond.Location = new System.Drawing.Point(335, 257);
             this.labelScriptProfiles_MotherlodeMine_RenewBond.Name = "labelScriptProfiles_MotherlodeMine_RenewBond";
             this.labelScriptProfiles_MotherlodeMine_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -213,7 +213,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.Location = new System.Drawing.Point(310, 359);
             this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.Name = "checkBoxScriptProfiles_MotherlodeMine_WorldHopping";
             this.checkBoxScriptProfiles_MotherlodeMine_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -225,7 +225,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_Restocking.Location = new System.Drawing.Point(310, 409);
             this.checkBoxScriptProfiles_MotherlodeMine_Restocking.Name = "checkBoxScriptProfiles_MotherlodeMine_Restocking";
             this.checkBoxScriptProfiles_MotherlodeMine_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -237,7 +237,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.Location = new System.Drawing.Point(310, 459);
             this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.Name = "checkBoxScriptProfiles_MotherlodeMine_SellLoot";
             this.checkBoxScriptProfiles_MotherlodeMine_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -249,7 +249,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.Location = new System.Drawing.Point(310, 309);
             this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.Name = "checkBoxScriptProfiles_MotherlodeMine_Antipattern";
             this.checkBoxScriptProfiles_MotherlodeMine_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -261,7 +261,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.Location = new System.Drawing.Point(310, 259);
             this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.Name = "checkBoxScriptProfiles_MotherlodeMine_RenewBond";
             this.checkBoxScriptProfiles_MotherlodeMine_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -273,7 +273,7 @@
             this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.Location = new System.Drawing.Point(310, 209);
             this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.Name = "checkBoxScriptProfiles_MotherlodeMine_DeathHandler";
             this.checkBoxScriptProfiles_MotherlodeMine_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -285,7 +285,7 @@
             this.labelScriptProfiles_MotherlodeMine_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_DeathHandler.Location = new System.Drawing.Point(335, 207);
             this.labelScriptProfiles_MotherlodeMine_DeathHandler.Name = "labelScriptProfiles_MotherlodeMine_DeathHandler";
             this.labelScriptProfiles_MotherlodeMine_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -297,7 +297,7 @@
             this.labelScriptProfiles_MotherlodeMine_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MotherlodeMine_Title.AutoSize = true;
+            this.labelScriptProfiles_MotherlodeMine_Title.AutoSize = false;
             this.labelScriptProfiles_MotherlodeMine_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_MotherlodeMine_Title.Location = new System.Drawing.Point(425, 125);
             this.labelScriptProfiles_MotherlodeMine_Title.Name = "labelScriptProfiles_MotherlodeMine_Title";
@@ -337,7 +337,7 @@
             // formScriptProfilesMotherlodeMine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_MotherlodeMine_SpendNuggets);

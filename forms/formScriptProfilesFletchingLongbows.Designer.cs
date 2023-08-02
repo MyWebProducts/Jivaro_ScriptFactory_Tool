@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesFletchingLongbows
     {
@@ -52,7 +52,7 @@
             this.labelScriptProfiles_FletchingLongbows_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_SellLoot.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_SellLoot.Location = new System.Drawing.Point(600, 273);
             this.labelScriptProfiles_FletchingLongbows_SellLoot.Name = "labelScriptProfiles_FletchingLongbows_SellLoot";
             this.labelScriptProfiles_FletchingLongbows_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -64,7 +64,7 @@
             this.labelScriptProfiles_FletchingLongbows_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_Restocking.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_Restocking.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_Restocking.Location = new System.Drawing.Point(600, 223);
             this.labelScriptProfiles_FletchingLongbows_Restocking.Name = "labelScriptProfiles_FletchingLongbows_Restocking";
             this.labelScriptProfiles_FletchingLongbows_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -76,7 +76,7 @@
             this.labelScriptProfiles_FletchingLongbows_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_WorldHopping.Location = new System.Drawing.Point(600, 323);
             this.labelScriptProfiles_FletchingLongbows_WorldHopping.Name = "labelScriptProfiles_FletchingLongbows_WorldHopping";
             this.labelScriptProfiles_FletchingLongbows_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -88,7 +88,7 @@
             this.labelScriptProfiles_FletchingLongbows_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_Antipattern.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_Antipattern.Location = new System.Drawing.Point(350, 323);
             this.labelScriptProfiles_FletchingLongbows_Antipattern.Name = "labelScriptProfiles_FletchingLongbows_Antipattern";
             this.labelScriptProfiles_FletchingLongbows_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -100,7 +100,7 @@
             this.labelScriptProfiles_FletchingLongbows_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_RenewBond.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_RenewBond.Location = new System.Drawing.Point(350, 273);
             this.labelScriptProfiles_FletchingLongbows_RenewBond.Name = "labelScriptProfiles_FletchingLongbows_RenewBond";
             this.labelScriptProfiles_FletchingLongbows_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -112,7 +112,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.Location = new System.Drawing.Point(575, 325);
             this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.Name = "checkBoxScriptProfiles_FletchingLongbows_WorldHopping";
             this.checkBoxScriptProfiles_FletchingLongbows_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -124,7 +124,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_Restocking.Location = new System.Drawing.Point(575, 225);
             this.checkBoxScriptProfiles_FletchingLongbows_Restocking.Name = "checkBoxScriptProfiles_FletchingLongbows_Restocking";
             this.checkBoxScriptProfiles_FletchingLongbows_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -136,7 +136,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.Location = new System.Drawing.Point(575, 275);
             this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.Name = "checkBoxScriptProfiles_FletchingLongbows_SellLoot";
             this.checkBoxScriptProfiles_FletchingLongbows_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -148,7 +148,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.Location = new System.Drawing.Point(325, 325);
             this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.Name = "checkBoxScriptProfiles_FletchingLongbows_Antipattern";
             this.checkBoxScriptProfiles_FletchingLongbows_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -160,7 +160,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.Location = new System.Drawing.Point(325, 275);
             this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.Name = "checkBoxScriptProfiles_FletchingLongbows_RenewBond";
             this.checkBoxScriptProfiles_FletchingLongbows_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -172,7 +172,7 @@
             this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.Location = new System.Drawing.Point(325, 225);
             this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.Name = "checkBoxScriptProfiles_FletchingLongbows_DeathHandler";
             this.checkBoxScriptProfiles_FletchingLongbows_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -184,7 +184,7 @@
             this.labelScriptProfiles_FletchingLongbows_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_DeathHandler.Location = new System.Drawing.Point(350, 223);
             this.labelScriptProfiles_FletchingLongbows_DeathHandler.Name = "labelScriptProfiles_FletchingLongbows_DeathHandler";
             this.labelScriptProfiles_FletchingLongbows_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -196,7 +196,7 @@
             this.labelScriptProfiles_FletchingLongbows_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FletchingLongbows_Title.AutoSize = true;
+            this.labelScriptProfiles_FletchingLongbows_Title.AutoSize = false;
             this.labelScriptProfiles_FletchingLongbows_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_FletchingLongbows_Title.Location = new System.Drawing.Point(425, 125);
             this.labelScriptProfiles_FletchingLongbows_Title.Name = "labelScriptProfiles_FletchingLongbows_Title";
@@ -236,7 +236,7 @@
             // formScriptProfilesFletchingLongbows
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_FighterElderChaosDruids_Header);

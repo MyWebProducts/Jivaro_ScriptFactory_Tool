@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesLegolas
     {
@@ -62,7 +62,7 @@
             this.labelScriptProfiles_Legolas_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_Legolas_SellLoot.AutoSize = false;
             this.labelScriptProfiles_Legolas_SellLoot.Location = new System.Drawing.Point(350, 448);
             this.labelScriptProfiles_Legolas_SellLoot.Name = "labelScriptProfiles_Legolas_SellLoot";
             this.labelScriptProfiles_Legolas_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -74,7 +74,7 @@
             this.labelScriptProfiles_Legolas_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_Restocking.AutoSize = true;
+            this.labelScriptProfiles_Legolas_Restocking.AutoSize = false;
             this.labelScriptProfiles_Legolas_Restocking.Location = new System.Drawing.Point(350, 398);
             this.labelScriptProfiles_Legolas_Restocking.Name = "labelScriptProfiles_Legolas_Restocking";
             this.labelScriptProfiles_Legolas_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -86,7 +86,7 @@
             this.labelScriptProfiles_Legolas_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_Legolas_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_Legolas_WorldHopping.Location = new System.Drawing.Point(350, 348);
             this.labelScriptProfiles_Legolas_WorldHopping.Name = "labelScriptProfiles_Legolas_WorldHopping";
             this.labelScriptProfiles_Legolas_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -98,7 +98,7 @@
             this.labelScriptProfiles_Legolas_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_Legolas_Antipattern.AutoSize = false;
             this.labelScriptProfiles_Legolas_Antipattern.Location = new System.Drawing.Point(350, 298);
             this.labelScriptProfiles_Legolas_Antipattern.Name = "labelScriptProfiles_Legolas_Antipattern";
             this.labelScriptProfiles_Legolas_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -110,7 +110,7 @@
             this.labelScriptProfiles_Legolas_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_Legolas_RenewBond.AutoSize = false;
             this.labelScriptProfiles_Legolas_RenewBond.Location = new System.Drawing.Point(350, 248);
             this.labelScriptProfiles_Legolas_RenewBond.Name = "labelScriptProfiles_Legolas_RenewBond";
             this.labelScriptProfiles_Legolas_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -122,7 +122,7 @@
             this.checkBoxScriptProfiles_Legolas_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_WorldHopping.Location = new System.Drawing.Point(325, 350);
             this.checkBoxScriptProfiles_Legolas_WorldHopping.Name = "checkBoxScriptProfiles_Legolas_WorldHopping";
             this.checkBoxScriptProfiles_Legolas_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -134,7 +134,7 @@
             this.checkBoxScriptProfiles_Legolas_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_Restocking.Location = new System.Drawing.Point(325, 400);
             this.checkBoxScriptProfiles_Legolas_Restocking.Name = "checkBoxScriptProfiles_Legolas_Restocking";
             this.checkBoxScriptProfiles_Legolas_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -146,7 +146,7 @@
             this.checkBoxScriptProfiles_Legolas_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_SellLoot.Location = new System.Drawing.Point(325, 450);
             this.checkBoxScriptProfiles_Legolas_SellLoot.Name = "checkBoxScriptProfiles_Legolas_SellLoot";
             this.checkBoxScriptProfiles_Legolas_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -158,7 +158,7 @@
             this.checkBoxScriptProfiles_Legolas_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_Antipattern.Location = new System.Drawing.Point(325, 300);
             this.checkBoxScriptProfiles_Legolas_Antipattern.Name = "checkBoxScriptProfiles_Legolas_Antipattern";
             this.checkBoxScriptProfiles_Legolas_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -170,7 +170,7 @@
             this.checkBoxScriptProfiles_Legolas_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_RenewBond.Location = new System.Drawing.Point(325, 250);
             this.checkBoxScriptProfiles_Legolas_RenewBond.Name = "checkBoxScriptProfiles_Legolas_RenewBond";
             this.checkBoxScriptProfiles_Legolas_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -182,7 +182,7 @@
             this.checkBoxScriptProfiles_Legolas_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_DeathHandler.Location = new System.Drawing.Point(325, 200);
             this.checkBoxScriptProfiles_Legolas_DeathHandler.Name = "checkBoxScriptProfiles_Legolas_DeathHandler";
             this.checkBoxScriptProfiles_Legolas_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -194,7 +194,7 @@
             this.labelScriptProfiles_Legolas_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_Legolas_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_Legolas_DeathHandler.Location = new System.Drawing.Point(350, 198);
             this.labelScriptProfiles_Legolas_DeathHandler.Name = "labelScriptProfiles_Legolas_DeathHandler";
             this.labelScriptProfiles_Legolas_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -206,7 +206,7 @@
             this.labelScriptProfiles_Legolas_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_Title.AutoSize = true;
+            this.labelScriptProfiles_Legolas_Title.AutoSize = false;
             this.labelScriptProfiles_Legolas_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_Legolas_Title.Location = new System.Drawing.Point(415, 115);
             this.labelScriptProfiles_Legolas_Title.Name = "labelScriptProfiles_Legolas_Title";
@@ -275,7 +275,7 @@
             this.labelScriptProfiles_Legolas_SelectNPC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_SelectNPC.AutoSize = true;
+            this.labelScriptProfiles_Legolas_SelectNPC.AutoSize = false;
             this.labelScriptProfiles_Legolas_SelectNPC.Location = new System.Drawing.Point(575, 198);
             this.labelScriptProfiles_Legolas_SelectNPC.Name = "labelScriptProfiles_Legolas_SelectNPC";
             this.labelScriptProfiles_Legolas_SelectNPC.Size = new System.Drawing.Size(84, 17);
@@ -287,7 +287,7 @@
             this.labelScriptProfiles_Legolas_FightBryophyta.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_FightBryophyta.AutoSize = true;
+            this.labelScriptProfiles_Legolas_FightBryophyta.AutoSize = false;
             this.labelScriptProfiles_Legolas_FightBryophyta.Location = new System.Drawing.Point(600, 448);
             this.labelScriptProfiles_Legolas_FightBryophyta.Name = "labelScriptProfiles_Legolas_FightBryophyta";
             this.labelScriptProfiles_Legolas_FightBryophyta.Size = new System.Drawing.Size(237, 17);
@@ -299,7 +299,7 @@
             this.labelScriptProfiles_Legolas_LongRangeMode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_LongRangeMode.AutoSize = true;
+            this.labelScriptProfiles_Legolas_LongRangeMode.AutoSize = false;
             this.labelScriptProfiles_Legolas_LongRangeMode.Location = new System.Drawing.Point(600, 398);
             this.labelScriptProfiles_Legolas_LongRangeMode.Name = "labelScriptProfiles_Legolas_LongRangeMode";
             this.labelScriptProfiles_Legolas_LongRangeMode.Size = new System.Drawing.Size(126, 17);
@@ -311,7 +311,7 @@
             this.labelScriptProfiles_Legolas_DontLootArrows.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_DontLootArrows.AutoSize = true;
+            this.labelScriptProfiles_Legolas_DontLootArrows.AutoSize = false;
             this.labelScriptProfiles_Legolas_DontLootArrows.Location = new System.Drawing.Point(600, 348);
             this.labelScriptProfiles_Legolas_DontLootArrows.Name = "labelScriptProfiles_Legolas_DontLootArrows";
             this.labelScriptProfiles_Legolas_DontLootArrows.Size = new System.Drawing.Size(123, 17);
@@ -323,7 +323,7 @@
             this.checkBoxScriptProfiles_Legolas_FightBryophyta.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_FightBryophyta.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_FightBryophyta.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_FightBryophyta.Location = new System.Drawing.Point(575, 450);
             this.checkBoxScriptProfiles_Legolas_FightBryophyta.Name = "checkBoxScriptProfiles_Legolas_FightBryophyta";
             this.checkBoxScriptProfiles_Legolas_FightBryophyta.Size = new System.Drawing.Size(15, 14);
@@ -335,7 +335,7 @@
             this.checkBoxScriptProfiles_Legolas_LongRangeMode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_LongRangeMode.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_LongRangeMode.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_LongRangeMode.Location = new System.Drawing.Point(575, 400);
             this.checkBoxScriptProfiles_Legolas_LongRangeMode.Name = "checkBoxScriptProfiles_Legolas_LongRangeMode";
             this.checkBoxScriptProfiles_Legolas_LongRangeMode.Size = new System.Drawing.Size(15, 14);
@@ -347,7 +347,7 @@
             this.checkBoxScriptProfiles_Legolas_DontLootArrows.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_DontLootArrows.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_DontLootArrows.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_DontLootArrows.Location = new System.Drawing.Point(575, 350);
             this.checkBoxScriptProfiles_Legolas_DontLootArrows.Name = "checkBoxScriptProfiles_Legolas_DontLootArrows";
             this.checkBoxScriptProfiles_Legolas_DontLootArrows.Size = new System.Drawing.Size(15, 14);
@@ -359,7 +359,7 @@
             this.checkBoxScriptProfiles_Legolas_BuryBigBones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Legolas_BuryBigBones.AutoSize = true;
+            this.checkBoxScriptProfiles_Legolas_BuryBigBones.AutoSize = false;
             this.checkBoxScriptProfiles_Legolas_BuryBigBones.Location = new System.Drawing.Point(575, 300);
             this.checkBoxScriptProfiles_Legolas_BuryBigBones.Name = "checkBoxScriptProfiles_Legolas_BuryBigBones";
             this.checkBoxScriptProfiles_Legolas_BuryBigBones.Size = new System.Drawing.Size(15, 14);
@@ -371,7 +371,7 @@
             this.labelScriptProfiles_Legolas_BuryBigBones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Legolas_BuryBigBones.AutoSize = true;
+            this.labelScriptProfiles_Legolas_BuryBigBones.AutoSize = false;
             this.labelScriptProfiles_Legolas_BuryBigBones.Location = new System.Drawing.Point(600, 298);
             this.labelScriptProfiles_Legolas_BuryBigBones.Name = "labelScriptProfiles_Legolas_BuryBigBones";
             this.labelScriptProfiles_Legolas_BuryBigBones.Size = new System.Drawing.Size(109, 17);
@@ -381,7 +381,7 @@
             // formScriptProfilesLegolas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_Legolas_FightBryophyta);

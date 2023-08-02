@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesGandalf
     {
@@ -60,7 +60,7 @@
             this.labelScriptProfiles_Gandalf_LavaDragonsArea.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_LavaDragonsArea.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_LavaDragonsArea.AutoSize = false;
             this.labelScriptProfiles_Gandalf_LavaDragonsArea.Location = new System.Drawing.Point(500, 298);
             this.labelScriptProfiles_Gandalf_LavaDragonsArea.Name = "labelScriptProfiles_Gandalf_LavaDragonsArea";
             this.labelScriptProfiles_Gandalf_LavaDragonsArea.Size = new System.Drawing.Size(132, 17);
@@ -97,7 +97,7 @@
             this.labelScriptProfiles_Gandalf_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_SellLoot.AutoSize = false;
             this.labelScriptProfiles_Gandalf_SellLoot.Location = new System.Drawing.Point(278, 448);
             this.labelScriptProfiles_Gandalf_SellLoot.Name = "labelScriptProfiles_Gandalf_SellLoot";
             this.labelScriptProfiles_Gandalf_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -109,7 +109,7 @@
             this.labelScriptProfiles_Gandalf_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_Restocking.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_Restocking.AutoSize = false;
             this.labelScriptProfiles_Gandalf_Restocking.Location = new System.Drawing.Point(278, 398);
             this.labelScriptProfiles_Gandalf_Restocking.Name = "labelScriptProfiles_Gandalf_Restocking";
             this.labelScriptProfiles_Gandalf_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -121,7 +121,7 @@
             this.labelScriptProfiles_Gandalf_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_Gandalf_WorldHopping.Location = new System.Drawing.Point(278, 348);
             this.labelScriptProfiles_Gandalf_WorldHopping.Name = "labelScriptProfiles_Gandalf_WorldHopping";
             this.labelScriptProfiles_Gandalf_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -133,7 +133,7 @@
             this.labelScriptProfiles_Gandalf_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_Antipattern.AutoSize = false;
             this.labelScriptProfiles_Gandalf_Antipattern.Location = new System.Drawing.Point(278, 298);
             this.labelScriptProfiles_Gandalf_Antipattern.Name = "labelScriptProfiles_Gandalf_Antipattern";
             this.labelScriptProfiles_Gandalf_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -145,7 +145,7 @@
             this.labelScriptProfiles_Gandalf_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_RenewBond.AutoSize = false;
             this.labelScriptProfiles_Gandalf_RenewBond.Location = new System.Drawing.Point(278, 248);
             this.labelScriptProfiles_Gandalf_RenewBond.Name = "labelScriptProfiles_Gandalf_RenewBond";
             this.labelScriptProfiles_Gandalf_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -157,7 +157,7 @@
             this.checkBoxScriptProfiles_Gandalf_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_WorldHopping.Location = new System.Drawing.Point(256, 350);
             this.checkBoxScriptProfiles_Gandalf_WorldHopping.Name = "checkBoxScriptProfiles_Gandalf_WorldHopping";
             this.checkBoxScriptProfiles_Gandalf_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -169,7 +169,7 @@
             this.checkBoxScriptProfiles_Gandalf_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_Restocking.Location = new System.Drawing.Point(256, 400);
             this.checkBoxScriptProfiles_Gandalf_Restocking.Name = "checkBoxScriptProfiles_Gandalf_Restocking";
             this.checkBoxScriptProfiles_Gandalf_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -181,7 +181,7 @@
             this.checkBoxScriptProfiles_Gandalf_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_SellLoot.Location = new System.Drawing.Point(256, 450);
             this.checkBoxScriptProfiles_Gandalf_SellLoot.Name = "checkBoxScriptProfiles_Gandalf_SellLoot";
             this.checkBoxScriptProfiles_Gandalf_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -193,7 +193,7 @@
             this.checkBoxScriptProfiles_Gandalf_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_Antipattern.Location = new System.Drawing.Point(256, 300);
             this.checkBoxScriptProfiles_Gandalf_Antipattern.Name = "checkBoxScriptProfiles_Gandalf_Antipattern";
             this.checkBoxScriptProfiles_Gandalf_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -205,7 +205,7 @@
             this.checkBoxScriptProfiles_Gandalf_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_RenewBond.Location = new System.Drawing.Point(256, 250);
             this.checkBoxScriptProfiles_Gandalf_RenewBond.Name = "checkBoxScriptProfiles_Gandalf_RenewBond";
             this.checkBoxScriptProfiles_Gandalf_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -217,7 +217,7 @@
             this.checkBoxScriptProfiles_Gandalf_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_DeathHandler.Location = new System.Drawing.Point(256, 200);
             this.checkBoxScriptProfiles_Gandalf_DeathHandler.Name = "checkBoxScriptProfiles_Gandalf_DeathHandler";
             this.checkBoxScriptProfiles_Gandalf_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -229,7 +229,7 @@
             this.labelScriptProfiles_Gandalf_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_Gandalf_DeathHandler.Location = new System.Drawing.Point(278, 198);
             this.labelScriptProfiles_Gandalf_DeathHandler.Name = "labelScriptProfiles_Gandalf_DeathHandler";
             this.labelScriptProfiles_Gandalf_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -241,7 +241,7 @@
             this.labelScriptProfiles_Gandalf_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_Title.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_Title.AutoSize = false;
             this.labelScriptProfiles_Gandalf_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_Gandalf_Title.Location = new System.Drawing.Point(413, 111);
             this.labelScriptProfiles_Gandalf_Title.Name = "labelScriptProfiles_Gandalf_Title";
@@ -271,7 +271,7 @@
             this.labelScriptProfiles_Gandalf_SelectMode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_SelectMode.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_SelectMode.AutoSize = false;
             this.labelScriptProfiles_Gandalf_SelectMode.Location = new System.Drawing.Point(500, 198);
             this.labelScriptProfiles_Gandalf_SelectMode.Name = "labelScriptProfiles_Gandalf_SelectMode";
             this.labelScriptProfiles_Gandalf_SelectMode.Size = new System.Drawing.Size(88, 17);
@@ -322,7 +322,7 @@
             this.labelScriptProfiles_Gandalf_UseFireBolt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_UseFireBolt.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_UseFireBolt.AutoSize = false;
             this.labelScriptProfiles_Gandalf_UseFireBolt.Location = new System.Drawing.Point(524, 398);
             this.labelScriptProfiles_Gandalf_UseFireBolt.Name = "labelScriptProfiles_Gandalf_UseFireBolt";
             this.labelScriptProfiles_Gandalf_UseFireBolt.Size = new System.Drawing.Size(92, 17);
@@ -334,7 +334,7 @@
             this.checkBoxScriptProfiles_Gandalf_UseFireBolt.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_UseFireBolt.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_UseFireBolt.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_UseFireBolt.Location = new System.Drawing.Point(500, 400);
             this.checkBoxScriptProfiles_Gandalf_UseFireBolt.Name = "checkBoxScriptProfiles_Gandalf_UseFireBolt";
             this.checkBoxScriptProfiles_Gandalf_UseFireBolt.Size = new System.Drawing.Size(15, 14);
@@ -346,7 +346,7 @@
             this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.AutoSize = true;
+            this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.AutoSize = false;
             this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Location = new System.Drawing.Point(522, 446);
             this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Name = "labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled";
             this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Size = new System.Drawing.Size(207, 17);
@@ -358,7 +358,7 @@
             this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.AutoSize = true;
+            this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.AutoSize = false;
             this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Location = new System.Drawing.Point(500, 448);
             this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Name = "checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled";
             this.checkBoxScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled.Size = new System.Drawing.Size(15, 14);
@@ -368,7 +368,7 @@
             // formScriptProfilesGandalf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_Gandalf_HopWorldsIfPlayerIsSkulled);

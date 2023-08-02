@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formMainForm
     {
@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMainForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -45,15 +46,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelDashboard = new System.Windows.Forms.Panel();
+            this.labelScriptFactory_Header = new System.Windows.Forms.Label();
             this.dataGridViewDashboard_Bots = new System.Windows.Forms.DataGridView();
             this.buttonDashboard_AddBot = new System.Windows.Forms.Button();
             this.buttonDashboard_Save = new System.Windows.Forms.Button();
-            this.pictureBoxBannerDashboard = new System.Windows.Forms.PictureBox();
             this.buttonDashboard_LaunchOsbot = new System.Windows.Forms.Button();
-            this.buttonDashboard_UpdateScriptsMonthly = new System.Windows.Forms.Button();
-            this.buttonDashboard_UpdateScriptsLifetime = new System.Windows.Forms.Button();
+            this.buttonDashboard_DeleteBot = new System.Windows.Forms.Button();
+            this.buttonDashboard_UpdateScripts = new System.Windows.Forms.Button();
             this.panelBreakProfiles = new System.Windows.Forms.Panel();
-            this.pictureBoxBannerBreakProfiles = new System.Windows.Forms.PictureBox();
+            this.labelBreakProfiles_Header = new System.Windows.Forms.Label();
             this.labelEnableSleepBreaks = new System.Windows.Forms.Label();
             this.labelEnableBreaks = new System.Windows.Forms.Label();
             this.labelSleepTimeVariationPercentage = new System.Windows.Forms.Label();
@@ -84,21 +85,23 @@
             this.textBoxBreakProfiles_BotTime = new System.Windows.Forms.TextBox();
             this.checkBoxBreakProfiles_EnableSleepBreaks = new System.Windows.Forms.CheckBox();
             this.checkBoxBreakProfiles_EnableBreaks = new System.Windows.Forms.CheckBox();
-            this.buttonNavBreakProfiles = new System.Windows.Forms.Button();
-            this.buttonNavDashboard = new System.Windows.Forms.Button();
-            this.buttonNavScriptProfiles = new System.Windows.Forms.Button();
-            this.buttonNavSettings = new System.Windows.Forms.Button();
-            this.buttonHomeFunctionJp = new System.Windows.Forms.Button();
+            this.buttonNav_BreakProfiles = new System.Windows.Forms.Button();
+            this.buttonNav_Dashboard = new System.Windows.Forms.Button();
+            this.buttonNav_ScriptProfiles = new System.Windows.Forms.Button();
+            this.buttonNav_Settings = new System.Windows.Forms.Button();
+            this.pictureBoxNav_Home = new System.Windows.Forms.Button();
             this.panelScriptProfiles = new System.Windows.Forms.Panel();
+            this.labelScriptProfiles_Header = new System.Windows.Forms.Label();
             this.linkLabelScriptProfilesWebpage = new System.Windows.Forms.LinkLabel();
             this.labelScriptProfiles_Explanation5 = new System.Windows.Forms.Label();
             this.labelScriptProfiles_Explanation4 = new System.Windows.Forms.Label();
             this.labelScriptProfiles_Explanation2 = new System.Windows.Forms.Label();
             this.labelScriptProfiles_Explanation1 = new System.Windows.Forms.Label();
             this.labelScriptProfiles_SelectScript = new System.Windows.Forms.Label();
-            this.pictureBoxScriptProfiles_Header = new System.Windows.Forms.PictureBox();
             this.comboBoxScriptProfiles_SelectScript = new System.Windows.Forms.ComboBox();
             this.panelAccountsAndSettings = new System.Windows.Forms.Panel();
+            this.labelSettings_Header = new System.Windows.Forms.Label();
+            this.buttonSettings_CreateOSRSAccount = new System.Windows.Forms.Button();
             this.buttonSettings_BuyProxies = new System.Windows.Forms.Button();
             this.buttonSettings_BottingGuide = new System.Windows.Forms.Button();
             this.buttonSettings_JoinDiscord = new System.Windows.Forms.Button();
@@ -119,8 +122,19 @@
             this.buttonSettings_InstallSandboxie = new System.Windows.Forms.Button();
             this.buttonSettings_InstallProxifier = new System.Windows.Forms.Button();
             this.labelSettings_LoggedUsername = new System.Windows.Forms.Label();
-            this.pictureBoxSettings_Header = new System.Windows.Forms.PictureBox();
             this.Column1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.buttonNav_OSBotManager = new System.Windows.Forms.Button();
+            this.buttonNav_TRiBotManager = new System.Windows.Forms.Button();
+            this.buttonNav_DreamBotManager = new System.Windows.Forms.Button();
+            this.panelOSBotManager = new System.Windows.Forms.Panel();
+            this.labelOSBotManager_Header = new System.Windows.Forms.Label();
+            this.labelOSBotManager_UnderDevelopment = new System.Windows.Forms.Label();
+            this.panelDreamBotManager = new System.Windows.Forms.Panel();
+            this.labelDreamBotManager_Header = new System.Windows.Forms.Label();
+            this.labelDreamBotManager_UnderDevelopment = new System.Windows.Forms.Label();
+            this.panelTRiBotManager = new System.Windows.Forms.Panel();
+            this.labelTRiBotManager_Header = new System.Windows.Forms.Label();
+            this.labelTRiBotManager_UnderDevelopment = new System.Windows.Forms.Label();
             this.dataGridViewDashboard_Account = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewDashboard_Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewDashboard_Pin = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -132,15 +146,15 @@
             this.dataGridViewDashboard_NewMouse = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewDashboard_Sandboxie = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewDashboard_Run = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.dataGridViewDashboard_SandboxieNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelDashboard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDashboard_Bots)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBannerDashboard)).BeginInit();
             this.panelBreakProfiles.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBannerBreakProfiles)).BeginInit();
             this.panelScriptProfiles.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScriptProfiles_Header)).BeginInit();
             this.panelAccountsAndSettings.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSettings_Header)).BeginInit();
+            this.panelOSBotManager.SuspendLayout();
+            this.panelDreamBotManager.SuspendLayout();
+            this.panelTRiBotManager.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelDashboard
@@ -150,13 +164,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelDashboard.BackColor = System.Drawing.Color.Transparent;
             this.panelDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelDashboard.Controls.Add(this.labelScriptFactory_Header);
             this.panelDashboard.Controls.Add(this.dataGridViewDashboard_Bots);
             this.panelDashboard.Controls.Add(this.buttonDashboard_AddBot);
             this.panelDashboard.Controls.Add(this.buttonDashboard_Save);
-            this.panelDashboard.Controls.Add(this.pictureBoxBannerDashboard);
             this.panelDashboard.Controls.Add(this.buttonDashboard_LaunchOsbot);
-            this.panelDashboard.Controls.Add(this.buttonDashboard_UpdateScriptsMonthly);
-            this.panelDashboard.Controls.Add(this.buttonDashboard_UpdateScriptsLifetime);
+            this.panelDashboard.Controls.Add(this.buttonDashboard_DeleteBot);
+            this.panelDashboard.Controls.Add(this.buttonDashboard_UpdateScripts);
             this.panelDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panelDashboard.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.panelDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -164,6 +178,20 @@
             this.panelDashboard.Name = "panelDashboard";
             this.panelDashboard.Size = new System.Drawing.Size(1030, 680);
             this.panelDashboard.TabIndex = 0;
+            // 
+            // labelScriptFactory_Header
+            // 
+            this.labelScriptFactory_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelScriptFactory_Header.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelScriptFactory_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelScriptFactory_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelScriptFactory_Header.Name = "labelScriptFactory_Header";
+            this.labelScriptFactory_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelScriptFactory_Header.TabIndex = 35;
+            this.labelScriptFactory_Header.Text = "Script Factory";
+            this.labelScriptFactory_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dataGridViewDashboard_Bots
             // 
@@ -173,7 +201,7 @@
             this.dataGridViewDashboard_Bots.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -187,7 +215,7 @@
             this.dataGridViewDashboard_Bots.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -205,21 +233,30 @@
             this.dataGridViewDashboard_Mode,
             this.dataGridViewDashboard_NewMouse,
             this.dataGridViewDashboard_Sandboxie,
-            this.dataGridViewDashboard_Run});
+            this.dataGridViewDashboard_Run,
+            this.dataGridViewDashboard_SandboxieNumber});
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewDashboard_Bots.DefaultCellStyle = dataGridViewCellStyle13;
             this.dataGridViewDashboard_Bots.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridViewDashboard_Bots.EnableHeadersVisualStyles = false;
             this.dataGridViewDashboard_Bots.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(58)))));
             this.dataGridViewDashboard_Bots.Location = new System.Drawing.Point(10, 50);
             this.dataGridViewDashboard_Bots.MultiSelect = false;
             this.dataGridViewDashboard_Bots.Name = "dataGridViewDashboard_Bots";
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewDashboard_Bots.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewDashboard_Bots.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridViewDashboard_Bots.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dataGridViewDashboard_Bots.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.dataGridViewDashboard_Bots.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -262,23 +299,13 @@
             this.buttonDashboard_Save.FlatAppearance.BorderSize = 0;
             this.buttonDashboard_Save.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.buttonDashboard_Save.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonDashboard_Save.Location = new System.Drawing.Point(440, 570);
+            this.buttonDashboard_Save.Location = new System.Drawing.Point(840, 570);
             this.buttonDashboard_Save.Name = "buttonDashboard_Save";
             this.buttonDashboard_Save.Size = new System.Drawing.Size(160, 90);
             this.buttonDashboard_Save.TabIndex = 32;
             this.buttonDashboard_Save.Text = "Save";
             this.buttonDashboard_Save.UseVisualStyleBackColor = false;
             this.buttonDashboard_Save.Click += new System.EventHandler(this.buttonDashboard_Save_Click);
-            // 
-            // pictureBoxBannerDashboard
-            // 
-            this.pictureBoxBannerDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxBannerDashboard.BackgroundImage")));
-            this.pictureBoxBannerDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxBannerDashboard.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxBannerDashboard.Name = "pictureBoxBannerDashboard";
-            this.pictureBoxBannerDashboard.Size = new System.Drawing.Size(1030, 50);
-            this.pictureBoxBannerDashboard.TabIndex = 18;
-            this.pictureBoxBannerDashboard.TabStop = false;
             // 
             // buttonDashboard_LaunchOsbot
             // 
@@ -298,41 +325,41 @@
             this.buttonDashboard_LaunchOsbot.UseVisualStyleBackColor = false;
             this.buttonDashboard_LaunchOsbot.Click += new System.EventHandler(this.buttonDashboard_LaunchOsbot_Click);
             // 
-            // buttonDashboard_UpdateScriptsMonthly
+            // buttonDashboard_DeleteBot
             // 
-            this.buttonDashboard_UpdateScriptsMonthly.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonDashboard_DeleteBot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonDashboard_UpdateScriptsMonthly.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.buttonDashboard_UpdateScriptsMonthly.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonDashboard_UpdateScriptsMonthly.FlatAppearance.BorderSize = 0;
-            this.buttonDashboard_UpdateScriptsMonthly.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonDashboard_UpdateScriptsMonthly.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonDashboard_UpdateScriptsMonthly.Location = new System.Drawing.Point(840, 570);
-            this.buttonDashboard_UpdateScriptsMonthly.Name = "buttonDashboard_UpdateScriptsMonthly";
-            this.buttonDashboard_UpdateScriptsMonthly.Size = new System.Drawing.Size(160, 90);
-            this.buttonDashboard_UpdateScriptsMonthly.TabIndex = 6;
-            this.buttonDashboard_UpdateScriptsMonthly.Text = "Update Scripts: Monthly";
-            this.buttonDashboard_UpdateScriptsMonthly.UseVisualStyleBackColor = false;
-            this.buttonDashboard_UpdateScriptsMonthly.Click += new System.EventHandler(this.buttonDashboard_UpdateScriptsMonthly_Click);
+            this.buttonDashboard_DeleteBot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.buttonDashboard_DeleteBot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonDashboard_DeleteBot.FlatAppearance.BorderSize = 0;
+            this.buttonDashboard_DeleteBot.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonDashboard_DeleteBot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonDashboard_DeleteBot.Location = new System.Drawing.Point(440, 570);
+            this.buttonDashboard_DeleteBot.Name = "buttonDashboard_DeleteBot";
+            this.buttonDashboard_DeleteBot.Size = new System.Drawing.Size(160, 90);
+            this.buttonDashboard_DeleteBot.TabIndex = 6;
+            this.buttonDashboard_DeleteBot.Text = "Delete Bot";
+            this.buttonDashboard_DeleteBot.UseVisualStyleBackColor = false;
+            this.buttonDashboard_DeleteBot.Click += new System.EventHandler(this.buttonDashboard_DeleteBot_Click);
             // 
-            // buttonDashboard_UpdateScriptsLifetime
+            // buttonDashboard_UpdateScripts
             // 
-            this.buttonDashboard_UpdateScriptsLifetime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonDashboard_UpdateScripts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonDashboard_UpdateScriptsLifetime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.buttonDashboard_UpdateScriptsLifetime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonDashboard_UpdateScriptsLifetime.FlatAppearance.BorderSize = 0;
-            this.buttonDashboard_UpdateScriptsLifetime.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonDashboard_UpdateScriptsLifetime.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonDashboard_UpdateScriptsLifetime.Location = new System.Drawing.Point(640, 570);
-            this.buttonDashboard_UpdateScriptsLifetime.Name = "buttonDashboard_UpdateScriptsLifetime";
-            this.buttonDashboard_UpdateScriptsLifetime.Size = new System.Drawing.Size(160, 90);
-            this.buttonDashboard_UpdateScriptsLifetime.TabIndex = 5;
-            this.buttonDashboard_UpdateScriptsLifetime.Text = "Update Scripts: Lifetime";
-            this.buttonDashboard_UpdateScriptsLifetime.UseVisualStyleBackColor = false;
-            this.buttonDashboard_UpdateScriptsLifetime.Click += new System.EventHandler(this.buttonDashboard_UpdateScriptsLifetime_Click);
+            this.buttonDashboard_UpdateScripts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.buttonDashboard_UpdateScripts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonDashboard_UpdateScripts.FlatAppearance.BorderSize = 0;
+            this.buttonDashboard_UpdateScripts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonDashboard_UpdateScripts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonDashboard_UpdateScripts.Location = new System.Drawing.Point(640, 570);
+            this.buttonDashboard_UpdateScripts.Name = "buttonDashboard_UpdateScripts";
+            this.buttonDashboard_UpdateScripts.Size = new System.Drawing.Size(160, 90);
+            this.buttonDashboard_UpdateScripts.TabIndex = 5;
+            this.buttonDashboard_UpdateScripts.Text = "Update Scripts";
+            this.buttonDashboard_UpdateScripts.UseVisualStyleBackColor = false;
+            this.buttonDashboard_UpdateScripts.Click += new System.EventHandler(this.buttonDashboard_UpdateScriptsLifetime_Click);
             // 
             // panelBreakProfiles
             // 
@@ -341,7 +368,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBreakProfiles.BackColor = System.Drawing.Color.Transparent;
             this.panelBreakProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelBreakProfiles.Controls.Add(this.pictureBoxBannerBreakProfiles);
+            this.panelBreakProfiles.Controls.Add(this.labelBreakProfiles_Header);
             this.panelBreakProfiles.Controls.Add(this.labelEnableSleepBreaks);
             this.panelBreakProfiles.Controls.Add(this.labelEnableBreaks);
             this.panelBreakProfiles.Controls.Add(this.labelSleepTimeVariationPercentage);
@@ -372,31 +399,32 @@
             this.panelBreakProfiles.Controls.Add(this.textBoxBreakProfiles_BotTime);
             this.panelBreakProfiles.Controls.Add(this.checkBoxBreakProfiles_EnableSleepBreaks);
             this.panelBreakProfiles.Controls.Add(this.checkBoxBreakProfiles_EnableBreaks);
+            this.panelBreakProfiles.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.panelBreakProfiles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panelBreakProfiles.Location = new System.Drawing.Point(230, 0);
             this.panelBreakProfiles.Name = "panelBreakProfiles";
             this.panelBreakProfiles.Size = new System.Drawing.Size(1030, 680);
             this.panelBreakProfiles.TabIndex = 14;
             this.panelBreakProfiles.Visible = false;
             // 
-            // pictureBoxBannerBreakProfiles
+            // labelBreakProfiles_Header
             // 
-            this.pictureBoxBannerBreakProfiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.labelBreakProfiles_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxBannerBreakProfiles.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxBannerBreakProfiles.BackgroundImage")));
-            this.pictureBoxBannerBreakProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxBannerBreakProfiles.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxBannerBreakProfiles.Name = "pictureBoxBannerBreakProfiles";
-            this.pictureBoxBannerBreakProfiles.Size = new System.Drawing.Size(1027, 50);
-            this.pictureBoxBannerBreakProfiles.TabIndex = 42;
-            this.pictureBoxBannerBreakProfiles.TabStop = false;
+            this.labelBreakProfiles_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelBreakProfiles_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelBreakProfiles_Header.Name = "labelBreakProfiles_Header";
+            this.labelBreakProfiles_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelBreakProfiles_Header.TabIndex = 42;
+            this.labelBreakProfiles_Header.Text = "Break Profiles";
+            this.labelBreakProfiles_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelEnableSleepBreaks
             // 
             this.labelEnableSleepBreaks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelEnableSleepBreaks.AutoSize = true;
             this.labelEnableSleepBreaks.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelEnableSleepBreaks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelEnableSleepBreaks.Location = new System.Drawing.Point(564, 171);
@@ -410,7 +438,6 @@
             this.labelEnableBreaks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelEnableBreaks.AutoSize = true;
             this.labelEnableBreaks.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelEnableBreaks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelEnableBreaks.Location = new System.Drawing.Point(114, 171);
@@ -424,7 +451,6 @@
             this.labelSleepTimeVariationPercentage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSleepTimeVariationPercentage.AutoSize = true;
             this.labelSleepTimeVariationPercentage.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSleepTimeVariationPercentage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelSleepTimeVariationPercentage.Location = new System.Drawing.Point(860, 396);
@@ -438,7 +464,6 @@
             this.labelTimeUntilSleepVariationMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTimeUntilSleepVariationMinutes.AutoSize = true;
             this.labelTimeUntilSleepVariationMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTimeUntilSleepVariationMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelTimeUntilSleepVariationMinutes.Location = new System.Drawing.Point(860, 296);
@@ -452,7 +477,6 @@
             this.labelSleepTimeMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSleepTimeMinutes.AutoSize = true;
             this.labelSleepTimeMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSleepTimeMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelSleepTimeMinutes.Location = new System.Drawing.Point(860, 346);
@@ -466,7 +490,6 @@
             this.labelTimeUntilSleepMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTimeUntilSleepMinutes.AutoSize = true;
             this.labelTimeUntilSleepMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTimeUntilSleepMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelTimeUntilSleepMinutes.Location = new System.Drawing.Point(860, 246);
@@ -487,7 +510,7 @@
             this.textBoxBreakProfiles_TimeUntilSleep.Location = new System.Drawing.Point(775, 243);
             this.textBoxBreakProfiles_TimeUntilSleep.Name = "textBoxBreakProfiles_TimeUntilSleep";
             this.textBoxBreakProfiles_TimeUntilSleep.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_TimeUntilSleep.TabIndex = 35;
+            this.textBoxBreakProfiles_TimeUntilSleep.TabIndex = 5;
             this.textBoxBreakProfiles_TimeUntilSleep.Text = "600";
             this.textBoxBreakProfiles_TimeUntilSleep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_TimeUntilSleep.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -504,7 +527,7 @@
             this.textBoxBreakProfiles_TimeUntilSleepVariation.Location = new System.Drawing.Point(775, 293);
             this.textBoxBreakProfiles_TimeUntilSleepVariation.Name = "textBoxBreakProfiles_TimeUntilSleepVariation";
             this.textBoxBreakProfiles_TimeUntilSleepVariation.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_TimeUntilSleepVariation.TabIndex = 34;
+            this.textBoxBreakProfiles_TimeUntilSleepVariation.TabIndex = 6;
             this.textBoxBreakProfiles_TimeUntilSleepVariation.Text = "60";
             this.textBoxBreakProfiles_TimeUntilSleepVariation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_TimeUntilSleepVariation.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -521,7 +544,7 @@
             this.textBoxBreakProfiles_SleepTime.Location = new System.Drawing.Point(775, 343);
             this.textBoxBreakProfiles_SleepTime.Name = "textBoxBreakProfiles_SleepTime";
             this.textBoxBreakProfiles_SleepTime.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_SleepTime.TabIndex = 33;
+            this.textBoxBreakProfiles_SleepTime.TabIndex = 7;
             this.textBoxBreakProfiles_SleepTime.Text = "480";
             this.textBoxBreakProfiles_SleepTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_SleepTime.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -538,7 +561,7 @@
             this.textBoxBreakProfiles_SleepTimeVariation.Location = new System.Drawing.Point(775, 393);
             this.textBoxBreakProfiles_SleepTimeVariation.Name = "textBoxBreakProfiles_SleepTimeVariation";
             this.textBoxBreakProfiles_SleepTimeVariation.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_SleepTimeVariation.TabIndex = 32;
+            this.textBoxBreakProfiles_SleepTimeVariation.TabIndex = 8;
             this.textBoxBreakProfiles_SleepTimeVariation.Text = "25";
             this.textBoxBreakProfiles_SleepTimeVariation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumber_SetLimitTo99_KeyPress);
             this.textBoxBreakProfiles_SleepTimeVariation.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -548,8 +571,7 @@
             this.labelSleepTimeVariation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSleepTimeVariation.AutoSize = true;
-            this.labelSleepTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelSleepTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSleepTimeVariation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelSleepTimeVariation.Location = new System.Drawing.Point(550, 400);
             this.labelSleepTimeVariation.Name = "labelSleepTimeVariation";
@@ -562,8 +584,7 @@
             this.labelSleepTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSleepTime.AutoSize = true;
-            this.labelSleepTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelSleepTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSleepTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelSleepTime.Location = new System.Drawing.Point(550, 350);
             this.labelSleepTime.Name = "labelSleepTime";
@@ -576,8 +597,7 @@
             this.labelTimeUntilSleepVariation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTimeUntilSleepVariation.AutoSize = true;
-            this.labelTimeUntilSleepVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTimeUntilSleepVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTimeUntilSleepVariation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelTimeUntilSleepVariation.Location = new System.Drawing.Point(550, 300);
             this.labelTimeUntilSleepVariation.Name = "labelTimeUntilSleepVariation";
@@ -590,8 +610,7 @@
             this.labelTimeUntilSleep.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTimeUntilSleep.AutoSize = true;
-            this.labelTimeUntilSleep.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTimeUntilSleep.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTimeUntilSleep.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelTimeUntilSleep.Location = new System.Drawing.Point(550, 250);
             this.labelTimeUntilSleep.Name = "labelTimeUntilSleep";
@@ -663,7 +682,6 @@
             this.labelBreakTimePercentage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBreakTimePercentage.AutoSize = true;
             this.labelBreakTimePercentage.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBreakTimePercentage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBreakTimePercentage.Location = new System.Drawing.Point(410, 396);
@@ -677,7 +695,6 @@
             this.labelBreakTImeMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBreakTImeMinutes.AutoSize = true;
             this.labelBreakTImeMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBreakTImeMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBreakTImeMinutes.Location = new System.Drawing.Point(410, 346);
@@ -698,7 +715,7 @@
             this.textBoxBreakProfiles_BreakTimeVariation.Location = new System.Drawing.Point(325, 393);
             this.textBoxBreakProfiles_BreakTimeVariation.Name = "textBoxBreakProfiles_BreakTimeVariation";
             this.textBoxBreakProfiles_BreakTimeVariation.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_BreakTimeVariation.TabIndex = 23;
+            this.textBoxBreakProfiles_BreakTimeVariation.TabIndex = 4;
             this.textBoxBreakProfiles_BreakTimeVariation.Text = "25";
             this.textBoxBreakProfiles_BreakTimeVariation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumber_SetLimitTo99_KeyPress);
             this.textBoxBreakProfiles_BreakTimeVariation.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -715,7 +732,7 @@
             this.textBoxBreakProfiles_BreakTime.Location = new System.Drawing.Point(325, 343);
             this.textBoxBreakProfiles_BreakTime.Name = "textBoxBreakProfiles_BreakTime";
             this.textBoxBreakProfiles_BreakTime.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_BreakTime.TabIndex = 22;
+            this.textBoxBreakProfiles_BreakTime.TabIndex = 3;
             this.textBoxBreakProfiles_BreakTime.Text = "30";
             this.textBoxBreakProfiles_BreakTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_BreakTime.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -725,8 +742,7 @@
             this.labelBreakTimeVariation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBreakTimeVariation.AutoSize = true;
-            this.labelBreakTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBreakTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBreakTimeVariation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBreakTimeVariation.Location = new System.Drawing.Point(100, 400);
             this.labelBreakTimeVariation.Name = "labelBreakTimeVariation";
@@ -739,8 +755,7 @@
             this.labelBreakTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBreakTime.AutoSize = true;
-            this.labelBreakTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBreakTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBreakTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBreakTime.Location = new System.Drawing.Point(100, 350);
             this.labelBreakTime.Name = "labelBreakTime";
@@ -753,7 +768,6 @@
             this.labelBotTimeMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBotTimeMinutes.AutoSize = true;
             this.labelBotTimeMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBotTimeMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBotTimeMinutes.Location = new System.Drawing.Point(410, 246);
@@ -767,7 +781,6 @@
             this.labelBotTimeVariationMinutes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBotTimeVariationMinutes.AutoSize = true;
             this.labelBotTimeVariationMinutes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBotTimeVariationMinutes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBotTimeVariationMinutes.Location = new System.Drawing.Point(410, 296);
@@ -781,8 +794,7 @@
             this.labelBotTimeVariation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBotTimeVariation.AutoSize = true;
-            this.labelBotTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBotTimeVariation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBotTimeVariation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBotTimeVariation.Location = new System.Drawing.Point(100, 300);
             this.labelBotTimeVariation.Name = "labelBotTimeVariation";
@@ -795,8 +807,7 @@
             this.labelBotTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelBotTime.AutoSize = true;
-            this.labelBotTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBotTime.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBotTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelBotTime.Location = new System.Drawing.Point(100, 250);
             this.labelBotTime.Name = "labelBotTime";
@@ -816,7 +827,7 @@
             this.textBoxBreakProfiles_BotTimeVariation.Location = new System.Drawing.Point(325, 293);
             this.textBoxBreakProfiles_BotTimeVariation.Name = "textBoxBreakProfiles_BotTimeVariation";
             this.textBoxBreakProfiles_BotTimeVariation.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_BotTimeVariation.TabIndex = 15;
+            this.textBoxBreakProfiles_BotTimeVariation.TabIndex = 2;
             this.textBoxBreakProfiles_BotTimeVariation.Text = "30";
             this.textBoxBreakProfiles_BotTimeVariation.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_BotTimeVariation.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -833,7 +844,7 @@
             this.textBoxBreakProfiles_BotTime.Location = new System.Drawing.Point(325, 243);
             this.textBoxBreakProfiles_BotTime.Name = "textBoxBreakProfiles_BotTime";
             this.textBoxBreakProfiles_BotTime.Size = new System.Drawing.Size(72, 26);
-            this.textBoxBreakProfiles_BotTime.TabIndex = 14;
+            this.textBoxBreakProfiles_BotTime.TabIndex = 1;
             this.textBoxBreakProfiles_BotTime.Text = "60";
             this.textBoxBreakProfiles_BotTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxGlobal_CancelNonNumberInput_KeyPress);
             this.textBoxBreakProfiles_BotTime.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
@@ -843,7 +854,6 @@
             this.checkBoxBreakProfiles_EnableSleepBreaks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxBreakProfiles_EnableSleepBreaks.AutoSize = true;
             this.checkBoxBreakProfiles_EnableSleepBreaks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.checkBoxBreakProfiles_EnableSleepBreaks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.checkBoxBreakProfiles_EnableSleepBreaks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -861,7 +871,6 @@
             this.checkBoxBreakProfiles_EnableBreaks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxBreakProfiles_EnableBreaks.AutoSize = true;
             this.checkBoxBreakProfiles_EnableBreaks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.checkBoxBreakProfiles_EnableBreaks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.checkBoxBreakProfiles_EnableBreaks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -874,108 +883,103 @@
             this.checkBoxBreakProfiles_EnableBreaks.TabIndex = 11;
             this.checkBoxBreakProfiles_EnableBreaks.UseVisualStyleBackColor = false;
             // 
-            // buttonNavBreakProfiles
+            // buttonNav_BreakProfiles
             // 
-            this.buttonNavBreakProfiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonNav_BreakProfiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNavBreakProfiles.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonNavBreakProfiles.BackColor = System.Drawing.Color.Transparent;
-            this.buttonNavBreakProfiles.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNavBreakProfiles.BackgroundImage")));
-            this.buttonNavBreakProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonNavBreakProfiles.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonNavBreakProfiles.FlatAppearance.BorderSize = 0;
-            this.buttonNavBreakProfiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavBreakProfiles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavBreakProfiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNavBreakProfiles.Location = new System.Drawing.Point(75, 250);
-            this.buttonNavBreakProfiles.Name = "buttonNavBreakProfiles";
-            this.buttonNavBreakProfiles.Size = new System.Drawing.Size(80, 80);
-            this.buttonNavBreakProfiles.TabIndex = 1;
-            this.buttonNavBreakProfiles.UseVisualStyleBackColor = false;
-            this.buttonNavBreakProfiles.Click += new System.EventHandler(this.buttonNavigation_BreakProfiles_Click);
+            this.buttonNav_BreakProfiles.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_BreakProfiles.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_BreakProfiles.BackgroundImage")));
+            this.buttonNav_BreakProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_BreakProfiles.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_BreakProfiles.FlatAppearance.BorderSize = 0;
+            this.buttonNav_BreakProfiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_BreakProfiles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_BreakProfiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_BreakProfiles.Location = new System.Drawing.Point(75, 200);
+            this.buttonNav_BreakProfiles.Name = "buttonNav_BreakProfiles";
+            this.buttonNav_BreakProfiles.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_BreakProfiles.TabIndex = 1;
+            this.buttonNav_BreakProfiles.UseVisualStyleBackColor = false;
+            this.buttonNav_BreakProfiles.Click += new System.EventHandler(this.buttonNavigation_BreakProfiles_Click);
             // 
-            // buttonNavDashboard
+            // buttonNav_Dashboard
             // 
-            this.buttonNavDashboard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonNav_Dashboard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNavDashboard.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonNavDashboard.BackColor = System.Drawing.Color.Transparent;
-            this.buttonNavDashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNavDashboard.BackgroundImage")));
-            this.buttonNavDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonNavDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonNavDashboard.FlatAppearance.BorderSize = 0;
-            this.buttonNavDashboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNavDashboard.Location = new System.Drawing.Point(75, 120);
-            this.buttonNavDashboard.Name = "buttonNavDashboard";
-            this.buttonNavDashboard.Size = new System.Drawing.Size(80, 80);
-            this.buttonNavDashboard.TabIndex = 2;
-            this.buttonNavDashboard.UseVisualStyleBackColor = false;
-            this.buttonNavDashboard.Click += new System.EventHandler(this.buttonNavigation_Dashboard_Click);
+            this.buttonNav_Dashboard.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Dashboard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_Dashboard.BackgroundImage")));
+            this.buttonNav_Dashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_Dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_Dashboard.FlatAppearance.BorderSize = 0;
+            this.buttonNav_Dashboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Dashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_Dashboard.Location = new System.Drawing.Point(75, 120);
+            this.buttonNav_Dashboard.Name = "buttonNav_Dashboard";
+            this.buttonNav_Dashboard.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_Dashboard.TabIndex = 2;
+            this.buttonNav_Dashboard.UseVisualStyleBackColor = false;
+            this.buttonNav_Dashboard.Click += new System.EventHandler(this.buttonNavigation_ScriptFactory_Click);
             // 
-            // buttonNavScriptProfiles
+            // buttonNav_ScriptProfiles
             // 
-            this.buttonNavScriptProfiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonNav_ScriptProfiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNavScriptProfiles.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonNavScriptProfiles.BackColor = System.Drawing.Color.Transparent;
-            this.buttonNavScriptProfiles.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNavScriptProfiles.BackgroundImage")));
-            this.buttonNavScriptProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonNavScriptProfiles.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonNavScriptProfiles.FlatAppearance.BorderSize = 0;
-            this.buttonNavScriptProfiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavScriptProfiles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavScriptProfiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNavScriptProfiles.Location = new System.Drawing.Point(75, 380);
-            this.buttonNavScriptProfiles.Name = "buttonNavScriptProfiles";
-            this.buttonNavScriptProfiles.Size = new System.Drawing.Size(80, 80);
-            this.buttonNavScriptProfiles.TabIndex = 3;
-            this.buttonNavScriptProfiles.UseVisualStyleBackColor = false;
-            this.buttonNavScriptProfiles.Click += new System.EventHandler(this.buttonNavigation_ScriptProfiles_Click);
+            this.buttonNav_ScriptProfiles.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_ScriptProfiles.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_ScriptProfiles.BackgroundImage")));
+            this.buttonNav_ScriptProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_ScriptProfiles.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_ScriptProfiles.FlatAppearance.BorderSize = 0;
+            this.buttonNav_ScriptProfiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_ScriptProfiles.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_ScriptProfiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_ScriptProfiles.Location = new System.Drawing.Point(75, 280);
+            this.buttonNav_ScriptProfiles.Name = "buttonNav_ScriptProfiles";
+            this.buttonNav_ScriptProfiles.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_ScriptProfiles.TabIndex = 3;
+            this.buttonNav_ScriptProfiles.UseVisualStyleBackColor = false;
+            this.buttonNav_ScriptProfiles.Click += new System.EventHandler(this.buttonNavigation_ScriptProfiles_Click);
             // 
-            // buttonNavSettings
+            // buttonNav_Settings
             // 
-            this.buttonNavSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.buttonNav_Settings.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNavSettings.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonNavSettings.BackColor = System.Drawing.Color.Transparent;
-            this.buttonNavSettings.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNavSettings.BackgroundImage")));
-            this.buttonNavSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonNavSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonNavSettings.FlatAppearance.BorderSize = 0;
-            this.buttonNavSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonNavSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNavSettings.Location = new System.Drawing.Point(75, 510);
-            this.buttonNavSettings.Name = "buttonNavSettings";
-            this.buttonNavSettings.Size = new System.Drawing.Size(80, 80);
-            this.buttonNavSettings.TabIndex = 4;
-            this.buttonNavSettings.UseVisualStyleBackColor = false;
-            this.buttonNavSettings.Click += new System.EventHandler(this.buttonNavigation_Settings_Click);
+            this.buttonNav_Settings.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Settings.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_Settings.BackgroundImage")));
+            this.buttonNav_Settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_Settings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_Settings.FlatAppearance.BorderSize = 0;
+            this.buttonNav_Settings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Settings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_Settings.Location = new System.Drawing.Point(75, 600);
+            this.buttonNav_Settings.Name = "buttonNav_Settings";
+            this.buttonNav_Settings.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_Settings.TabIndex = 4;
+            this.buttonNav_Settings.UseVisualStyleBackColor = false;
+            this.buttonNav_Settings.Click += new System.EventHandler(this.buttonNavigation_Settings_Click);
             // 
-            // buttonHomeFunctionJp
+            // pictureBoxNav_Home
             // 
-            this.buttonHomeFunctionJp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBoxNav_Home.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonHomeFunctionJp.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonHomeFunctionJp.BackColor = System.Drawing.Color.Transparent;
-            this.buttonHomeFunctionJp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonHomeFunctionJp.BackgroundImage")));
-            this.buttonHomeFunctionJp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonHomeFunctionJp.FlatAppearance.BorderSize = 0;
-            this.buttonHomeFunctionJp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonHomeFunctionJp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonHomeFunctionJp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHomeFunctionJp.Location = new System.Drawing.Point(40, 20);
-            this.buttonHomeFunctionJp.Name = "buttonHomeFunctionJp";
-            this.buttonHomeFunctionJp.Size = new System.Drawing.Size(150, 84);
-            this.buttonHomeFunctionJp.TabIndex = 15;
-            this.buttonHomeFunctionJp.UseVisualStyleBackColor = false;
+            this.pictureBoxNav_Home.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxNav_Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxNav_Home.BackgroundImage")));
+            this.pictureBoxNav_Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxNav_Home.FlatAppearance.BorderSize = 0;
+            this.pictureBoxNav_Home.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxNav_Home.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxNav_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pictureBoxNav_Home.Location = new System.Drawing.Point(55, 20);
+            this.pictureBoxNav_Home.Name = "pictureBoxNav_Home";
+            this.pictureBoxNav_Home.Size = new System.Drawing.Size(120, 90);
+            this.pictureBoxNav_Home.TabIndex = 15;
+            this.pictureBoxNav_Home.UseVisualStyleBackColor = false;
             // 
             // panelScriptProfiles
             // 
@@ -984,13 +988,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelScriptProfiles.BackColor = System.Drawing.Color.Transparent;
             this.panelScriptProfiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_Header);
             this.panelScriptProfiles.Controls.Add(this.linkLabelScriptProfilesWebpage);
             this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_Explanation5);
             this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_Explanation4);
             this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_Explanation2);
             this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_Explanation1);
             this.panelScriptProfiles.Controls.Add(this.labelScriptProfiles_SelectScript);
-            this.panelScriptProfiles.Controls.Add(this.pictureBoxScriptProfiles_Header);
             this.panelScriptProfiles.Controls.Add(this.comboBoxScriptProfiles_SelectScript);
             this.panelScriptProfiles.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.panelScriptProfiles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1000,9 +1004,24 @@
             this.panelScriptProfiles.TabIndex = 16;
             this.panelScriptProfiles.Visible = false;
             // 
+            // labelScriptProfiles_Header
+            // 
+            this.labelScriptProfiles_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelScriptProfiles_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelScriptProfiles_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelScriptProfiles_Header.Name = "labelScriptProfiles_Header";
+            this.labelScriptProfiles_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelScriptProfiles_Header.TabIndex = 49;
+            this.labelScriptProfiles_Header.Text = "Script Profiles";
+            this.labelScriptProfiles_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // linkLabelScriptProfilesWebpage
             // 
-            this.linkLabelScriptProfilesWebpage.AutoSize = true;
+            this.linkLabelScriptProfilesWebpage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabelScriptProfilesWebpage.Location = new System.Drawing.Point(575, 398);
             this.linkLabelScriptProfilesWebpage.Name = "linkLabelScriptProfilesWebpage";
             this.linkLabelScriptProfilesWebpage.Size = new System.Drawing.Size(120, 18);
@@ -1015,7 +1034,6 @@
             this.labelScriptProfiles_Explanation5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Explanation5.AutoSize = true;
             this.labelScriptProfiles_Explanation5.Location = new System.Drawing.Point(365, 400);
             this.labelScriptProfiles_Explanation5.Name = "labelScriptProfiles_Explanation5";
             this.labelScriptProfiles_Explanation5.Size = new System.Drawing.Size(205, 18);
@@ -1027,7 +1045,6 @@
             this.labelScriptProfiles_Explanation4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Explanation4.AutoSize = true;
             this.labelScriptProfiles_Explanation4.Location = new System.Drawing.Point(365, 350);
             this.labelScriptProfiles_Explanation4.Name = "labelScriptProfiles_Explanation4";
             this.labelScriptProfiles_Explanation4.Size = new System.Drawing.Size(245, 18);
@@ -1036,7 +1053,9 @@
             // 
             // labelScriptProfiles_Explanation2
             // 
-            this.labelScriptProfiles_Explanation2.AutoSize = true;
+            this.labelScriptProfiles_Explanation2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelScriptProfiles_Explanation2.Location = new System.Drawing.Point(365, 300);
             this.labelScriptProfiles_Explanation2.Name = "labelScriptProfiles_Explanation2";
             this.labelScriptProfiles_Explanation2.Size = new System.Drawing.Size(322, 18);
@@ -1045,7 +1064,9 @@
             // 
             // labelScriptProfiles_Explanation1
             // 
-            this.labelScriptProfiles_Explanation1.AutoSize = true;
+            this.labelScriptProfiles_Explanation1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelScriptProfiles_Explanation1.Location = new System.Drawing.Point(365, 250);
             this.labelScriptProfiles_Explanation1.Name = "labelScriptProfiles_Explanation1";
             this.labelScriptProfiles_Explanation1.Size = new System.Drawing.Size(299, 18);
@@ -1057,7 +1078,6 @@
             this.labelScriptProfiles_SelectScript.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SelectScript.AutoSize = true;
             this.labelScriptProfiles_SelectScript.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_SelectScript.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelScriptProfiles_SelectScript.Location = new System.Drawing.Point(470, 80);
@@ -1065,19 +1085,6 @@
             this.labelScriptProfiles_SelectScript.Size = new System.Drawing.Size(91, 17);
             this.labelScriptProfiles_SelectScript.TabIndex = 43;
             this.labelScriptProfiles_SelectScript.Text = "Select Script";
-            // 
-            // pictureBoxScriptProfiles_Header
-            // 
-            this.pictureBoxScriptProfiles_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxScriptProfiles_Header.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxScriptProfiles_Header.BackgroundImage")));
-            this.pictureBoxScriptProfiles_Header.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxScriptProfiles_Header.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxScriptProfiles_Header.Name = "pictureBoxScriptProfiles_Header";
-            this.pictureBoxScriptProfiles_Header.Size = new System.Drawing.Size(1030, 50);
-            this.pictureBoxScriptProfiles_Header.TabIndex = 42;
-            this.pictureBoxScriptProfiles_Header.TabStop = false;
             // 
             // comboBoxScriptProfiles_SelectScript
             // 
@@ -1103,6 +1110,7 @@
             "fxMagic-HouseAlcher.txt",
             "fxMagic-Orber.txt",
             "fxMining-MLM.txt",
+            "fxMuler.txt",
             "fxRunecrafting-Abyss.txt",
             "fxRunecrafting-Zeah.txt",
             "fxSlayer-AIO.txt",
@@ -1122,6 +1130,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelAccountsAndSettings.BackColor = System.Drawing.Color.Transparent;
             this.panelAccountsAndSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelAccountsAndSettings.Controls.Add(this.labelSettings_Header);
+            this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_CreateOSRSAccount);
             this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_BuyProxies);
             this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_BottingGuide);
             this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_JoinDiscord);
@@ -1142,7 +1152,6 @@
             this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_InstallSandboxie);
             this.panelAccountsAndSettings.Controls.Add(this.buttonSettings_InstallProxifier);
             this.panelAccountsAndSettings.Controls.Add(this.labelSettings_LoggedUsername);
-            this.panelAccountsAndSettings.Controls.Add(this.pictureBoxSettings_Header);
             this.panelAccountsAndSettings.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.panelAccountsAndSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panelAccountsAndSettings.Location = new System.Drawing.Point(230, 0);
@@ -1150,6 +1159,40 @@
             this.panelAccountsAndSettings.Size = new System.Drawing.Size(1030, 680);
             this.panelAccountsAndSettings.TabIndex = 17;
             this.panelAccountsAndSettings.Visible = false;
+            // 
+            // labelSettings_Header
+            // 
+            this.labelSettings_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelSettings_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelSettings_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelSettings_Header.Name = "labelSettings_Header";
+            this.labelSettings_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelSettings_Header.TabIndex = 76;
+            this.labelSettings_Header.Text = "Settings";
+            this.labelSettings_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonSettings_CreateOSRSAccount
+            // 
+            this.buttonSettings_CreateOSRSAccount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSettings_CreateOSRSAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.buttonSettings_CreateOSRSAccount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonSettings_CreateOSRSAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSettings_CreateOSRSAccount.FlatAppearance.BorderSize = 0;
+            this.buttonSettings_CreateOSRSAccount.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonSettings_CreateOSRSAccount.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonSettings_CreateOSRSAccount.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSettings_CreateOSRSAccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonSettings_CreateOSRSAccount.Location = new System.Drawing.Point(675, 530);
+            this.buttonSettings_CreateOSRSAccount.Name = "buttonSettings_CreateOSRSAccount";
+            this.buttonSettings_CreateOSRSAccount.Size = new System.Drawing.Size(150, 84);
+            this.buttonSettings_CreateOSRSAccount.TabIndex = 75;
+            this.buttonSettings_CreateOSRSAccount.Text = "Create OSRS Account";
+            this.buttonSettings_CreateOSRSAccount.UseVisualStyleBackColor = false;
+            this.buttonSettings_CreateOSRSAccount.Click += new System.EventHandler(this.buttonSettings_CreateOSRSAccount_Click);
             // 
             // buttonSettings_BuyProxies
             // 
@@ -1164,7 +1207,7 @@
             this.buttonSettings_BuyProxies.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_BuyProxies.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_BuyProxies.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_BuyProxies.Location = new System.Drawing.Point(850, 475);
+            this.buttonSettings_BuyProxies.Location = new System.Drawing.Point(850, 430);
             this.buttonSettings_BuyProxies.Name = "buttonSettings_BuyProxies";
             this.buttonSettings_BuyProxies.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_BuyProxies.TabIndex = 74;
@@ -1185,7 +1228,7 @@
             this.buttonSettings_BottingGuide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_BottingGuide.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_BottingGuide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_BottingGuide.Location = new System.Drawing.Point(675, 475);
+            this.buttonSettings_BottingGuide.Location = new System.Drawing.Point(675, 430);
             this.buttonSettings_BottingGuide.Name = "buttonSettings_BottingGuide";
             this.buttonSettings_BottingGuide.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_BottingGuide.TabIndex = 73;
@@ -1206,7 +1249,7 @@
             this.buttonSettings_JoinDiscord.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_JoinDiscord.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_JoinDiscord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_JoinDiscord.Location = new System.Drawing.Point(850, 375);
+            this.buttonSettings_JoinDiscord.Location = new System.Drawing.Point(850, 330);
             this.buttonSettings_JoinDiscord.Name = "buttonSettings_JoinDiscord";
             this.buttonSettings_JoinDiscord.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_JoinDiscord.TabIndex = 72;
@@ -1227,7 +1270,7 @@
             this.buttonSettings_VisitWebsite.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_VisitWebsite.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_VisitWebsite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_VisitWebsite.Location = new System.Drawing.Point(675, 375);
+            this.buttonSettings_VisitWebsite.Location = new System.Drawing.Point(675, 330);
             this.buttonSettings_VisitWebsite.Name = "buttonSettings_VisitWebsite";
             this.buttonSettings_VisitWebsite.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_VisitWebsite.TabIndex = 71;
@@ -1240,7 +1283,6 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(25, 275);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(605, 18);
@@ -1253,7 +1295,6 @@
             this.labelSettings_HowToUseFour.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_HowToUseFour.AutoSize = true;
             this.labelSettings_HowToUseFour.Location = new System.Drawing.Point(25, 500);
             this.labelSettings_HowToUseFour.Name = "labelSettings_HowToUseFour";
             this.labelSettings_HowToUseFour.Size = new System.Drawing.Size(457, 18);
@@ -1265,7 +1306,6 @@
             this.labelSettings_HowToUseThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_HowToUseThree.AutoSize = true;
             this.labelSettings_HowToUseThree.Location = new System.Drawing.Point(25, 475);
             this.labelSettings_HowToUseThree.Name = "labelSettings_HowToUseThree";
             this.labelSettings_HowToUseThree.Size = new System.Drawing.Size(633, 18);
@@ -1278,7 +1318,6 @@
             this.labelSettings_HowToUseTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_HowToUseTwo.AutoSize = true;
             this.labelSettings_HowToUseTwo.Location = new System.Drawing.Point(25, 450);
             this.labelSettings_HowToUseTwo.Name = "labelSettings_HowToUseTwo";
             this.labelSettings_HowToUseTwo.Size = new System.Drawing.Size(499, 18);
@@ -1290,7 +1329,6 @@
             this.labelSettings_HowToUseOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_HowToUseOne.AutoSize = true;
             this.labelSettings_HowToUseOne.Location = new System.Drawing.Point(25, 425);
             this.labelSettings_HowToUseOne.Name = "labelSettings_HowToUseOne";
             this.labelSettings_HowToUseOne.Size = new System.Drawing.Size(506, 18);
@@ -1302,7 +1340,6 @@
             this.labelSettings_HowToUseHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_HowToUseHeader.AutoSize = true;
             this.labelSettings_HowToUseHeader.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSettings_HowToUseHeader.Location = new System.Drawing.Point(25, 375);
             this.labelSettings_HowToUseHeader.Name = "labelSettings_HowToUseHeader";
@@ -1315,7 +1352,6 @@
             this.labelSettings_InstructionsFour.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_InstructionsFour.AutoSize = true;
             this.labelSettings_InstructionsFour.Location = new System.Drawing.Point(25, 250);
             this.labelSettings_InstructionsFour.Name = "labelSettings_InstructionsFour";
             this.labelSettings_InstructionsFour.Size = new System.Drawing.Size(165, 18);
@@ -1327,7 +1363,6 @@
             this.labelSettings_InstuctionsThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_InstuctionsThree.AutoSize = true;
             this.labelSettings_InstuctionsThree.Location = new System.Drawing.Point(25, 225);
             this.labelSettings_InstuctionsThree.Name = "labelSettings_InstuctionsThree";
             this.labelSettings_InstuctionsThree.Size = new System.Drawing.Size(350, 18);
@@ -1339,7 +1374,6 @@
             this.labelSettings_InstructionsTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_InstructionsTwo.AutoSize = true;
             this.labelSettings_InstructionsTwo.Location = new System.Drawing.Point(25, 200);
             this.labelSettings_InstructionsTwo.Name = "labelSettings_InstructionsTwo";
             this.labelSettings_InstructionsTwo.Size = new System.Drawing.Size(370, 18);
@@ -1351,7 +1385,6 @@
             this.labelSettings_InstructionsOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_InstructionsOne.AutoSize = true;
             this.labelSettings_InstructionsOne.Location = new System.Drawing.Point(25, 175);
             this.labelSettings_InstructionsOne.Name = "labelSettings_InstructionsOne";
             this.labelSettings_InstructionsOne.Size = new System.Drawing.Size(91, 18);
@@ -1363,7 +1396,6 @@
             this.labelSettings_InstallInstructionsHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_InstallInstructionsHeader.AutoSize = true;
             this.labelSettings_InstallInstructionsHeader.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSettings_InstallInstructionsHeader.Location = new System.Drawing.Point(25, 125);
             this.labelSettings_InstallInstructionsHeader.Name = "labelSettings_InstallInstructionsHeader";
@@ -1384,7 +1416,7 @@
             this.buttonSettings_CheckForUpdates.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_CheckForUpdates.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_CheckForUpdates.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_CheckForUpdates.Location = new System.Drawing.Point(850, 275);
+            this.buttonSettings_CheckForUpdates.Location = new System.Drawing.Point(850, 230);
             this.buttonSettings_CheckForUpdates.Name = "buttonSettings_CheckForUpdates";
             this.buttonSettings_CheckForUpdates.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_CheckForUpdates.TabIndex = 59;
@@ -1405,7 +1437,7 @@
             this.buttonSettings_InstallGit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_InstallGit.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_InstallGit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_InstallGit.Location = new System.Drawing.Point(675, 175);
+            this.buttonSettings_InstallGit.Location = new System.Drawing.Point(675, 130);
             this.buttonSettings_InstallGit.Name = "buttonSettings_InstallGit";
             this.buttonSettings_InstallGit.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_InstallGit.TabIndex = 58;
@@ -1426,7 +1458,7 @@
             this.buttonSettings_InstallSandboxie.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_InstallSandboxie.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_InstallSandboxie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_InstallSandboxie.Location = new System.Drawing.Point(850, 175);
+            this.buttonSettings_InstallSandboxie.Location = new System.Drawing.Point(850, 130);
             this.buttonSettings_InstallSandboxie.Name = "buttonSettings_InstallSandboxie";
             this.buttonSettings_InstallSandboxie.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_InstallSandboxie.TabIndex = 57;
@@ -1447,7 +1479,7 @@
             this.buttonSettings_InstallProxifier.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonSettings_InstallProxifier.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSettings_InstallProxifier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings_InstallProxifier.Location = new System.Drawing.Point(675, 275);
+            this.buttonSettings_InstallProxifier.Location = new System.Drawing.Point(675, 230);
             this.buttonSettings_InstallProxifier.Name = "buttonSettings_InstallProxifier";
             this.buttonSettings_InstallProxifier.Size = new System.Drawing.Size(150, 84);
             this.buttonSettings_InstallProxifier.TabIndex = 56;
@@ -1460,29 +1492,207 @@
             this.labelSettings_LoggedUsername.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelSettings_LoggedUsername.AutoSize = true;
             this.labelSettings_LoggedUsername.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.labelSettings_LoggedUsername.Location = new System.Drawing.Point(180, 150);
             this.labelSettings_LoggedUsername.Name = "labelSettings_LoggedUsername";
             this.labelSettings_LoggedUsername.Size = new System.Drawing.Size(0, 28);
             this.labelSettings_LoggedUsername.TabIndex = 55;
             // 
-            // pictureBoxSettings_Header
-            // 
-            this.pictureBoxSettings_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxSettings_Header.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxSettings_Header.BackgroundImage")));
-            this.pictureBoxSettings_Header.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxSettings_Header.Location = new System.Drawing.Point(0, 5);
-            this.pictureBoxSettings_Header.Name = "pictureBoxSettings_Header";
-            this.pictureBoxSettings_Header.Size = new System.Drawing.Size(1027, 50);
-            this.pictureBoxSettings_Header.TabIndex = 42;
-            this.pictureBoxSettings_Header.TabStop = false;
-            // 
             // Column1
             // 
             this.Column1.Name = "Column1";
+            // 
+            // buttonNav_OSBotManager
+            // 
+            this.buttonNav_OSBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonNav_OSBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_OSBotManager.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_OSBotManager.BackgroundImage")));
+            this.buttonNav_OSBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_OSBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_OSBotManager.FlatAppearance.BorderSize = 0;
+            this.buttonNav_OSBotManager.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_OSBotManager.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_OSBotManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_OSBotManager.Location = new System.Drawing.Point(75, 360);
+            this.buttonNav_OSBotManager.Name = "buttonNav_OSBotManager";
+            this.buttonNav_OSBotManager.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_OSBotManager.TabIndex = 18;
+            this.buttonNav_OSBotManager.UseVisualStyleBackColor = false;
+            this.buttonNav_OSBotManager.Click += new System.EventHandler(this.buttonNavigation_OSBotManager_Click);
+            // 
+            // buttonNav_TRiBotManager
+            // 
+            this.buttonNav_TRiBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonNav_TRiBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_TRiBotManager.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_TRiBotManager.BackgroundImage")));
+            this.buttonNav_TRiBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_TRiBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_TRiBotManager.FlatAppearance.BorderSize = 0;
+            this.buttonNav_TRiBotManager.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_TRiBotManager.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_TRiBotManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_TRiBotManager.Location = new System.Drawing.Point(75, 440);
+            this.buttonNav_TRiBotManager.Name = "buttonNav_TRiBotManager";
+            this.buttonNav_TRiBotManager.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_TRiBotManager.TabIndex = 19;
+            this.buttonNav_TRiBotManager.UseVisualStyleBackColor = false;
+            this.buttonNav_TRiBotManager.Click += new System.EventHandler(this.buttonNavigation_TRiBotManager_Click);
+            // 
+            // buttonNav_DreamBotManager
+            // 
+            this.buttonNav_DreamBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonNav_DreamBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_DreamBotManager.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonNav_DreamBotManager.BackgroundImage")));
+            this.buttonNav_DreamBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonNav_DreamBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonNav_DreamBotManager.FlatAppearance.BorderSize = 0;
+            this.buttonNav_DreamBotManager.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_DreamBotManager.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonNav_DreamBotManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNav_DreamBotManager.Location = new System.Drawing.Point(75, 520);
+            this.buttonNav_DreamBotManager.Name = "buttonNav_DreamBotManager";
+            this.buttonNav_DreamBotManager.Size = new System.Drawing.Size(80, 60);
+            this.buttonNav_DreamBotManager.TabIndex = 20;
+            this.buttonNav_DreamBotManager.UseVisualStyleBackColor = false;
+            this.buttonNav_DreamBotManager.Click += new System.EventHandler(this.buttonNavigation_DreamBotManager_Click);
+            // 
+            // panelOSBotManager
+            // 
+            this.panelOSBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelOSBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.panelOSBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelOSBotManager.Controls.Add(this.labelOSBotManager_Header);
+            this.panelOSBotManager.Controls.Add(this.labelOSBotManager_UnderDevelopment);
+            this.panelOSBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelOSBotManager.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.panelOSBotManager.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panelOSBotManager.Location = new System.Drawing.Point(230, 0);
+            this.panelOSBotManager.Name = "panelOSBotManager";
+            this.panelOSBotManager.Size = new System.Drawing.Size(1030, 680);
+            this.panelOSBotManager.TabIndex = 21;
+            // 
+            // labelOSBotManager_Header
+            // 
+            this.labelOSBotManager_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelOSBotManager_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOSBotManager_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelOSBotManager_Header.Name = "labelOSBotManager_Header";
+            this.labelOSBotManager_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelOSBotManager_Header.TabIndex = 1;
+            this.labelOSBotManager_Header.Text = "OSBot Manager";
+            this.labelOSBotManager_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelOSBotManager_UnderDevelopment
+            // 
+            this.labelOSBotManager_UnderDevelopment.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelOSBotManager_UnderDevelopment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelOSBotManager_UnderDevelopment.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOSBotManager_UnderDevelopment.Location = new System.Drawing.Point(0, 325);
+            this.labelOSBotManager_UnderDevelopment.Name = "labelOSBotManager_UnderDevelopment";
+            this.labelOSBotManager_UnderDevelopment.Size = new System.Drawing.Size(1030, 50);
+            this.labelOSBotManager_UnderDevelopment.TabIndex = 0;
+            this.labelOSBotManager_UnderDevelopment.Text = "Under Development";
+            this.labelOSBotManager_UnderDevelopment.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelDreamBotManager
+            // 
+            this.panelDreamBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelDreamBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.panelDreamBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelDreamBotManager.Controls.Add(this.labelDreamBotManager_Header);
+            this.panelDreamBotManager.Controls.Add(this.labelDreamBotManager_UnderDevelopment);
+            this.panelDreamBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelDreamBotManager.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.panelDreamBotManager.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panelDreamBotManager.Location = new System.Drawing.Point(230, 0);
+            this.panelDreamBotManager.Name = "panelDreamBotManager";
+            this.panelDreamBotManager.Size = new System.Drawing.Size(1030, 680);
+            this.panelDreamBotManager.TabIndex = 22;
+            // 
+            // labelDreamBotManager_Header
+            // 
+            this.labelDreamBotManager_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelDreamBotManager_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDreamBotManager_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelDreamBotManager_Header.Name = "labelDreamBotManager_Header";
+            this.labelDreamBotManager_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelDreamBotManager_Header.TabIndex = 1;
+            this.labelDreamBotManager_Header.Text = "DreamBot Manager";
+            this.labelDreamBotManager_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelDreamBotManager_UnderDevelopment
+            // 
+            this.labelDreamBotManager_UnderDevelopment.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelDreamBotManager_UnderDevelopment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelDreamBotManager_UnderDevelopment.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDreamBotManager_UnderDevelopment.Location = new System.Drawing.Point(0, 325);
+            this.labelDreamBotManager_UnderDevelopment.Name = "labelDreamBotManager_UnderDevelopment";
+            this.labelDreamBotManager_UnderDevelopment.Size = new System.Drawing.Size(1030, 50);
+            this.labelDreamBotManager_UnderDevelopment.TabIndex = 0;
+            this.labelDreamBotManager_UnderDevelopment.Text = "Under Development";
+            this.labelDreamBotManager_UnderDevelopment.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelTRiBotManager
+            // 
+            this.panelTRiBotManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelTRiBotManager.BackColor = System.Drawing.Color.Transparent;
+            this.panelTRiBotManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelTRiBotManager.Controls.Add(this.labelTRiBotManager_Header);
+            this.panelTRiBotManager.Controls.Add(this.labelTRiBotManager_UnderDevelopment);
+            this.panelTRiBotManager.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelTRiBotManager.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.panelTRiBotManager.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panelTRiBotManager.Location = new System.Drawing.Point(230, 0);
+            this.panelTRiBotManager.Name = "panelTRiBotManager";
+            this.panelTRiBotManager.Size = new System.Drawing.Size(1030, 680);
+            this.panelTRiBotManager.TabIndex = 23;
+            // 
+            // labelTRiBotManager_Header
+            // 
+            this.labelTRiBotManager_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTRiBotManager_Header.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTRiBotManager_Header.Location = new System.Drawing.Point(0, 0);
+            this.labelTRiBotManager_Header.Name = "labelTRiBotManager_Header";
+            this.labelTRiBotManager_Header.Size = new System.Drawing.Size(1030, 50);
+            this.labelTRiBotManager_Header.TabIndex = 1;
+            this.labelTRiBotManager_Header.Text = "TRiBot Manager";
+            this.labelTRiBotManager_Header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelTRiBotManager_UnderDevelopment
+            // 
+            this.labelTRiBotManager_UnderDevelopment.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTRiBotManager_UnderDevelopment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelTRiBotManager_UnderDevelopment.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTRiBotManager_UnderDevelopment.Location = new System.Drawing.Point(0, 325);
+            this.labelTRiBotManager_UnderDevelopment.Name = "labelTRiBotManager_UnderDevelopment";
+            this.labelTRiBotManager_UnderDevelopment.Size = new System.Drawing.Size(1030, 50);
+            this.labelTRiBotManager_UnderDevelopment.TabIndex = 0;
+            this.labelTRiBotManager_UnderDevelopment.Text = "Under Development";
+            this.labelTRiBotManager_UnderDevelopment.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dataGridViewDashboard_Account
             // 
@@ -1497,7 +1707,7 @@
             this.dataGridViewDashboard_Account.HeaderText = "Account";
             this.dataGridViewDashboard_Account.Name = "dataGridViewDashboard_Account";
             this.dataGridViewDashboard_Account.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewDashboard_Account.Width = 145;
+            this.dataGridViewDashboard_Account.Width = 135;
             // 
             // dataGridViewDashboard_Password
             // 
@@ -1544,9 +1754,11 @@
             dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewDashboard_Script.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridViewDashboard_Script.Frozen = true;
             this.dataGridViewDashboard_Script.HeaderText = "Script";
             this.dataGridViewDashboard_Script.Items.AddRange(new object[] {
             "SF",
+            "SF Exp",
             "SF Pro"});
             this.dataGridViewDashboard_Script.Name = "dataGridViewDashboard_Script";
             this.dataGridViewDashboard_Script.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -1561,6 +1773,7 @@
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.dataGridViewDashboard_Task.DefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridViewDashboard_Task.Frozen = true;
             this.dataGridViewDashboard_Task.HeaderText = "Task";
             this.dataGridViewDashboard_Task.Items.AddRange(new object[] {
             "fxAccountBuilder",
@@ -1577,7 +1790,13 @@
             "fxFiremaking-GrandExchange",
             "fxFishing-Normal",
             "fxFletching-Longbows",
-            "fxGoldFarming-Cows",
+            "fxGoldFarming-BonesToBananasCaster",
+            "fxGoldFarming-CowKiller",
+            "fxGoldFarming-FishFoodCollector",
+            "fxGoldFarming-MonksRobesCollector",
+            "fxGoldFarming-PotatoPicker",
+            "fxGoldFarming-RedSpidersEggsCollector",
+            "fxGoldFarming-Tanner",
             "fxGoldFarming-WildyCollector",
             "fxHerblore-CleanHerbs",
             "fxLOTR-Aragorn",
@@ -1589,6 +1808,8 @@
             "fxMinigames-RoguesDen",
             "fxMining-MLM",
             "fxMining-Normal",
+            "fxMuler-Bot",
+            "fxMuler-Mule",
             "fxOther-VarrockMuseumQuiz",
             "fxPrayer-GildedAltar",
             "fxRunecrafting-Abyss",
@@ -1605,7 +1826,7 @@
             this.dataGridViewDashboard_Task.Name = "dataGridViewDashboard_Task";
             this.dataGridViewDashboard_Task.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewDashboard_Task.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewDashboard_Task.Width = 140;
+            this.dataGridViewDashboard_Task.Width = 160;
             // 
             // dataGridViewDashboard_World
             // 
@@ -1616,6 +1837,7 @@
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.dataGridViewDashboard_World.DefaultCellStyle = dataGridViewCellStyle9;
+            this.dataGridViewDashboard_World.Frozen = true;
             this.dataGridViewDashboard_World.HeaderText = "World";
             this.dataGridViewDashboard_World.Items.AddRange(new object[] {
             "-F2P-",
@@ -1812,6 +2034,7 @@
             dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewDashboard_Mode.DefaultCellStyle = dataGridViewCellStyle10;
+            this.dataGridViewDashboard_Mode.Frozen = true;
             this.dataGridViewDashboard_Mode.HeaderText = "Mode";
             this.dataGridViewDashboard_Mode.Items.AddRange(new object[] {
             "Stealth"});
@@ -1828,19 +2051,21 @@
             dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dataGridViewDashboard_NewMouse.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dataGridViewDashboard_NewMouse.Frozen = true;
             this.dataGridViewDashboard_NewMouse.HeaderText = "New Mouse";
             this.dataGridViewDashboard_NewMouse.Items.AddRange(new object[] {
             "Yes",
             "No"});
             this.dataGridViewDashboard_NewMouse.Name = "dataGridViewDashboard_NewMouse";
             this.dataGridViewDashboard_NewMouse.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewDashboard_NewMouse.Width = 75;
+            this.dataGridViewDashboard_NewMouse.Width = 65;
             // 
             // dataGridViewDashboard_Sandboxie
             // 
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dataGridViewDashboard_Sandboxie.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridViewDashboard_Sandboxie.Frozen = true;
             this.dataGridViewDashboard_Sandboxie.HeaderText = "Sandbox";
             this.dataGridViewDashboard_Sandboxie.Items.AddRange(new object[] {
             "Yes",
@@ -1851,51 +2076,60 @@
             // 
             // dataGridViewDashboard_Run
             // 
+            this.dataGridViewDashboard_Run.Frozen = true;
             this.dataGridViewDashboard_Run.HeaderText = "Run";
             this.dataGridViewDashboard_Run.Name = "dataGridViewDashboard_Run";
             this.dataGridViewDashboard_Run.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewDashboard_Run.Width = 53;
             // 
+            // dataGridViewDashboard_SandboxieNumber
+            // 
+            this.dataGridViewDashboard_SandboxieNumber.Frozen = true;
+            this.dataGridViewDashboard_SandboxieNumber.HeaderText = "SandboxieNumber";
+            this.dataGridViewDashboard_SandboxieNumber.Name = "dataGridViewDashboard_SandboxieNumber";
+            this.dataGridViewDashboard_SandboxieNumber.Visible = false;
+            // 
             // formMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.buttonHomeFunctionJp);
-            this.Controls.Add(this.buttonNavSettings);
-            this.Controls.Add(this.buttonNavScriptProfiles);
-            this.Controls.Add(this.buttonNavDashboard);
-            this.Controls.Add(this.buttonNavBreakProfiles);
+            this.Controls.Add(this.buttonNav_DreamBotManager);
+            this.Controls.Add(this.buttonNav_TRiBotManager);
+            this.Controls.Add(this.buttonNav_OSBotManager);
+            this.Controls.Add(this.pictureBoxNav_Home);
+            this.Controls.Add(this.buttonNav_Settings);
+            this.Controls.Add(this.buttonNav_ScriptProfiles);
+            this.Controls.Add(this.buttonNav_Dashboard);
+            this.Controls.Add(this.buttonNav_BreakProfiles);
             this.Controls.Add(this.panelDashboard);
             this.Controls.Add(this.panelAccountsAndSettings);
             this.Controls.Add(this.panelScriptProfiles);
             this.Controls.Add(this.panelBreakProfiles);
+            this.Controls.Add(this.panelTRiBotManager);
+            this.Controls.Add(this.panelDreamBotManager);
+            this.Controls.Add(this.panelOSBotManager);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formMainForm";
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jivaro OSBot Tool v0.65";
+            this.Text = "Jivaro OSRS Launcher v0.70 BETA";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formMainForm_FormClose);
             this.Load += new System.EventHandler(this.formMainForm_Load);
             this.panelDashboard.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDashboard_Bots)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBannerDashboard)).EndInit();
             this.panelBreakProfiles.ResumeLayout(false);
             this.panelBreakProfiles.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBannerBreakProfiles)).EndInit();
             this.panelScriptProfiles.ResumeLayout(false);
-            this.panelScriptProfiles.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScriptProfiles_Header)).EndInit();
             this.panelAccountsAndSettings.ResumeLayout(false);
-            this.panelAccountsAndSettings.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSettings_Header)).EndInit();
+            this.panelOSBotManager.ResumeLayout(false);
+            this.panelDreamBotManager.ResumeLayout(false);
+            this.panelTRiBotManager.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1904,12 +2138,12 @@
 
         private Panel panelDashboard;
         private Button buttonDashboard_LaunchOsbot;
-        private Button buttonDashboard_UpdateScriptsMonthly;
-        private Button buttonDashboard_UpdateScriptsLifetime;
-        private Button buttonNavBreakProfiles;
-        private Button buttonNavDashboard;
-        private Button buttonNavScriptProfiles;
-        private Button buttonNavSettings;
+        private Button buttonDashboard_DeleteBot;
+        private Button buttonDashboard_UpdateScripts;
+        private Button buttonNav_BreakProfiles;
+        private Button buttonNav_Dashboard;
+        private Button buttonNav_ScriptProfiles;
+        private Button buttonNav_Settings;
         private Panel panelBreakProfiles;
         private CheckBox checkBoxBreakProfiles_EnableSleepBreaks;
         private TextBox textBoxBreakProfiles_BotTime;
@@ -1939,17 +2173,13 @@
         private Label labelSleepTimeMinutes;
         private Label labelTimeUntilSleepMinutes;
         private Label labelEnableSleepBreaks;
-        private Button buttonHomeFunctionJp;
-        private PictureBox pictureBoxBannerDashboard;
-        private PictureBox pictureBoxBannerBreakProfiles;
+        private Button pictureBoxNav_Home;
         private Label labelEnableBreaks;
         private CheckBox checkBoxBreakProfiles_EnableBreaks;
         private Panel panelScriptProfiles;
-        private PictureBox pictureBoxScriptProfiles_Header;
         private ComboBox comboBoxScriptProfiles_SelectScript;
         private Label labelScriptProfiles_SelectScript;
         private Panel panelAccountsAndSettings;
-        private PictureBox pictureBoxSettings_Header;
         private Label labelScriptProfiles_Explanation2;
         private Label labelScriptProfiles_Explanation1;
         private Label labelScriptProfiles_Explanation4;
@@ -1958,7 +2188,6 @@
         private Label labelSettings_LoggedUsername;
         private Button buttonDashboard_Save;
         private DataGridView dataGridViewDashboard_Bots;
-        private Button buttonDashboard_AddBot;
         private Button buttonSettings_CheckForUpdates;
         private Button buttonSettings_InstallGit;
         private Button buttonSettings_InstallSandboxie;
@@ -1979,6 +2208,24 @@
         private Button buttonSettings_BottingGuide;
         private Button buttonSettings_JoinDiscord;
         private Button buttonSettings_VisitWebsite;
+        public Button buttonDashboard_AddBot;
+        private Button buttonNav_OSBotManager;
+        private Button buttonNav_TRiBotManager;
+        private Button buttonNav_DreamBotManager;
+        private Button buttonSettings_CreateOSRSAccount;
+        private Panel panelOSBotManager;
+        private Panel panelDreamBotManager;
+        private Panel panelTRiBotManager;
+        private Label labelOSBotManager_UnderDevelopment;
+        private Label labelDreamBotManager_UnderDevelopment;
+        private Label labelTRiBotManager_UnderDevelopment;
+        private Label labelScriptFactory_Header;
+        private Label labelSettings_Header;
+        private Label labelScriptProfiles_Header;
+        private Label labelBreakProfiles_Header;
+        private Label labelDreamBotManager_Header;
+        private Label labelTRiBotManager_Header;
+        private Label labelOSBotManager_Header;
         private DataGridViewTextBoxColumn dataGridViewDashboard_Account;
         private DataGridViewTextBoxColumn dataGridViewDashboard_Password;
         private DataGridViewTextBoxColumn dataGridViewDashboard_Pin;
@@ -1990,6 +2237,7 @@
         private DataGridViewComboBoxColumn dataGridViewDashboard_NewMouse;
         private DataGridViewComboBoxColumn dataGridViewDashboard_Sandboxie;
         private DataGridViewButtonColumn dataGridViewDashboard_Run;
+        private DataGridViewTextBoxColumn dataGridViewDashboard_SandboxieNumber;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace jivarosft
+namespace jivaro_osrs_launcher
 {
     public partial class formScriptProfilesFiremakingGrandExchange : Form
     {

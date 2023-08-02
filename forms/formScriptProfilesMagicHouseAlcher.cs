@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace jivarosft
+namespace jivaro_osrs_launcher
 {
     public partial class formScriptProfilesMagicHouseAlcher : Form
     {

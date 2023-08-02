@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesSlayerAIO
     {
@@ -44,7 +44,7 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping = new System.Windows.Forms.Label();
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking = new System.Windows.Forms.Label();
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot = new System.Windows.Forms.Label();
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape = new System.Windows.Forms.TabControl();
+            this.tabControlScriptProfiles_SlayerAIO = new System.Windows.Forms.TabControl();
             this.tabPageScriptProfiles_SlayerAIO_GeneralSettings = new System.Windows.Forms.TabPage();
             this.label29 = new System.Windows.Forms.Label();
             this.tabPageScriptProfiles_SlayerAIO_GearMelee = new System.Windows.Forms.TabPage();
@@ -106,9 +106,9 @@
             this.labelScriptProfiles_SlayerAIO_GearMisc_Hands = new System.Windows.Forms.Label();
             this.labelScriptProfiles_SlayerAIO_GearMisc_Cape = new System.Windows.Forms.Label();
             this.textboxScriptProfiles_SlayerAIO_GearMisc_Hands = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScriptProfiles_Runecrafting_Abyss_Header)).BeginInit();
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.SuspendLayout();
+            this.tabControlScriptProfiles_SlayerAIO.SuspendLayout();
             this.tabPageScriptProfiles_SlayerAIO_GeneralSettings.SuspendLayout();
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.SuspendLayout();
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.SuspendLayout();
@@ -150,7 +150,6 @@
             this.labelScriptProfiles_SlayerAIO_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_Title.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_SlayerAIO_Title.Location = new System.Drawing.Point(465, 75);
             this.labelScriptProfiles_SlayerAIO_Title.Name = "labelScriptProfiles_SlayerAIO_Title";
@@ -163,10 +162,9 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Location = new System.Drawing.Point(275, 148);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Size = new System.Drawing.Size(101, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Size = new System.Drawing.Size(101, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.TabIndex = 155;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Text = "Death Handler";
             // 
@@ -175,10 +173,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Location = new System.Drawing.Point(250, 150);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.TabIndex = 156;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_DeathHandler.UseVisualStyleBackColor = true;
             // 
@@ -187,10 +184,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Location = new System.Drawing.Point(250, 200);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.TabIndex = 157;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.UseVisualStyleBackColor = true;
             // 
@@ -199,10 +195,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Location = new System.Drawing.Point(250, 250);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.TabIndex = 158;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.UseVisualStyleBackColor = true;
             // 
@@ -211,10 +206,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Location = new System.Drawing.Point(550, 250);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.TabIndex = 159;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.UseVisualStyleBackColor = true;
             // 
@@ -223,10 +217,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Location = new System.Drawing.Point(550, 200);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.TabIndex = 160;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_Restocking.UseVisualStyleBackColor = true;
             // 
@@ -235,10 +228,9 @@
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.AutoSize = true;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Location = new System.Drawing.Point(550, 150);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Name = "checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping";
-            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Size = new System.Drawing.Size(15, 12);
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.TabIndex = 161;
             this.checkBoxScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.UseVisualStyleBackColor = true;
             // 
@@ -247,10 +239,9 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Location = new System.Drawing.Point(275, 198);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Size = new System.Drawing.Size(92, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Size = new System.Drawing.Size(92, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.TabIndex = 164;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_RenewBond.Text = "Renew Bond";
             // 
@@ -259,10 +250,9 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Location = new System.Drawing.Point(275, 248);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Size = new System.Drawing.Size(77, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Size = new System.Drawing.Size(77, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.TabIndex = 165;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Antipattern.Text = "Antipattern";
             // 
@@ -271,10 +261,9 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Location = new System.Drawing.Point(575, 148);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Size = new System.Drawing.Size(104, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Size = new System.Drawing.Size(104, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.TabIndex = 166;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping.Text = "World Hopping";
             // 
@@ -283,10 +272,9 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Location = new System.Drawing.Point(575, 198);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Size = new System.Drawing.Size(81, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Size = new System.Drawing.Size(81, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.TabIndex = 167;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking.Text = "Restocking";
             // 
@@ -295,28 +283,27 @@
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Location = new System.Drawing.Point(575, 248);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Name = "labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot";
-            this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Size = new System.Drawing.Size(64, 17);
+            this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Size = new System.Drawing.Size(64, 15);
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.TabIndex = 168;
             this.labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot.Text = "Sell Loot";
             // 
-            // textboxScriptProfiles_SlayerAIO_GearMisc_Cape
+            // tabControlScriptProfiles_SlayerAIO
             // 
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tabControlScriptProfiles_SlayerAIO.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GeneralSettings);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMelee);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearRanged);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMagic);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMisc);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Location = new System.Drawing.Point(50, 100);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Name = "textboxScriptProfiles_SlayerAIO_GearMisc_Cape";
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.SelectedIndex = 0;
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Size = new System.Drawing.Size(900, 450);
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.TabIndex = 169;
+            this.tabControlScriptProfiles_SlayerAIO.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GeneralSettings);
+            this.tabControlScriptProfiles_SlayerAIO.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMelee);
+            this.tabControlScriptProfiles_SlayerAIO.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearRanged);
+            this.tabControlScriptProfiles_SlayerAIO.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMagic);
+            this.tabControlScriptProfiles_SlayerAIO.Controls.Add(this.tabPageScriptProfiles_SlayerAIO_GearMisc);
+            this.tabControlScriptProfiles_SlayerAIO.Location = new System.Drawing.Point(50, 100);
+            this.tabControlScriptProfiles_SlayerAIO.Name = "tabControlScriptProfiles_SlayerAIO";
+            this.tabControlScriptProfiles_SlayerAIO.SelectedIndex = 0;
+            this.tabControlScriptProfiles_SlayerAIO.Size = new System.Drawing.Size(900, 450);
+            this.tabControlScriptProfiles_SlayerAIO.TabIndex = 169;
             // 
             // tabPageScriptProfiles_SlayerAIO_GeneralSettings
             // 
@@ -345,11 +332,10 @@
             this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label29.Location = new System.Drawing.Point(400, 25);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(116, 17);
+            this.label29.Size = new System.Drawing.Size(116, 15);
             this.label29.TabIndex = 171;
             this.label29.Text = "General Settings";
             // 
@@ -374,10 +360,10 @@
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.Controls.Add(this.textBoxScriptProfiles_SlayeAIO_GearMelee_FeetTwo);
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.Controls.Add(this.textBoxScriptProfiles_SlayeAIO_GearMelee_Chest);
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.tabPageScriptProfiles_SlayerAIO_GearMelee.Location = new System.Drawing.Point(4, 24);
+            this.tabPageScriptProfiles_SlayerAIO_GearMelee.Location = new System.Drawing.Point(4, 26);
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.Name = "tabPageScriptProfiles_SlayerAIO_GearMelee";
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageScriptProfiles_SlayerAIO_GearMelee.Size = new System.Drawing.Size(892, 422);
+            this.tabPageScriptProfiles_SlayerAIO_GearMelee.Size = new System.Drawing.Size(892, 420);
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.TabIndex = 0;
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.Text = "Gear: Melee";
             // 
@@ -386,17 +372,15 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(300, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(298, 17);
+            this.label1.Size = new System.Drawing.Size(298, 15);
             this.label1.TabIndex = 170;
             this.label1.Text = "Custom Gear: Melee (No restocking support)";
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_FeetOne
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_FeetOne.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetOne.Location = new System.Drawing.Point(40, 175);
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetOne.Name = "labelScriptProfiles_SlayerAIO_GearMelee_FeetOne";
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetOne.Size = new System.Drawing.Size(115, 17);
@@ -405,7 +389,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo.Location = new System.Drawing.Point(40, 250);
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo.Name = "labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo";
             this.labelScriptProfiles_SlayerAIO_GearMelee_FeetTwo.Size = new System.Drawing.Size(103, 17);
@@ -414,7 +397,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_Headgear
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_Headgear.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_Headgear.Location = new System.Drawing.Point(40, 325);
             this.labelScriptProfiles_SlayerAIO_GearMelee_Headgear.Name = "labelScriptProfiles_SlayerAIO_GearMelee_Headgear";
             this.labelScriptProfiles_SlayerAIO_GearMelee_Headgear.Size = new System.Drawing.Size(71, 17);
@@ -423,7 +405,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_Legs
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_Legs.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_Legs.Location = new System.Drawing.Point(428, 100);
             this.labelScriptProfiles_SlayerAIO_GearMelee_Legs.Name = "labelScriptProfiles_SlayerAIO_GearMelee_Legs";
             this.labelScriptProfiles_SlayerAIO_GearMelee_Legs.Size = new System.Drawing.Size(40, 17);
@@ -432,7 +413,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_Shield
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_Shield.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_Shield.Location = new System.Drawing.Point(426, 175);
             this.labelScriptProfiles_SlayerAIO_GearMelee_Shield.Name = "labelScriptProfiles_SlayerAIO_GearMelee_Shield";
             this.labelScriptProfiles_SlayerAIO_GearMelee_Shield.Size = new System.Drawing.Size(48, 17);
@@ -441,7 +421,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo.Location = new System.Drawing.Point(426, 322);
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo.Name = "labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo";
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponTwo.Size = new System.Drawing.Size(125, 17);
@@ -450,7 +429,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne.Location = new System.Drawing.Point(426, 255);
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne.Name = "labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne";
             this.labelScriptProfiles_SlayerAIO_GearMelee_WeaponOne.Size = new System.Drawing.Size(137, 17);
@@ -459,7 +437,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMelee_Chest
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMelee_Chest.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMelee_Chest.Location = new System.Drawing.Point(40, 100);
             this.labelScriptProfiles_SlayerAIO_GearMelee_Chest.Name = "labelScriptProfiles_SlayerAIO_GearMelee_Chest";
             this.labelScriptProfiles_SlayerAIO_GearMelee_Chest.Size = new System.Drawing.Size(47, 17);
@@ -566,10 +543,10 @@
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Controls.Add(this.textBoxScriptProfiles_SlayeAIO_GearRanged_HandsOne);
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Controls.Add(this.textBoxScriptProfiles_SlayeAIO_GearRanged_Feet);
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Controls.Add(this.textBoxScriptProfiles_SlayeAIO_GearRanged_ChestOne);
-            this.tabPageScriptProfiles_SlayerAIO_GearRanged.Location = new System.Drawing.Point(4, 24);
+            this.tabPageScriptProfiles_SlayerAIO_GearRanged.Location = new System.Drawing.Point(4, 26);
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Name = "tabPageScriptProfiles_SlayerAIO_GearRanged";
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageScriptProfiles_SlayerAIO_GearRanged.Size = new System.Drawing.Size(892, 422);
+            this.tabPageScriptProfiles_SlayerAIO_GearRanged.Size = new System.Drawing.Size(892, 420);
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.TabIndex = 1;
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.Text = "Gear: Ranged";
             // 
@@ -584,7 +561,6 @@
             // 
             // label22
             // 
-            this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(480, 325);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(133, 17);
@@ -602,7 +578,6 @@
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(50, 325);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(71, 17);
@@ -611,7 +586,6 @@
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(47, 275);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(120, 17);
@@ -620,7 +594,6 @@
             // 
             // label20
             // 
-            this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(475, 275);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(145, 17);
@@ -650,17 +623,15 @@
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.Location = new System.Drawing.Point(300, 25);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(311, 17);
+            this.label10.Size = new System.Drawing.Size(311, 15);
             this.label10.TabIndex = 187;
             this.label10.Text = "Custom Gear: Ranged (No restocking support)";
             // 
             // labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo
             // 
-            this.labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo.AutoSize = true;
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo.Location = new System.Drawing.Point(50, 125);
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo.Name = "labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo";
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestTwo.Size = new System.Drawing.Size(117, 17);
@@ -669,7 +640,6 @@
             // 
             // labelScriptProfiles_SlayeAIO_GearRanged_Feet
             // 
-            this.labelScriptProfiles_SlayeAIO_GearRanged_Feet.AutoSize = true;
             this.labelScriptProfiles_SlayeAIO_GearRanged_Feet.Location = new System.Drawing.Point(50, 175);
             this.labelScriptProfiles_SlayeAIO_GearRanged_Feet.Name = "labelScriptProfiles_SlayeAIO_GearRanged_Feet";
             this.labelScriptProfiles_SlayeAIO_GearRanged_Feet.Size = new System.Drawing.Size(37, 17);
@@ -678,7 +648,6 @@
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(50, 225);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(132, 17);
@@ -687,7 +656,6 @@
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(475, 75);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(122, 17);
@@ -696,7 +664,6 @@
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(475, 125);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(110, 17);
@@ -705,7 +672,6 @@
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(475, 225);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(118, 17);
@@ -714,7 +680,6 @@
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(475, 175);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(130, 17);
@@ -723,7 +688,6 @@
             // 
             // labelScriptProfiles_SlayeAIO_GearRanged_ChestOne
             // 
-            this.labelScriptProfiles_SlayeAIO_GearRanged_ChestOne.AutoSize = true;
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestOne.Location = new System.Drawing.Point(50, 75);
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestOne.Name = "labelScriptProfiles_SlayeAIO_GearRanged_ChestOne";
             this.labelScriptProfiles_SlayeAIO_GearRanged_ChestOne.Size = new System.Drawing.Size(129, 17);
@@ -814,9 +778,9 @@
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMagic_Weapon);
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMagic_Headgear);
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMagic_Chest);
-            this.tabPageScriptProfiles_SlayerAIO_GearMagic.Location = new System.Drawing.Point(4, 24);
+            this.tabPageScriptProfiles_SlayerAIO_GearMagic.Location = new System.Drawing.Point(4, 26);
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.Name = "tabPageScriptProfiles_SlayerAIO_GearMagic";
-            this.tabPageScriptProfiles_SlayerAIO_GearMagic.Size = new System.Drawing.Size(892, 422);
+            this.tabPageScriptProfiles_SlayerAIO_GearMagic.Size = new System.Drawing.Size(892, 420);
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.TabIndex = 2;
             this.tabPageScriptProfiles_SlayerAIO_GearMagic.Text = "Gear: Magic";
             // 
@@ -825,17 +789,15 @@
             this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label23.Location = new System.Drawing.Point(300, 25);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(298, 17);
+            this.label23.Size = new System.Drawing.Size(298, 15);
             this.label23.TabIndex = 179;
             this.label23.Text = "Custom Gear: Magic (No restocking support)";
             // 
             // labelScriptProfiles_SlayerAIO_GearMagic_Headgear
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMagic_Headgear.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMagic_Headgear.Location = new System.Drawing.Point(75, 250);
             this.labelScriptProfiles_SlayerAIO_GearMagic_Headgear.Name = "labelScriptProfiles_SlayerAIO_GearMagic_Headgear";
             this.labelScriptProfiles_SlayerAIO_GearMagic_Headgear.Size = new System.Drawing.Size(71, 17);
@@ -844,7 +806,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMagic_Legs
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMagic_Legs.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMagic_Legs.Location = new System.Drawing.Point(450, 175);
             this.labelScriptProfiles_SlayerAIO_GearMagic_Legs.Name = "labelScriptProfiles_SlayerAIO_GearMagic_Legs";
             this.labelScriptProfiles_SlayerAIO_GearMagic_Legs.Size = new System.Drawing.Size(40, 17);
@@ -853,7 +814,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMagic_Weapon
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMagic_Weapon.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMagic_Weapon.Location = new System.Drawing.Point(450, 250);
             this.labelScriptProfiles_SlayerAIO_GearMagic_Weapon.Name = "labelScriptProfiles_SlayerAIO_GearMagic_Weapon";
             this.labelScriptProfiles_SlayerAIO_GearMagic_Weapon.Size = new System.Drawing.Size(166, 17);
@@ -862,7 +822,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMagic_Chest
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMagic_Chest.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMagic_Chest.Location = new System.Drawing.Point(75, 175);
             this.labelScriptProfiles_SlayerAIO_GearMagic_Chest.Name = "labelScriptProfiles_SlayerAIO_GearMagic_Chest";
             this.labelScriptProfiles_SlayerAIO_GearMagic_Chest.Size = new System.Drawing.Size(47, 17);
@@ -908,14 +867,14 @@
             // tabPageScriptProfiles_SlayerAIO_GearMisc
             // 
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.label28);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.labelScriptProfiles_SlayerAIO_GearMisc_Hands);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.labelScriptProfiles_SlayerAIO_GearMisc_Cape);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMisc_Hands);
-            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Controls.Add(this.textBox20);
-            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Location = new System.Drawing.Point(4, 24);
+            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Location = new System.Drawing.Point(4, 26);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Name = "tabPageScriptProfiles_SlayerAIO_GearMisc";
-            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Size = new System.Drawing.Size(892, 422);
+            this.tabPageScriptProfiles_SlayerAIO_GearMisc.Size = new System.Drawing.Size(892, 420);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.TabIndex = 3;
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.Text = "Gear: Misc";
             // 
@@ -924,17 +883,15 @@
             this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label28.Location = new System.Drawing.Point(310, 25);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(290, 17);
+            this.label28.Size = new System.Drawing.Size(290, 15);
             this.label28.TabIndex = 179;
             this.label28.Text = "Custom Gear: Misc (No restocking support)";
             // 
             // labelScriptProfiles_SlayerAIO_GearMisc_Hands
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMisc_Hands.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMisc_Hands.Location = new System.Drawing.Point(365, 250);
             this.labelScriptProfiles_SlayerAIO_GearMisc_Hands.Name = "labelScriptProfiles_SlayerAIO_GearMisc_Hands";
             this.labelScriptProfiles_SlayerAIO_GearMisc_Hands.Size = new System.Drawing.Size(172, 17);
@@ -943,7 +900,6 @@
             // 
             // labelScriptProfiles_SlayerAIO_GearMisc_Cape
             // 
-            this.labelScriptProfiles_SlayerAIO_GearMisc_Cape.AutoSize = true;
             this.labelScriptProfiles_SlayerAIO_GearMisc_Cape.Location = new System.Drawing.Point(430, 150);
             this.labelScriptProfiles_SlayerAIO_GearMisc_Cape.Name = "labelScriptProfiles_SlayerAIO_GearMisc_Cape";
             this.labelScriptProfiles_SlayerAIO_GearMisc_Cape.Size = new System.Drawing.Size(43, 17);
@@ -959,22 +915,20 @@
             this.textboxScriptProfiles_SlayerAIO_GearMisc_Hands.Text = "Combat bracelet";
             this.textboxScriptProfiles_SlayerAIO_GearMisc_Hands.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
             // 
-            // textBox20
+            // textboxScriptProfiles_SlayerAIO_GearMisc_Cape
             // 
-            this.textBox20.Location = new System.Drawing.Point(365, 175);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(175, 25);
-            this.textBox20.TabIndex = 171;
-            this.textBox20.Text = "Armadyl cloak";
-            this.textBox20.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxGlobal_InputRequired_Validating);
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Location = new System.Drawing.Point(366, 170);
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Name = "textboxScriptProfiles_SlayerAIO_GearMisc_Cape";
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Size = new System.Drawing.Size(175, 25);
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.TabIndex = 180;
+            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.Text = "Armadyl cloak";
             // 
             // formScriptProfilesSlayerAIO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
-            this.Controls.Add(this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape);
+            this.Controls.Add(this.tabControlScriptProfiles_SlayerAIO);
             this.Controls.Add(this.labelScriptProfiles_SlayerAIO_Title);
             this.Controls.Add(this.pictureBoxScriptProfiles_Runecrafting_Abyss_Header);
             this.Controls.Add(this.buttonScriptProfiles_SlayerAIO_SaveToProfiles);
@@ -986,9 +940,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Script Profiles: Cooking - Normal";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxScriptProfiles_Runecrafting_Abyss_Header)).EndInit();
-            this.textboxScriptProfiles_SlayerAIO_GearMisc_Cape.ResumeLayout(false);
+            this.tabControlScriptProfiles_SlayerAIO.ResumeLayout(false);
             this.tabPageScriptProfiles_SlayerAIO_GeneralSettings.ResumeLayout(false);
-            this.tabPageScriptProfiles_SlayerAIO_GeneralSettings.PerformLayout();
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.ResumeLayout(false);
             this.tabPageScriptProfiles_SlayerAIO_GearMelee.PerformLayout();
             this.tabPageScriptProfiles_SlayerAIO_GearRanged.ResumeLayout(false);
@@ -998,7 +951,6 @@
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.ResumeLayout(false);
             this.tabPageScriptProfiles_SlayerAIO_GearMisc.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1019,7 +971,7 @@
         private System.Windows.Forms.Label labelScriptProfiles_SlayerAIO_GeneralSettings_WorldHopping;
         private System.Windows.Forms.Label labelScriptProfiles_SlayerAIO_GeneralSettings_Restocking;
         private System.Windows.Forms.Label labelScriptProfiles_SlayerAIO_GeneralSettings_SellLoot;
-        private TabControl textboxScriptProfiles_SlayerAIO_GearMisc_Cape;
+        private TabControl tabControlScriptProfiles_SlayerAIO;
         private TabPage tabPageScriptProfiles_SlayerAIO_GearMelee;
         private TabPage tabPageScriptProfiles_SlayerAIO_GearRanged;
         private TabPage tabPageScriptProfiles_SlayerAIO_GearMagic;
@@ -1080,7 +1032,7 @@
         private Label labelScriptProfiles_SlayerAIO_GearMisc_Hands;
         private Label labelScriptProfiles_SlayerAIO_GearMisc_Cape;
         private TextBox textboxScriptProfiles_SlayerAIO_GearMisc_Hands;
-        private TextBox textBox20;
         private Label label29;
+        private TextBox textboxScriptProfiles_SlayerAIO_GearMisc_Cape;
     }
 }

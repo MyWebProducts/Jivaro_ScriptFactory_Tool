@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesFighterElderChaosDruids
     {
@@ -68,7 +68,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.Location = new System.Drawing.Point(464, 400);
             this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.Name = "labelScriptProfiles_FighterElderChaosDruids_SelectWeapon";
             this.labelScriptProfiles_FighterElderChaosDruids_SelectWeapon.Size = new System.Drawing.Size(108, 17);
@@ -80,7 +80,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.Location = new System.Drawing.Point(464, 300);
             this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.Name = "labelScriptProfiles_FighterElderChaosDruids_SelectCape";
             this.labelScriptProfiles_FighterElderChaosDruids_SelectCape.Size = new System.Drawing.Size(88, 17);
@@ -134,7 +134,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.Location = new System.Drawing.Point(464, 200);
             this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.Name = "labelScriptProfiles_FighterElderChaosDruids_SelectGear";
             this.labelScriptProfiles_FighterElderChaosDruids_SelectGear.Size = new System.Drawing.Size(96, 17);
@@ -167,7 +167,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.Location = new System.Drawing.Point(136, 450);
             this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.Name = "labelScriptProfiles_FighterElderChaosDruids_SellLoot";
             this.labelScriptProfiles_FighterElderChaosDruids_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -179,7 +179,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_Restocking.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_Restocking.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_Restocking.Location = new System.Drawing.Point(136, 400);
             this.labelScriptProfiles_FighterElderChaosDruids_Restocking.Name = "labelScriptProfiles_FighterElderChaosDruids_Restocking";
             this.labelScriptProfiles_FighterElderChaosDruids_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -191,7 +191,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.Location = new System.Drawing.Point(136, 350);
             this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.Name = "labelScriptProfiles_FighterElderChaosDruids_WorldHopping";
             this.labelScriptProfiles_FighterElderChaosDruids_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -203,7 +203,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.Location = new System.Drawing.Point(136, 300);
             this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.Name = "labelScriptProfiles_FighterElderChaosDruids_Antipattern";
             this.labelScriptProfiles_FighterElderChaosDruids_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -215,7 +215,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.Location = new System.Drawing.Point(136, 250);
             this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.Name = "labelScriptProfiles_FighterElderChaosDruids_RenewBond";
             this.labelScriptProfiles_FighterElderChaosDruids_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -227,7 +227,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Location = new System.Drawing.Point(296, 200);
             this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Name = "labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly";
             this.labelScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Size = new System.Drawing.Size(125, 17);
@@ -239,7 +239,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Location = new System.Drawing.Point(271, 201);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TrainStatsEvenly.Size = new System.Drawing.Size(15, 14);
@@ -251,7 +251,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.Location = new System.Drawing.Point(111, 352);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -263,7 +263,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.Location = new System.Drawing.Point(111, 402);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_Restocking";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -275,7 +275,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.Location = new System.Drawing.Point(111, 452);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -287,7 +287,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.Location = new System.Drawing.Point(111, 302);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -299,7 +299,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.Location = new System.Drawing.Point(111, 252);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -311,7 +311,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.Location = new System.Drawing.Point(111, 202);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -323,7 +323,7 @@
             this.labelScriptProfiles_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_DeathHandler.Location = new System.Drawing.Point(136, 200);
             this.labelScriptProfiles_DeathHandler.Name = "labelScriptProfiles_DeathHandler";
             this.labelScriptProfiles_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -335,7 +335,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_Title.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_Title.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_FighterElderChaosDruids_Title.Location = new System.Drawing.Point(409, 120);
             this.labelScriptProfiles_FighterElderChaosDruids_Title.Name = "labelScriptProfiles_FighterElderChaosDruids_Title";
@@ -377,7 +377,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.Location = new System.Drawing.Point(464, 250);
             this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.Name = "labelScriptProfiles_FighterElderChaosDruids_SelectHat";
             this.labelScriptProfiles_FighterElderChaosDruids_SelectHat.Size = new System.Drawing.Size(116, 17);
@@ -389,7 +389,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.Location = new System.Drawing.Point(464, 350);
             this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.Name = "labelScriptProfiles_FighterElderChaosDruids_SelectBoots";
             this.labelScriptProfiles_FighterElderChaosDruids_SelectBoots.Size = new System.Drawing.Size(91, 17);
@@ -401,7 +401,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Location = new System.Drawing.Point(271, 251);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Size = new System.Drawing.Size(15, 14);
@@ -413,7 +413,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Location = new System.Drawing.Point(296, 250);
             this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Name = "labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers";
             this.labelScriptProfiles_FighterElderChaosDruids_TeleportFromPkers.Size = new System.Drawing.Size(140, 17);
@@ -425,7 +425,7 @@
             this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.AutoSize = true;
+            this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.AutoSize = false;
             this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Location = new System.Drawing.Point(271, 302);
             this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Name = "checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers";
             this.checkBoxScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Size = new System.Drawing.Size(15, 14);
@@ -437,7 +437,7 @@
             this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.AutoSize = true;
+            this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.AutoSize = false;
             this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Location = new System.Drawing.Point(296, 300);
             this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Name = "labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers";
             this.labelScriptProfiles_FighterElderChaosDruids_UseOffensivePrayers.Size = new System.Drawing.Size(155, 17);
@@ -489,7 +489,7 @@
             // formScriptProfilesFighterElderChaosDruids
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.comboBoxScriptProfiles_FighterElderChaosDruids_SelectBoots);

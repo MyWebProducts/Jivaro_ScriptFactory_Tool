@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesThievingMasterFarmers
     {
@@ -67,7 +67,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.Location = new System.Drawing.Point(499, 209);
             this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.Name = "labelScriptProfiles_ThievingMasterFarmers_SelectLocation";
             this.labelScriptProfiles_ThievingMasterFarmers_SelectLocation.Size = new System.Drawing.Size(108, 17);
@@ -104,7 +104,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.Location = new System.Drawing.Point(294, 459);
             this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.Name = "labelScriptProfiles_ThievingMasterFarmers_SellLoot";
             this.labelScriptProfiles_ThievingMasterFarmers_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -116,7 +116,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_Restocking.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_Restocking.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_Restocking.Location = new System.Drawing.Point(294, 409);
             this.labelScriptProfiles_ThievingMasterFarmers_Restocking.Name = "labelScriptProfiles_ThievingMasterFarmers_Restocking";
             this.labelScriptProfiles_ThievingMasterFarmers_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -128,7 +128,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.Location = new System.Drawing.Point(294, 359);
             this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.Name = "labelScriptProfiles_ThievingMasterFarmers_WorldHopping";
             this.labelScriptProfiles_ThievingMasterFarmers_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -140,7 +140,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.Location = new System.Drawing.Point(294, 309);
             this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.Name = "labelScriptProfiles_ThievingMasterFarmers_Antipattern";
             this.labelScriptProfiles_ThievingMasterFarmers_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -152,7 +152,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.Location = new System.Drawing.Point(294, 259);
             this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.Name = "labelScriptProfiles_ThievingMasterFarmers_RenewBond";
             this.labelScriptProfiles_ThievingMasterFarmers_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -164,7 +164,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.Location = new System.Drawing.Point(272, 361);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -176,7 +176,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.Location = new System.Drawing.Point(272, 411);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_Restocking";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -188,7 +188,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.Location = new System.Drawing.Point(272, 461);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -200,7 +200,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.Location = new System.Drawing.Point(272, 311);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -212,7 +212,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.Location = new System.Drawing.Point(272, 261);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -224,7 +224,7 @@
             this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.Location = new System.Drawing.Point(272, 211);
             this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.Name = "checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler";
             this.checkBoxScriptProfiles_ThievingMasterFarmers_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -236,7 +236,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.Location = new System.Drawing.Point(294, 209);
             this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.Name = "labelScriptProfiles_ThievingMasterFarmers_DeathHandler";
             this.labelScriptProfiles_ThievingMasterFarmers_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -248,7 +248,7 @@
             this.labelScriptProfiles_ThievingMasterFarmers_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_ThievingMasterFarmers_Title.AutoSize = true;
+            this.labelScriptProfiles_ThievingMasterFarmers_Title.AutoSize = false;
             this.labelScriptProfiles_ThievingMasterFarmers_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_ThievingMasterFarmers_Title.Location = new System.Drawing.Point(415, 122);
             this.labelScriptProfiles_ThievingMasterFarmers_Title.Name = "labelScriptProfiles_ThievingMasterFarmers_Title";
@@ -276,7 +276,7 @@
             // formScriptProfilesThievingMasterFarmers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_Aragorn_Banner);

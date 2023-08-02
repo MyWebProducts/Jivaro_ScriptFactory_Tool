@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesMagicOrber
     {
@@ -62,7 +62,7 @@
             this.labelScriptProfiles_MagicOrber_UseRandomCape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_UseRandomCape.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_UseRandomCape.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_UseRandomCape.Location = new System.Drawing.Point(400, 375);
             this.labelScriptProfiles_MagicOrber_UseRandomCape.Name = "labelScriptProfiles_MagicOrber_UseRandomCape";
             this.labelScriptProfiles_MagicOrber_UseRandomCape.Size = new System.Drawing.Size(133, 17);
@@ -74,7 +74,7 @@
             this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.Location = new System.Drawing.Point(375, 377);
             this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.Name = "checkBoxScriptProfiles_MagicOrber_UseRandomCape";
             this.checkBoxScriptProfiles_MagicOrber_UseRandomCape.Size = new System.Drawing.Size(15, 14);
@@ -86,7 +86,7 @@
             this.labelScriptProfiles_MagicOrber_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_SellLoot.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_SellLoot.Location = new System.Drawing.Point(400, 275);
             this.labelScriptProfiles_MagicOrber_SellLoot.Name = "labelScriptProfiles_MagicOrber_SellLoot";
             this.labelScriptProfiles_MagicOrber_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -98,7 +98,7 @@
             this.labelScriptProfiles_MagicOrber_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_Restocking.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_Restocking.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_Restocking.Location = new System.Drawing.Point(400, 225);
             this.labelScriptProfiles_MagicOrber_Restocking.Name = "labelScriptProfiles_MagicOrber_Restocking";
             this.labelScriptProfiles_MagicOrber_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -110,7 +110,7 @@
             this.labelScriptProfiles_MagicOrber_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_WorldHopping.Location = new System.Drawing.Point(200, 375);
             this.labelScriptProfiles_MagicOrber_WorldHopping.Name = "labelScriptProfiles_MagicOrber_WorldHopping";
             this.labelScriptProfiles_MagicOrber_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -122,7 +122,7 @@
             this.labelScriptProfiles_MagicOrber_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_Antipattern.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_Antipattern.Location = new System.Drawing.Point(200, 325);
             this.labelScriptProfiles_MagicOrber_Antipattern.Name = "labelScriptProfiles_MagicOrber_Antipattern";
             this.labelScriptProfiles_MagicOrber_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -134,7 +134,7 @@
             this.labelScriptProfiles_MagicOrber_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_RenewBond.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_RenewBond.Location = new System.Drawing.Point(200, 275);
             this.labelScriptProfiles_MagicOrber_RenewBond.Name = "labelScriptProfiles_MagicOrber_RenewBond";
             this.labelScriptProfiles_MagicOrber_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -174,7 +174,7 @@
             this.labelScriptProfiles_MagicOrber_TrainMelee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_TrainMelee.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_TrainMelee.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_TrainMelee.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_MagicOrber_TrainMelee.Location = new System.Drawing.Point(600, 327);
             this.labelScriptProfiles_MagicOrber_TrainMelee.Name = "labelScriptProfiles_MagicOrber_TrainMelee";
@@ -187,7 +187,7 @@
             this.labelScriptProfiles_MagicOrber_TrainAgility.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_TrainAgility.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_TrainAgility.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_TrainAgility.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_MagicOrber_TrainAgility.Location = new System.Drawing.Point(600, 277);
             this.labelScriptProfiles_MagicOrber_TrainAgility.Name = "labelScriptProfiles_MagicOrber_TrainAgility";
@@ -200,7 +200,7 @@
             this.checkBoxScriptProfiles_MagicOrber_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_WorldHopping.Location = new System.Drawing.Point(175, 377);
             this.checkBoxScriptProfiles_MagicOrber_WorldHopping.Name = "checkBoxScriptProfiles_MagicOrber_WorldHopping";
             this.checkBoxScriptProfiles_MagicOrber_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -212,7 +212,7 @@
             this.checkBoxScriptProfiles_MagicOrber_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_Restocking.Location = new System.Drawing.Point(375, 227);
             this.checkBoxScriptProfiles_MagicOrber_Restocking.Name = "checkBoxScriptProfiles_MagicOrber_Restocking";
             this.checkBoxScriptProfiles_MagicOrber_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -224,7 +224,7 @@
             this.checkBoxScriptProfiles_MagicOrber_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_SellLoot.Location = new System.Drawing.Point(375, 277);
             this.checkBoxScriptProfiles_MagicOrber_SellLoot.Name = "checkBoxScriptProfiles_MagicOrber_SellLoot";
             this.checkBoxScriptProfiles_MagicOrber_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -236,7 +236,7 @@
             this.checkBoxScriptProfiles_MagicOrber_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_Antipattern.Location = new System.Drawing.Point(175, 327);
             this.checkBoxScriptProfiles_MagicOrber_Antipattern.Name = "checkBoxScriptProfiles_MagicOrber_Antipattern";
             this.checkBoxScriptProfiles_MagicOrber_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -248,7 +248,7 @@
             this.checkBoxScriptProfiles_MagicOrber_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_RenewBond.Location = new System.Drawing.Point(175, 277);
             this.checkBoxScriptProfiles_MagicOrber_RenewBond.Name = "checkBoxScriptProfiles_MagicOrber_RenewBond";
             this.checkBoxScriptProfiles_MagicOrber_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -260,7 +260,7 @@
             this.checkBoxScriptProfiles_MagicOrber_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_MagicOrber_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_DeathHandler.Location = new System.Drawing.Point(175, 227);
             this.checkBoxScriptProfiles_MagicOrber_DeathHandler.Name = "checkBoxScriptProfiles_MagicOrber_DeathHandler";
             this.checkBoxScriptProfiles_MagicOrber_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -272,7 +272,7 @@
             this.labelScriptProfiles_MagicOrber_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_DeathHandler.Location = new System.Drawing.Point(200, 225);
             this.labelScriptProfiles_MagicOrber_DeathHandler.Name = "labelScriptProfiles_MagicOrber_DeathHandler";
             this.labelScriptProfiles_MagicOrber_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -284,7 +284,7 @@
             this.labelScriptProfiles_MagicOrber_UseStaminas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_UseStaminas.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_UseStaminas.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_UseStaminas.Location = new System.Drawing.Point(400, 325);
             this.labelScriptProfiles_MagicOrber_UseStaminas.Name = "labelScriptProfiles_MagicOrber_UseStaminas";
             this.labelScriptProfiles_MagicOrber_UseStaminas.Size = new System.Drawing.Size(100, 17);
@@ -293,7 +293,7 @@
             // 
             // checkBoxScriptProfiles_MagicOrber_UseStaminas
             // 
-            this.checkBoxScriptProfiles_MagicOrber_UseStaminas.AutoSize = true;
+            this.checkBoxScriptProfiles_MagicOrber_UseStaminas.AutoSize = false;
             this.checkBoxScriptProfiles_MagicOrber_UseStaminas.Location = new System.Drawing.Point(375, 327);
             this.checkBoxScriptProfiles_MagicOrber_UseStaminas.Name = "checkBoxScriptProfiles_MagicOrber_UseStaminas";
             this.checkBoxScriptProfiles_MagicOrber_UseStaminas.Size = new System.Drawing.Size(15, 14);
@@ -305,7 +305,7 @@
             this.labelScriptProfiles_MagicOrber_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_Title.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_Title.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_MagicOrber_Title.Location = new System.Drawing.Point(455, 81);
             this.labelScriptProfiles_MagicOrber_Title.Name = "labelScriptProfiles_MagicOrber_Title";
@@ -334,7 +334,7 @@
             this.labelScriptProfiles_MagicOrber_SelectOrb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_MagicOrber_SelectOrb.AutoSize = true;
+            this.labelScriptProfiles_MagicOrber_SelectOrb.AutoSize = false;
             this.labelScriptProfiles_MagicOrber_SelectOrb.Location = new System.Drawing.Point(600, 225);
             this.labelScriptProfiles_MagicOrber_SelectOrb.Name = "labelScriptProfiles_MagicOrber_SelectOrb";
             this.labelScriptProfiles_MagicOrber_SelectOrb.Size = new System.Drawing.Size(78, 17);
@@ -383,7 +383,7 @@
             // formScriptProfilesMagicOrber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_AccountBuilder_Header);

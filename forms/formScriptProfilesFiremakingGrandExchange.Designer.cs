@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesFiremakingGrandExchange
     {
@@ -54,7 +54,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.Location = new System.Drawing.Point(575, 248);
             this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.Name = "labelScriptProfiles_FiremakingGrandExchange_SellLoot";
             this.labelScriptProfiles_FiremakingGrandExchange_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -66,7 +66,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_Restocking.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_Restocking.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_Restocking.Location = new System.Drawing.Point(575, 198);
             this.labelScriptProfiles_FiremakingGrandExchange_Restocking.Name = "labelScriptProfiles_FiremakingGrandExchange_Restocking";
             this.labelScriptProfiles_FiremakingGrandExchange_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -78,7 +78,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.Location = new System.Drawing.Point(325, 348);
             this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.Name = "labelScriptProfiles_FiremakingGrandExchange_WorldHopping";
             this.labelScriptProfiles_FiremakingGrandExchange_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -90,7 +90,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.Location = new System.Drawing.Point(325, 298);
             this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.Name = "labelScriptProfiles_FiremakingGrandExchange_Antipattern";
             this.labelScriptProfiles_FiremakingGrandExchange_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -102,7 +102,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.Location = new System.Drawing.Point(325, 248);
             this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.Name = "labelScriptProfiles_FiremakingGrandExchange_RenewBond";
             this.labelScriptProfiles_FiremakingGrandExchange_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -128,7 +128,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.Location = new System.Drawing.Point(550, 300);
             this.labelScriptProfiles_FiremakingGrandExchange_StopLevel.Name = "labelScriptProfiles_FiremakingGrandExchange_StopLevel";
@@ -141,7 +141,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.Location = new System.Drawing.Point(300, 350);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -153,7 +153,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.Location = new System.Drawing.Point(550, 200);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_Restocking";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -165,7 +165,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.Location = new System.Drawing.Point(550, 250);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -177,7 +177,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.Location = new System.Drawing.Point(300, 300);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -189,7 +189,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.Location = new System.Drawing.Point(300, 250);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -201,7 +201,7 @@
             this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.Location = new System.Drawing.Point(300, 200);
             this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.Name = "checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler";
             this.checkBoxScriptProfiles_FiremakingGrandExchange_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -213,7 +213,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.Location = new System.Drawing.Point(325, 198);
             this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.Name = "labelScriptProfiles_FiremakingGrandExchange_DeathHandler";
             this.labelScriptProfiles_FiremakingGrandExchange_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -225,7 +225,7 @@
             this.labelScriptProfiles_FiremakingGrandExchange_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FiremakingGrandExchange_Title.AutoSize = true;
+            this.labelScriptProfiles_FiremakingGrandExchange_Title.AutoSize = false;
             this.labelScriptProfiles_FiremakingGrandExchange_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_FiremakingGrandExchange_Title.Location = new System.Drawing.Point(400, 100);
             this.labelScriptProfiles_FiremakingGrandExchange_Title.Name = "labelScriptProfiles_FiremakingGrandExchange_Title";
@@ -265,7 +265,7 @@
             // formScriptProfilesFiremakingGrandExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.pictureBoxScriptProfiles_FiremakingGrandExchange_Header);

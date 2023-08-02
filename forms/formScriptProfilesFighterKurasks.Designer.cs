@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesFighterKurasks
     {
@@ -101,7 +101,7 @@
             this.labelScriptProfiles_Kurasks_RangedChest.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedChest.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedChest.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedChest.Location = new System.Drawing.Point(250, 245);
             this.labelScriptProfiles_Kurasks_RangedChest.Name = "labelScriptProfiles_Kurasks_RangedChest";
             this.labelScriptProfiles_Kurasks_RangedChest.Size = new System.Drawing.Size(47, 17);
@@ -113,7 +113,7 @@
             this.labelScriptProfiles_Kurasks_RangedArrow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedArrow.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedArrow.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedArrow.Location = new System.Drawing.Point(250, 145);
             this.labelScriptProfiles_Kurasks_RangedArrow.Name = "labelScriptProfiles_Kurasks_RangedArrow";
             this.labelScriptProfiles_Kurasks_RangedArrow.Size = new System.Drawing.Size(46, 17);
@@ -125,7 +125,7 @@
             this.labelScriptProfiles_Kurasks_RangedFeet.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedFeet.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedFeet.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedFeet.Location = new System.Drawing.Point(250, 295);
             this.labelScriptProfiles_Kurasks_RangedFeet.Name = "labelScriptProfiles_Kurasks_RangedFeet";
             this.labelScriptProfiles_Kurasks_RangedFeet.Size = new System.Drawing.Size(37, 17);
@@ -137,7 +137,7 @@
             this.labelScriptProfiles_Kurasks_RangedCape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedCape.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedCape.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedCape.Location = new System.Drawing.Point(250, 195);
             this.labelScriptProfiles_Kurasks_RangedCape.Name = "labelScriptProfiles_Kurasks_RangedCape";
             this.labelScriptProfiles_Kurasks_RangedCape.Size = new System.Drawing.Size(43, 17);
@@ -149,7 +149,7 @@
             this.labelScriptProfiles_Kurasks_SelectMode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_SelectMode.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_SelectMode.AutoSize = false;
             this.labelScriptProfiles_Kurasks_SelectMode.Location = new System.Drawing.Point(800, 250);
             this.labelScriptProfiles_Kurasks_SelectMode.Name = "labelScriptProfiles_Kurasks_SelectMode";
             this.labelScriptProfiles_Kurasks_SelectMode.Size = new System.Drawing.Size(88, 17);
@@ -179,7 +179,7 @@
             this.labelScriptProfiles_Kurasks_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_SellLoot.AutoSize = false;
             this.labelScriptProfiles_Kurasks_SellLoot.Location = new System.Drawing.Point(75, 400);
             this.labelScriptProfiles_Kurasks_SellLoot.Name = "labelScriptProfiles_Kurasks_SellLoot";
             this.labelScriptProfiles_Kurasks_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -191,7 +191,7 @@
             this.labelScriptProfiles_Kurasks_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_Restocking.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_Restocking.AutoSize = false;
             this.labelScriptProfiles_Kurasks_Restocking.Location = new System.Drawing.Point(75, 350);
             this.labelScriptProfiles_Kurasks_Restocking.Name = "labelScriptProfiles_Kurasks_Restocking";
             this.labelScriptProfiles_Kurasks_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -203,7 +203,7 @@
             this.labelScriptProfiles_Kurasks_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_Kurasks_WorldHopping.Location = new System.Drawing.Point(75, 300);
             this.labelScriptProfiles_Kurasks_WorldHopping.Name = "labelScriptProfiles_Kurasks_WorldHopping";
             this.labelScriptProfiles_Kurasks_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -215,7 +215,7 @@
             this.labelScriptProfiles_Kurasks_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_Antipattern.AutoSize = false;
             this.labelScriptProfiles_Kurasks_Antipattern.Location = new System.Drawing.Point(75, 250);
             this.labelScriptProfiles_Kurasks_Antipattern.Name = "labelScriptProfiles_Kurasks_Antipattern";
             this.labelScriptProfiles_Kurasks_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -227,7 +227,7 @@
             this.labelScriptProfiles_Kurasks_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RenewBond.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RenewBond.Location = new System.Drawing.Point(75, 200);
             this.labelScriptProfiles_Kurasks_RenewBond.Name = "labelScriptProfiles_Kurasks_RenewBond";
             this.labelScriptProfiles_Kurasks_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -239,7 +239,7 @@
             this.labelScriptProfiles_Kurasks_HighAlching.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_HighAlching.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_HighAlching.AutoSize = false;
             this.labelScriptProfiles_Kurasks_HighAlching.Location = new System.Drawing.Point(75, 450);
             this.labelScriptProfiles_Kurasks_HighAlching.Name = "labelScriptProfiles_Kurasks_HighAlching";
             this.labelScriptProfiles_Kurasks_HighAlching.Size = new System.Drawing.Size(87, 17);
@@ -251,7 +251,7 @@
             this.checkBoxScriptProfiles_Kurasks_HighAlching.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_HighAlching.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_HighAlching.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_HighAlching.Location = new System.Drawing.Point(50, 452);
             this.checkBoxScriptProfiles_Kurasks_HighAlching.Name = "checkBoxScriptProfiles_Kurasks_HighAlching";
             this.checkBoxScriptProfiles_Kurasks_HighAlching.Size = new System.Drawing.Size(15, 14);
@@ -263,7 +263,7 @@
             this.checkBoxScriptProfiles_Kurasks_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_WorldHopping.Location = new System.Drawing.Point(50, 302);
             this.checkBoxScriptProfiles_Kurasks_WorldHopping.Name = "checkBoxScriptProfiles_Kurasks_WorldHopping";
             this.checkBoxScriptProfiles_Kurasks_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -275,7 +275,7 @@
             this.checkBoxScriptProfiles_Kurasks_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_Restocking.Location = new System.Drawing.Point(50, 352);
             this.checkBoxScriptProfiles_Kurasks_Restocking.Name = "checkBoxScriptProfiles_Kurasks_Restocking";
             this.checkBoxScriptProfiles_Kurasks_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -287,7 +287,7 @@
             this.checkBoxScriptProfiles_Kurasks_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_SellLoot.Location = new System.Drawing.Point(50, 402);
             this.checkBoxScriptProfiles_Kurasks_SellLoot.Name = "checkBoxScriptProfiles_Kurasks_SellLoot";
             this.checkBoxScriptProfiles_Kurasks_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -299,7 +299,7 @@
             this.checkBoxScriptProfiles_Kurasks_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_Antipattern.Location = new System.Drawing.Point(50, 252);
             this.checkBoxScriptProfiles_Kurasks_Antipattern.Name = "checkBoxScriptProfiles_Kurasks_Antipattern";
             this.checkBoxScriptProfiles_Kurasks_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -311,7 +311,7 @@
             this.checkBoxScriptProfiles_Kurasks_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_RenewBond.Location = new System.Drawing.Point(50, 202);
             this.checkBoxScriptProfiles_Kurasks_RenewBond.Name = "checkBoxScriptProfiles_Kurasks_RenewBond";
             this.checkBoxScriptProfiles_Kurasks_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -323,7 +323,7 @@
             this.checkBoxScriptProfiles_Kurasks_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_Kurasks_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_Kurasks_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_Kurasks_DeathHandler.Location = new System.Drawing.Point(50, 152);
             this.checkBoxScriptProfiles_Kurasks_DeathHandler.Name = "checkBoxScriptProfiles_Kurasks_DeathHandler";
             this.checkBoxScriptProfiles_Kurasks_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -335,7 +335,7 @@
             this.labelScriptProfiles_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_DeathHandler.Location = new System.Drawing.Point(75, 150);
             this.labelScriptProfiles_DeathHandler.Name = "labelScriptProfiles_DeathHandler";
             this.labelScriptProfiles_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -347,7 +347,7 @@
             this.labelScriptProfiles_FighterKurasks_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterKurasks_Title.AutoSize = true;
+            this.labelScriptProfiles_FighterKurasks_Title.AutoSize = false;
             this.labelScriptProfiles_FighterKurasks_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_FighterKurasks_Title.Location = new System.Drawing.Point(450, 60);
             this.labelScriptProfiles_FighterKurasks_Title.Name = "labelScriptProfiles_FighterKurasks_Title";
@@ -398,7 +398,7 @@
             this.labelScriptProfiles_Kurasks_RangedWeapon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedWeapon.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedWeapon.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedWeapon.Location = new System.Drawing.Point(250, 545);
             this.labelScriptProfiles_Kurasks_RangedWeapon.Name = "labelScriptProfiles_Kurasks_RangedWeapon";
             this.labelScriptProfiles_Kurasks_RangedWeapon.Size = new System.Drawing.Size(63, 17);
@@ -410,7 +410,7 @@
             this.labelScriptProfiles_Kurasks_RangedRing.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedRing.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedRing.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedRing.Location = new System.Drawing.Point(250, 495);
             this.labelScriptProfiles_Kurasks_RangedRing.Name = "labelScriptProfiles_Kurasks_RangedRing";
             this.labelScriptProfiles_Kurasks_RangedRing.Size = new System.Drawing.Size(38, 17);
@@ -422,7 +422,7 @@
             this.labelScriptProfiles_Kurasks_RangedLegs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedLegs.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedLegs.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedLegs.Location = new System.Drawing.Point(250, 445);
             this.labelScriptProfiles_Kurasks_RangedLegs.Name = "labelScriptProfiles_Kurasks_RangedLegs";
             this.labelScriptProfiles_Kurasks_RangedLegs.Size = new System.Drawing.Size(40, 17);
@@ -434,7 +434,7 @@
             this.labelScriptProfiles_Kurasks_RangedHead.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedHead.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedHead.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedHead.Location = new System.Drawing.Point(250, 395);
             this.labelScriptProfiles_Kurasks_RangedHead.Name = "labelScriptProfiles_Kurasks_RangedHead";
             this.labelScriptProfiles_Kurasks_RangedHead.Size = new System.Drawing.Size(42, 17);
@@ -446,7 +446,7 @@
             this.labelScriptProfiles_Kurasks_RangedHands.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_RangedHands.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_RangedHands.AutoSize = false;
             this.labelScriptProfiles_Kurasks_RangedHands.Location = new System.Drawing.Point(250, 345);
             this.labelScriptProfiles_Kurasks_RangedHands.Name = "labelScriptProfiles_Kurasks_RangedHands";
             this.labelScriptProfiles_Kurasks_RangedHands.Size = new System.Drawing.Size(50, 17);
@@ -458,7 +458,7 @@
             this.labelScriptProfiles_FighterKurasks_RangedGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterKurasks_RangedGear.AutoSize = true;
+            this.labelScriptProfiles_FighterKurasks_RangedGear.AutoSize = false;
             this.labelScriptProfiles_FighterKurasks_RangedGear.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_FighterKurasks_RangedGear.Location = new System.Drawing.Point(300, 100);
             this.labelScriptProfiles_FighterKurasks_RangedGear.Name = "labelScriptProfiles_FighterKurasks_RangedGear";
@@ -480,7 +480,7 @@
             this.labelScriptProfiles_FighterKurasks_MeleeGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterKurasks_MeleeGear.AutoSize = true;
+            this.labelScriptProfiles_FighterKurasks_MeleeGear.AutoSize = false;
             this.labelScriptProfiles_FighterKurasks_MeleeGear.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_FighterKurasks_MeleeGear.Location = new System.Drawing.Point(550, 100);
             this.labelScriptProfiles_FighterKurasks_MeleeGear.Name = "labelScriptProfiles_FighterKurasks_MeleeGear";
@@ -493,7 +493,7 @@
             this.labelScriptProfiles_FighterKurasks_MiscGear.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_FighterKurasks_MiscGear.AutoSize = true;
+            this.labelScriptProfiles_FighterKurasks_MiscGear.AutoSize = false;
             this.labelScriptProfiles_FighterKurasks_MiscGear.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelScriptProfiles_FighterKurasks_MiscGear.Location = new System.Drawing.Point(800, 100);
             this.labelScriptProfiles_FighterKurasks_MiscGear.Name = "labelScriptProfiles_FighterKurasks_MiscGear";
@@ -569,7 +569,7 @@
             this.labelScriptProfiles_Kurasks_MeleeHands.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeHands.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeHands.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeHands.Location = new System.Drawing.Point(525, 345);
             this.labelScriptProfiles_Kurasks_MeleeHands.Name = "labelScriptProfiles_Kurasks_MeleeHands";
             this.labelScriptProfiles_Kurasks_MeleeHands.Size = new System.Drawing.Size(50, 17);
@@ -581,7 +581,7 @@
             this.labelScriptProfiles_Kurasks_MeleeHead.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeHead.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeHead.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeHead.Location = new System.Drawing.Point(525, 395);
             this.labelScriptProfiles_Kurasks_MeleeHead.Name = "labelScriptProfiles_Kurasks_MeleeHead";
             this.labelScriptProfiles_Kurasks_MeleeHead.Size = new System.Drawing.Size(42, 17);
@@ -593,7 +593,7 @@
             this.labelScriptProfiles_Kurasks_MeleeLegs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeLegs.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeLegs.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeLegs.Location = new System.Drawing.Point(525, 445);
             this.labelScriptProfiles_Kurasks_MeleeLegs.Name = "labelScriptProfiles_Kurasks_MeleeLegs";
             this.labelScriptProfiles_Kurasks_MeleeLegs.Size = new System.Drawing.Size(40, 17);
@@ -605,7 +605,7 @@
             this.labelScriptProfiles_Kurasks_MeleeRing.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeRing.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeRing.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeRing.Location = new System.Drawing.Point(525, 495);
             this.labelScriptProfiles_Kurasks_MeleeRing.Name = "labelScriptProfiles_Kurasks_MeleeRing";
             this.labelScriptProfiles_Kurasks_MeleeRing.Size = new System.Drawing.Size(38, 17);
@@ -617,7 +617,7 @@
             this.labelScriptProfiles_Kurasks_MeleeWeapon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeWeapon.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeWeapon.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeWeapon.Location = new System.Drawing.Point(525, 545);
             this.labelScriptProfiles_Kurasks_MeleeWeapon.Name = "labelScriptProfiles_Kurasks_MeleeWeapon";
             this.labelScriptProfiles_Kurasks_MeleeWeapon.Size = new System.Drawing.Size(63, 17);
@@ -629,7 +629,7 @@
             this.labelScriptProfiles_Kurasks_MeleeChest.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeChest.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeChest.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeChest.Location = new System.Drawing.Point(525, 245);
             this.labelScriptProfiles_Kurasks_MeleeChest.Name = "labelScriptProfiles_Kurasks_MeleeChest";
             this.labelScriptProfiles_Kurasks_MeleeChest.Size = new System.Drawing.Size(47, 17);
@@ -641,7 +641,7 @@
             this.labelScriptProfiles_Kurasks_MeleeArrow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeArrow.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeArrow.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeArrow.Location = new System.Drawing.Point(525, 145);
             this.labelScriptProfiles_Kurasks_MeleeArrow.Name = "labelScriptProfiles_Kurasks_MeleeArrow";
             this.labelScriptProfiles_Kurasks_MeleeArrow.Size = new System.Drawing.Size(46, 17);
@@ -653,7 +653,7 @@
             this.labelScriptProfiles_Kurasks_MeleeFeet.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeFeet.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeFeet.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeFeet.Location = new System.Drawing.Point(525, 295);
             this.labelScriptProfiles_Kurasks_MeleeFeet.Name = "labelScriptProfiles_Kurasks_MeleeFeet";
             this.labelScriptProfiles_Kurasks_MeleeFeet.Size = new System.Drawing.Size(37, 17);
@@ -665,7 +665,7 @@
             this.labelScriptProfiles_Kurasks_MeleeCape.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MeleeCape.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MeleeCape.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MeleeCape.Location = new System.Drawing.Point(525, 195);
             this.labelScriptProfiles_Kurasks_MeleeCape.Name = "labelScriptProfiles_Kurasks_MeleeCape";
             this.labelScriptProfiles_Kurasks_MeleeCape.Size = new System.Drawing.Size(43, 17);
@@ -677,7 +677,7 @@
             this.labelScriptProfiles_Kurasks_MiscAmulet.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MiscAmulet.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MiscAmulet.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MiscAmulet.Location = new System.Drawing.Point(775, 145);
             this.labelScriptProfiles_Kurasks_MiscAmulet.Name = "labelScriptProfiles_Kurasks_MiscAmulet";
             this.labelScriptProfiles_Kurasks_MiscAmulet.Size = new System.Drawing.Size(53, 17);
@@ -689,7 +689,7 @@
             this.labelScriptProfiles_Kurasks_MiscShield.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_MiscShield.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_MiscShield.AutoSize = false;
             this.labelScriptProfiles_Kurasks_MiscShield.Location = new System.Drawing.Point(775, 195);
             this.labelScriptProfiles_Kurasks_MiscShield.Name = "labelScriptProfiles_Kurasks_MiscShield";
             this.labelScriptProfiles_Kurasks_MiscShield.Size = new System.Drawing.Size(48, 17);
@@ -800,7 +800,7 @@
             this.labelScriptProfiles_Kurasks_SelectPotion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_Kurasks_SelectPotion.AutoSize = true;
+            this.labelScriptProfiles_Kurasks_SelectPotion.AutoSize = false;
             this.labelScriptProfiles_Kurasks_SelectPotion.Location = new System.Drawing.Point(800, 325);
             this.labelScriptProfiles_Kurasks_SelectPotion.Name = "labelScriptProfiles_Kurasks_SelectPotion";
             this.labelScriptProfiles_Kurasks_SelectPotion.Size = new System.Drawing.Size(94, 17);
@@ -830,7 +830,7 @@
             // formScriptProfilesFighterKurasks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.comboBoxScriptProfiles_Kurasks_SelectPotion);

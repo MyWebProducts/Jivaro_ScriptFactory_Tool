@@ -1,4 +1,4 @@
-﻿namespace jivarosft
+﻿namespace jivaro_osrs_launcher
 {
     partial class formScriptProfilesRunecraftingAbyss
     {
@@ -68,7 +68,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.Location = new System.Drawing.Point(344, 358);
             this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.Name = "labelScriptProfiles_RunecraftingAbyss_SelectPouches";
             this.labelScriptProfiles_RunecraftingAbyss_SelectPouches.Size = new System.Drawing.Size(111, 17);
@@ -149,7 +149,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_Teleport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_Teleport.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_Teleport.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_Teleport.Location = new System.Drawing.Point(544, 435);
             this.labelScriptProfiles_RunecraftingAbyss_Teleport.Name = "labelScriptProfiles_RunecraftingAbyss_Teleport";
             this.labelScriptProfiles_RunecraftingAbyss_Teleport.Size = new System.Drawing.Size(59, 17);
@@ -161,7 +161,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.Location = new System.Drawing.Point(544, 360);
             this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.Name = "labelScriptProfiles_RunecraftingAbyss_SelectWearables";
             this.labelScriptProfiles_RunecraftingAbyss_SelectWearables.Size = new System.Drawing.Size(124, 17);
@@ -173,7 +173,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.Location = new System.Drawing.Point(544, 285);
             this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.Name = "labelScriptProfiles_RunecraftingAbyss_SelectObstacle";
             this.labelScriptProfiles_RunecraftingAbyss_SelectObstacle.Size = new System.Drawing.Size(112, 17);
@@ -210,7 +210,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.Location = new System.Drawing.Point(344, 258);
             this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.Name = "labelScriptProfiles_RunecraftingAbyss_BloodEssence";
             this.labelScriptProfiles_RunecraftingAbyss_BloodEssence.Size = new System.Drawing.Size(137, 17);
@@ -222,7 +222,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.Location = new System.Drawing.Point(319, 260);
             this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.Name = "checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence";
             this.checkBoxScriptProfiles_RunecraftingAbyss_BloodEssence.Size = new System.Drawing.Size(15, 14);
@@ -234,7 +234,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_GetPouches.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_GetPouches.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_GetPouches.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_GetPouches.Location = new System.Drawing.Point(344, 208);
             this.labelScriptProfiles_RunecraftingAbyss_GetPouches.Name = "labelScriptProfiles_RunecraftingAbyss_GetPouches";
             this.labelScriptProfiles_RunecraftingAbyss_GetPouches.Size = new System.Drawing.Size(174, 17);
@@ -246,7 +246,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.Location = new System.Drawing.Point(319, 210);
             this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.Name = "checkBoxScriptProfiles_RunecraftingAbyss_GetPouches";
             this.checkBoxScriptProfiles_RunecraftingAbyss_GetPouches.Size = new System.Drawing.Size(15, 14);
@@ -258,7 +258,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_SelectRune.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_SelectRune.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_SelectRune.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_SelectRune.Location = new System.Drawing.Point(544, 210);
             this.labelScriptProfiles_RunecraftingAbyss_SelectRune.Name = "labelScriptProfiles_RunecraftingAbyss_SelectRune";
             this.labelScriptProfiles_RunecraftingAbyss_SelectRune.Size = new System.Drawing.Size(88, 17);
@@ -317,7 +317,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_SellLoot.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_SellLoot.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_SellLoot.Location = new System.Drawing.Point(194, 458);
             this.labelScriptProfiles_RunecraftingAbyss_SellLoot.Name = "labelScriptProfiles_RunecraftingAbyss_SellLoot";
             this.labelScriptProfiles_RunecraftingAbyss_SellLoot.Size = new System.Drawing.Size(64, 17);
@@ -329,7 +329,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_Restocking.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_Restocking.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_Restocking.Location = new System.Drawing.Point(194, 408);
             this.labelScriptProfiles_RunecraftingAbyss_Restocking.Name = "labelScriptProfiles_RunecraftingAbyss_Restocking";
             this.labelScriptProfiles_RunecraftingAbyss_Restocking.Size = new System.Drawing.Size(81, 17);
@@ -341,7 +341,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.Location = new System.Drawing.Point(194, 358);
             this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.Name = "labelScriptProfiles_RunecraftingAbyss_WorldHopping";
             this.labelScriptProfiles_RunecraftingAbyss_WorldHopping.Size = new System.Drawing.Size(104, 17);
@@ -353,7 +353,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_Antipattern.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_Antipattern.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_Antipattern.Location = new System.Drawing.Point(194, 308);
             this.labelScriptProfiles_RunecraftingAbyss_Antipattern.Name = "labelScriptProfiles_RunecraftingAbyss_Antipattern";
             this.labelScriptProfiles_RunecraftingAbyss_Antipattern.Size = new System.Drawing.Size(77, 17);
@@ -365,7 +365,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_RenewBond.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_RenewBond.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_RenewBond.Location = new System.Drawing.Point(194, 258);
             this.labelScriptProfiles_RunecraftingAbyss_RenewBond.Name = "labelScriptProfiles_RunecraftingAbyss_RenewBond";
             this.labelScriptProfiles_RunecraftingAbyss_RenewBond.Size = new System.Drawing.Size(92, 17);
@@ -377,7 +377,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.Location = new System.Drawing.Point(344, 308);
             this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.Name = "labelScriptProfiles_RunecraftingAbyss_RingOfLife";
             this.labelScriptProfiles_RunecraftingAbyss_RingOfLife.Size = new System.Drawing.Size(111, 17);
@@ -389,7 +389,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.Location = new System.Drawing.Point(319, 310);
             this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.Name = "checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife";
             this.checkBoxScriptProfiles_RunecraftingAbyss_RingOfLife.Size = new System.Drawing.Size(15, 14);
@@ -401,7 +401,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.Location = new System.Drawing.Point(169, 360);
             this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.Name = "checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping";
             this.checkBoxScriptProfiles_RunecraftingAbyss_WorldHopping.Size = new System.Drawing.Size(15, 14);
@@ -413,7 +413,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.Location = new System.Drawing.Point(169, 410);
             this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.Name = "checkBoxScriptProfiles_RunecraftingAbyss_Restocking";
             this.checkBoxScriptProfiles_RunecraftingAbyss_Restocking.Size = new System.Drawing.Size(15, 14);
@@ -425,7 +425,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.Location = new System.Drawing.Point(169, 460);
             this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.Name = "checkBoxScriptProfiles_RunecraftingAbyss_SellLoot";
             this.checkBoxScriptProfiles_RunecraftingAbyss_SellLoot.Size = new System.Drawing.Size(15, 14);
@@ -437,7 +437,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.Location = new System.Drawing.Point(169, 310);
             this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.Name = "checkBoxScriptProfiles_RunecraftingAbyss_Antipattern";
             this.checkBoxScriptProfiles_RunecraftingAbyss_Antipattern.Size = new System.Drawing.Size(15, 14);
@@ -449,7 +449,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.Location = new System.Drawing.Point(169, 260);
             this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.Name = "checkBoxScriptProfiles_RunecraftingAbyss_RenewBond";
             this.checkBoxScriptProfiles_RunecraftingAbyss_RenewBond.Size = new System.Drawing.Size(15, 14);
@@ -461,7 +461,7 @@
             this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.AutoSize = true;
+            this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.AutoSize = false;
             this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.Location = new System.Drawing.Point(169, 210);
             this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.Name = "checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler";
             this.checkBoxScriptProfiles_RunecraftingAbyss_DeathHandler.Size = new System.Drawing.Size(15, 14);
@@ -473,7 +473,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.Location = new System.Drawing.Point(194, 208);
             this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.Name = "labelScriptProfiles_RunecraftingAbyss_DeathHandler";
             this.labelScriptProfiles_RunecraftingAbyss_DeathHandler.Size = new System.Drawing.Size(101, 17);
@@ -485,7 +485,7 @@
             this.labelScriptProfiles_RunecraftingAbyss_Title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelScriptProfiles_RunecraftingAbyss_Title.AutoSize = true;
+            this.labelScriptProfiles_RunecraftingAbyss_Title.AutoSize = false;
             this.labelScriptProfiles_RunecraftingAbyss_Title.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelScriptProfiles_RunecraftingAbyss_Title.Location = new System.Drawing.Point(434, 120);
             this.labelScriptProfiles_RunecraftingAbyss_Title.Name = "labelScriptProfiles_RunecraftingAbyss_Title";
@@ -525,7 +525,7 @@
             // formScriptProfilesRunecraftingAbyss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(1014, 641);
             this.Controls.Add(this.labelScriptProfiles_RunecraftingAbyss_SelectPouches);

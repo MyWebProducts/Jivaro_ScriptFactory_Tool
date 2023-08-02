@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Text;
 
 
-namespace jivarosft
+namespace jivaro_osrs_launcher
 {
 
     public partial class formMainForm : Form
@@ -30,20 +30,16 @@ namespace jivarosft
         //
 
         string pc_username = Environment.UserName;
-        string filepathDashboard = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\userinput\\dashboard";
+        string filepathAccountsScriptFactory = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_ScriptFactory";
+        string filepathAccountsOSBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_OSBot";
+        string filepathAccountsTRiBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_TRiBot";
+        string filepathAccountsDreamBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_DreamBot";
         string filepathSbieIni = @"C:\Program Files\Sandboxie-Plus\SbieIni.exe";
         string folderpathOSBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\OSBot";
-        string folderpathOSBotTool = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\";
         string folderpathJivaro = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\";
         string folderpathJivaroTemp = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Temp\\";
         string folderpathJagexCache = @"C:\\Users\\" + Environment.UserName.ToString() + "\\jagexcache";
-        string folderpathOsrsBotting = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\";
-        string folderpathJivaroScriptFactory = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\ScriptFactory\\";
-        string folderpathUserinput = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\OSRSBotting\\OSBotTool\\userinput\\";
-        string folderpathUsername = @"C:\\Users\\" + Environment.UserName.ToString() + "\\";
-        string folderpathScriptFactoryProfiles = @"C:\\Users\\" + Environment.UserName.ToString() + "\\OSBot\\Data\\ProjectPact\\OSRS Script Factory\\Profiles\\";
-        string folderpathScriptFactoryPrivateScripts = @"C:\\Users\\" + Environment.UserName.ToString() + "\\OSBot\\Data\\ProjectPact\\OSRS Script Factory\\Private Scripts\\";
-        string folderpathSandboxiePlus = @"C:\\Program Files\\Sandboxie-Plus\\";
+        string folderpathJivaroLauncher = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\";
         BackgroundWorker workerFileHandler = new BackgroundWorker();
 
         //
@@ -56,11 +52,11 @@ namespace jivarosft
         // Start of callable methods and variables
         //
 
-        // Repopulate Dashboard's dataGridView
+        // Repopulate Script Factory dataGridView
         private void LoadDataGridViewFromFile(DataGridView dataGridView)
         {
             // Read all lines from the file
-            string[] lines = System.IO.File.ReadAllLines(filepathDashboard);
+            string[] lines = System.IO.File.ReadAllLines(filepathAccountsScriptFactory);
 
             // Clear existing rows in the DataGridView
             dataGridView.Rows.Clear();
@@ -207,52 +203,66 @@ namespace jivarosft
             Application.Exit();
         }
 
-        // Worker for creating the files inside the FunctionX folder
+        // Worker for creating the files inside the Jivaro folder
         private void Worker_FileHandler(object sender, DoWorkEventArgs e)
         {
             while (true)
             {
-                // Create functionx folder
+                // Create jivaro folder
                 if (!Directory.Exists(folderpathJivaro))
                 {
                     Directory.CreateDirectory(folderpathJivaro);
                 }
 
-                // Create osrsbotting folder
-                if (!Directory.Exists(folderpathOsrsBotting))
+                // Create jivaro launcher folder
+                if (!Directory.Exists(folderpathJivaroLauncher))
                 {
-                    Directory.CreateDirectory(folderpathOsrsBotting);
+                    Directory.CreateDirectory(folderpathJivaroLauncher);
                 }
 
-                // Create scriptfactory folder
-                if (!Directory.Exists(folderpathJivaroScriptFactory))
+                // Create temp folder
+                if (!Directory.Exists(folderpathJivaroTemp))
                 {
-                    Directory.CreateDirectory(folderpathJivaroScriptFactory);
+                    Directory.CreateDirectory(folderpathJivaroTemp);
                 }
 
-                // Create osbottool folder
-                if (!Directory.Exists(folderpathOSBotTool))
+                // Create account script factory file
+                if (!System.IO.File.Exists(filepathAccountsScriptFactory))
                 {
-                    Directory.CreateDirectory(folderpathOSBotTool);
-                }
-
-
-                // Create userinput folder
-                if (!Directory.Exists(folderpathUserinput))
-                {
-                    Directory.CreateDirectory(folderpathUserinput);
-                }
-
-                // Create dashboard file
-                if (!System.IO.File.Exists(filepathDashboard))
-                {
-                    using (FileStream fs = System.IO.File.Create(filepathDashboard))
+                    using (FileStream fs = System.IO.File.Create(filepathAccountsScriptFactory))
                     {
                         fs.Close();
                     }
                 }
 
-                // Wait 5 seconds before updating again
+                // Create account osbot file
+                if (!System.IO.File.Exists(filepathAccountsOSBot))
+                {
+                    using (FileStream fs = System.IO.File.Create(filepathAccountsOSBot))
+                    {
+                        fs.Close();
+                    }
+                }
+
+                // Create account tribot file
+                if (!System.IO.File.Exists(filepathAccountsTRiBot))
+                {
+                    using (FileStream fs = System.IO.File.Create(filepathAccountsTRiBot))
+                    {
+                        fs.Close();
+                    }
+                }
+
+                // Create account dreambot file
+                if (!System.IO.File.Exists(filepathAccountsDreamBot))
+                {
+                    using (FileStream fs = System.IO.File.Create(filepathAccountsDreamBot))
+                    {
+                        fs.Close();
+                    }
+                }
+
+                // Wait 15 seconds before updating again
                 System.Threading.Thread.Sleep(15000);
             }
         }
@@ -304,7 +314,7 @@ namespace jivarosft
         // 
 
         // Navigate to Dashboard
-        private void buttonNavigation_Dashboard_Click(object sender, EventArgs e)
+        private void buttonNavigation_ScriptFactory_Click(object sender, EventArgs e)
         {
             foreach (Control control in this.Controls)
             {
@@ -345,6 +355,45 @@ namespace jivarosft
             }
         }
 
+        // Navigate to OSBot Manager
+        private void buttonNavigation_OSBotManager_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control is Panel)
+                {
+                    control.Visible = false;
+                    panelOSBotManager.Visible = true;
+                }
+            }
+        }
+
+        // Navigate to TRiBot Manager
+        private void buttonNavigation_TRiBotManager_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control is Panel)
+                {
+                    control.Visible = false;
+                    panelTRiBotManager.Visible = true;
+                }
+            }
+        }
+
+        // Navigate to DreamBot Manager
+        private void buttonNavigation_DreamBotManager_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control is Panel)
+                {
+                    control.Visible = false;
+                    panelDreamBotManager.Visible = true;
+                }
+            }
+        }
+
         // Navigate to settings
         private void buttonNavigation_Settings_Click(object sender, EventArgs e)
         {
@@ -372,7 +421,7 @@ namespace jivarosft
         private void buttonDashboard_LaunchOsbot_Click(object sender, EventArgs e)
         {
             // Launch OSBot
-            Process.Start("cmd.exe", "/c start javaw -jar C:\\Users\\" + pc_username + "\\Jivaro\\OSRSBotting\\OSBot.jar");
+            Process.Start("cmd.exe", "/c start javaw -jar C:\\Users\\" + pc_username + "\\Jivaro\\Jivaro Launcher\\OSBot.jar");
         }
 
         // Dashboard Panel - Cancel Data Grid View Sorting
@@ -418,6 +467,11 @@ namespace jivarosft
                 if (script == "SF")
                 {
                     script = "-script 1097:";
+                }
+
+                if (script == "SF Exp")
+                {
+                    script = "-script 1144:";
                 }
 
                 if (script == "SF Pro")
@@ -479,27 +533,6 @@ namespace jivarosft
                 if (newmouse == "No")
                 {
                     newmouse = "";
-                }
-
-                // Sandboxie variable
-                sandboxie = clickedRow.Cells["dataGridViewDashboard_Sandboxie"].Value?.ToString();
-
-                if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-                {
-                    DataGridView dataGridView = (DataGridView)sender;
-
-                    // Check if the clicked cell belongs to the button column
-                    if (dataGridView.Columns[e.ColumnIndex] is DataGridViewButtonColumn)
-                    {
-                        if (sandboxie == "Yes")
-                        {
-                            // Get the row index of the clicked button
-                            int sandboxieRowIndex = e.RowIndex;
-
-                            // Generate the corresponding string value
-                            sandboxie = (sandboxieRowIndex + 1).ToString("D3");
-                        }
-                    }
                 }
 
                 // Delete files starting with "mirror_"
@@ -566,11 +599,14 @@ namespace jivarosft
                     }
                 }
 
+                // Get use sandboxie
+                sandboxie = clickedRow.Cells["dataGridViewDashboard_Sandboxie"].Value?.ToString();
+
                 // No Sandboxie Launch
                 if (sandboxie == "No")
                 {
                     // Initialize variables
-                    cliArgs = "java -jar \"C:\\Users\\" + pc_username + "\\Jivaro\\OSRSBotting\\OSBot.jar\" -autologin -launchgame -mfps 25 -mreactiontime 50 " + bot + proxy + scriptandtask + world + mode + newmouse;
+                    cliArgs = "java -jar \"C:\\Users\\" + pc_username + "\\Jivaro\\Jivaro Launcher\\OSBot.jar\" -autologin -launchgame -mfps 25 -mreactiontime 50 " + bot + proxy + scriptandtask + world + mode + newmouse;
 
                     // Launch cmd with args
                     Process.Start("cmd.exe", "/c " + cliArgs);
@@ -578,12 +614,14 @@ namespace jivarosft
                 }
 
                 // Sandboxie Launch
-                if (sandboxie != "No")
+                if (sandboxie == "Yes")
                 {
+
                     // Initialize variables
-                    string folderpathSandboxieCurrent = "C:\\Sandbox\\" + pc_username + "\\" + sandboxie + "\\user\\current\\";
-                    bool sandboxExists = CheckSandboxExists(sandboxie, filepathSbieIni);
-                    cliArgs = "/elevate /box:" + sandboxie + " java -jar \"C:\\Users\\" + pc_username + "\\Jivaro\\OSRSBotting\\OSBot.jar\" -autologin -launchgame -mfps 25 -mreactiontime 50 " + bot + proxy + scriptandtask + world + mode + newmouse;
+                    string sandboxieNumber = clickedRow.Cells["dataGridViewDashboard_SandboxieNumber"].Value?.ToString();
+                    string folderpathSandboxieCurrent = "C:\\Sandbox\\" + pc_username + "\\" + sandboxieNumber + "\\user\\current\\";
+                    bool sandboxExists = CheckSandboxExists(sandboxieNumber, filepathSbieIni);
+                    cliArgs = "/elevate /box:" + sandboxieNumber + " java -jar \"C:\\Users\\" + pc_username + "\\Jivaro\\Jivaro Launcher\\OSBot.jar\" -autologin -launchgame -mfps 25 -mreactiontime 50 " + bot + proxy + scriptandtask + world + mode + newmouse;
                     cliCommand = "C:\\Program Files\\Sandboxie-Plus\\Start.exe";
 
                     // Create sandbox if it doesn't exist.
@@ -594,12 +632,12 @@ namespace jivarosft
                     else
                     {
                         // Create the sandbox using SbieIni.exe command
-                        CreateSandbox(sandboxie, filepathSbieIni);
+                        CreateSandbox(sandboxieNumber, filepathSbieIni);
                         Thread.Sleep(100); // Wait for 1 second
                     }
 
                     // Delete sandbox jagex_cl_oldschool_LIVE.dat
-                    string filepathSandboxieOldSchoolLiveDat = "C:\\Sandbox\\" + pc_username + "\\" + sandboxie + "\\user\\current\\jagex_cl_oldschool_LIVE.dat";
+                    string filepathSandboxieOldSchoolLiveDat = "C:\\Sandbox\\" + pc_username + "\\" + sandboxieNumber + "\\user\\current\\jagex_cl_oldschool_LIVE.dat";
                     if (System.IO.File.Exists(filepathSandboxieOldSchoolLiveDat))
                     {
                         try
@@ -615,7 +653,7 @@ namespace jivarosft
                     }
 
                     // Delete sandbox jagexappletviewer.preferences
-                    string filepathSandboxieJagexAppletViewer = "C:\\Sandbox\\" + pc_username + "\\" + sandboxie + "\\user\\current\\jagexappletviewer.preferences";
+                    string filepathSandboxieJagexAppletViewer = "C:\\Sandbox\\" + pc_username + "\\" + sandboxieNumber + "\\user\\current\\jagexappletviewer.preferences";
                     if (System.IO.File.Exists(filepathSandboxieJagexAppletViewer))
                     {
                         try
@@ -631,7 +669,7 @@ namespace jivarosft
                     }
 
                     // Delete sandbox random.dat
-                    string filepathSandboxieRandomDat = "C:\\Sandbox\\" + pc_username + "\\" + sandboxie + "\\user\\current\\random.dat";
+                    string filepathSandboxieRandomDat = "C:\\Sandbox\\" + pc_username + "\\" + sandboxieNumber + "\\user\\current\\random.dat";
                     if (System.IO.File.Exists(filepathSandboxieRandomDat))
                     {
                         try
@@ -647,7 +685,7 @@ namespace jivarosft
                     }
 
                     // Delete sandbox osbot data folder 
-                    string folderpathSandboxieOSBotData = "C:\\Sandbox\\" + pc_username + "\\" + sandboxie + "\\user\\current\\OSBot\\Data";
+                    string folderpathSandboxieOSBotData = "C:\\Sandbox\\" + pc_username + "\\" + sandboxieNumber + "\\user\\current\\OSBot\\Data";
                     if (Directory.Exists(folderpathSandboxieOSBotData))
                     {
                         try
@@ -760,6 +798,43 @@ namespace jivarosft
                     comboBoxCell.Value = comboBoxCell.Items[0];
                 }
             }
+
+            // Generate a random number between 1 and 1000
+            Random random = new Random();
+            int randomNumber;
+
+            // Check if the random number already exists in any existing row's cell[11]
+            bool numberExists;
+            do
+            {
+                randomNumber = random.Next(1, 1001);
+                numberExists = false;
+                foreach (DataGridViewRow row in dataGridViewDashboard_Bots.Rows)
+                {
+                    if (row.Index != rowIndex && row.Cells[11].Value != null && row.Cells[11].Value.ToString() == randomNumber.ToString())
+                    {
+                        numberExists = true;
+                        break;
+                    }
+                }
+            } while (numberExists);
+
+            // Set the random number to the new row's cell[11]
+            dataGridViewDashboard_Bots.Rows[rowIndex].Cells[11].Value = randomNumber;
+        }
+
+        // Dashboard Panel - Delete Bot
+        private void buttonDashboard_DeleteBot_Click(object sender, EventArgs e)
+        {
+            // Check if any row is selected
+            if (dataGridViewDashboard_Bots.SelectedRows.Count > 0)
+            {
+                // Get the selected row index
+                int rowIndex = dataGridViewDashboard_Bots.SelectedRows[0].Index;
+
+                // Remove the selected row from the DataGridView
+                dataGridViewDashboard_Bots.Rows.RemoveAt(rowIndex);
+            }
         }
 
         // Dashboard Panel - Save
@@ -788,7 +863,7 @@ namespace jivarosft
             }
 
             // Write the StringBuilder content to the file
-            System.IO.File.WriteAllText(filepathDashboard, sb.ToString());
+            System.IO.File.WriteAllText(filepathAccountsScriptFactory, sb.ToString());
             MessageBox.Show("Dashboard saved successfully.");
         }
         private void buttonDashboard_Save_Click(object sender, EventArgs e)
@@ -1024,6 +1099,13 @@ namespace jivarosft
                 formMotherlodeMine.Show();
             }
 
+            // Show muler form
+            if (currentSelectedItem == "fxMuler.txt")
+            {
+                formScriptProfilesMuler formMuler = new formScriptProfilesMuler();
+                formMuler.Show();
+            }
+
             // Show runecrafting abyss form
             if (currentSelectedItem == "fxRunecrafting-Abyss.txt")
             {
@@ -1126,22 +1208,38 @@ namespace jivarosft
         // Check For Updates Button
         private void buttonSettings_CheckForUpdates_Click(object sender, EventArgs e)
         {
-            Process.Start("https://download.jivaro.net/s/2L9S8tPcWkAAEBa");
+            string url = "https://download.jivaro.net/s/2L9S8tPcWkAAEBa";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
+            }
         }
 
         // Visit Jivaro
         private void buttonSettings_VisitWebsite_Click(object sender, EventArgs e)
         {
-            string url = "https://www.jivaro.net/";
+            string url = "https://download.jivaro.net/";
 
             try
             {
-                Process.Start(url);
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
             }
             catch (Exception ex)
             {
-                // Handle any exceptions that occur during process execution
-                MessageBox.Show("Error opening Google: " + ex.Message);
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
             }
         }
 
@@ -1152,12 +1250,15 @@ namespace jivarosft
 
             try
             {
-                Process.Start(url);
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
             }
             catch (Exception ex)
             {
-                // Handle any exceptions that occur during process execution
-                MessageBox.Show("Error opening Google: " + ex.Message);
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
             }
         }
 
@@ -1168,12 +1269,15 @@ namespace jivarosft
 
             try
             {
-                Process.Start(url);
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
             }
             catch (Exception ex)
             {
-                // Handle any exceptions that occur during process execution
-                MessageBox.Show("Error opening Google: " + ex.Message);
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
             }
         }
 
@@ -1184,12 +1288,34 @@ namespace jivarosft
 
             try
             {
-                Process.Start(url);
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
             }
             catch (Exception ex)
             {
-                // Handle any exceptions that occur during process execution
-                MessageBox.Show("Error opening Google: " + ex.Message);
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
+            }
+        }
+
+        // Create OSRS Account
+        private void buttonSettings_CreateOSRSAccount_Click(object sender, EventArgs e)
+        {
+            string url = "https://secure.runescape.com/m=account-creation/create_account";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while trying to open the link: " + ex.Message);
             }
         }
 
