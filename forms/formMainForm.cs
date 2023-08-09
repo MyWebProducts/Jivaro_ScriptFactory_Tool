@@ -36,6 +36,7 @@ namespace jivaro_osrs_launcher
         string filepathAccountsDreamBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Jivaro Launcher\\Accounts_DreamBot";
         string filepathSbieIni = @"C:\Program Files\Sandboxie-Plus\SbieIni.exe";
         string folderpathOSBot = @"C:\\Users\\" + Environment.UserName.ToString() + "\\OSBot";
+        string folderpathOSBotProfiles = @"C:\\Users\\" + Environment.UserName.ToString() + "\\OSBot\\Data\\ProjectPact\\OSRS Script Factory\\Profiles";
         string folderpathJivaro = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\";
         string folderpathJivaroTemp = @"C:\\Users\\" + Environment.UserName.ToString() + "\\Jivaro\\Temp\\";
         string folderpathJagexCache = @"C:\\Users\\" + Environment.UserName.ToString() + "\\jagexcache";
@@ -83,6 +84,12 @@ namespace jivaro_osrs_launcher
                         {
                             DataGridViewComboBoxCell comboBoxCell = dataGridView.Rows[rowIndex].Cells[columnIndex] as DataGridViewComboBoxCell;
 
+                            // Populate the combobox with text files
+                            if (columnIndex == 5) // Change this to the correct index if needed
+                            {
+                                PopulateComboBoxWithTextFiles(comboBoxCell);
+                            }
+
                             // Find the index of the cell value in the combobox items
                             int itemIndex = comboBoxCell.Items.IndexOf(cellValue);
 
@@ -98,6 +105,33 @@ namespace jivaro_osrs_launcher
                 }
             }
         }
+
+        private void PopulateComboBoxWithTextFiles(DataGridViewComboBoxCell comboBoxCell)
+        {
+            string path = folderpathOSBotProfiles;
+
+            if (Directory.Exists(path))
+            {
+                string[] files = Directory.GetFiles(path, "*.txt");
+                comboBoxCell.Items.Clear();
+
+                foreach (string file in files)
+                {
+                    string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(file);
+                    comboBoxCell.Items.Add(fileNameWithoutExtension);
+                }
+
+                if (comboBoxCell.Items.Count > 0)
+                {
+                    comboBoxCell.Value = comboBoxCell.Items[0];
+                }
+            }
+            else
+            {
+                MessageBox.Show("Directory not found!");
+            }
+        }
+
 
         // Create Sandboxes 
         private bool CheckSandboxExists(string sandboxie, string sbieIniPath)
@@ -790,12 +824,18 @@ namespace jivaro_osrs_launcher
             dataGridViewDashboard_Bots.Rows[rowIndex].Cells[2].Value = "1234";
             dataGridViewDashboard_Bots.Rows[rowIndex].Cells[3].Value = "IP:PORT:USER:PASS";
 
+            // Get the ComboBox cell
+            DataGridViewComboBoxCell comboBoxCell = (DataGridViewComboBoxCell)dataGridViewDashboard_Bots.Rows[rowIndex].Cells[5];
+
+            // Populate the ComboBox cell with text files
+            PopulateComboBoxWithTextFiles(comboBoxCell);
+
             // Set the selected index of ComboBoxes in cells 4-9 to 0 (first selection)
             for (int i = 4; i <= 9; i++)
             {
-                if (dataGridViewDashboard_Bots.Rows[rowIndex].Cells[i] is DataGridViewComboBoxCell comboBoxCell)
+                if (dataGridViewDashboard_Bots.Rows[rowIndex].Cells[i] is DataGridViewComboBoxCell comboBoxCellLoop)
                 {
-                    comboBoxCell.Value = comboBoxCell.Items[0];
+                    comboBoxCellLoop.Value = comboBoxCellLoop.Items[0];
                 }
             }
 
